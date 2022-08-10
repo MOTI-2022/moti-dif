@@ -23,6 +23,9 @@ import Login from "./Components/login/Login"
 import Register from "./Components/login/Register"
 import Faq from "./Components/faq/Faq"
 import Help1 from "./Components/Help1/Help1"
+import FAQ1 from "./Components/FAQ1/FAQ1"
+import Courses from "./Components/Courses/Courses"
+
 
 /*-------------blog------------ */
 
@@ -80,8 +83,11 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
+          <Route path='/home' exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/help1' exact component={Help1} />
+          <Route path='/faq1' exact component={FAQ1} />
+          <Route path='/courses' exact component={Courses} />
           <Route path='/gallery' exact component={Gallery} />
           <Route path='/destinations' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />
@@ -93,6 +99,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/sign-in' component={Login} />
           <Route path='/Register' component={Register} />
+          <Route path="*" component={Home} />
 
         </Switch>
        {/* <Footer />*/}

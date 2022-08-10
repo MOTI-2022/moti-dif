@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import "./Navbar.css"
 import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import Home from "../../Components/HomeSection/Slide";
+
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
@@ -14,39 +17,68 @@ const Navbar = () => {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? "fas fa-times" : " fas fa-bars"}></i>
           </div>
-         {/* <div className = 'pic'>*/}
-            <div id = "logo">
+         {/* <div className = 'pic'>
+         
+            <div id = "logoImg">
               <img src='/images/logo.jpg' alt='' />
             </div>
+
+            */}
+          
         {/*  </div>*/}
+        <div className="picture">
+          <img src='/images/logo.jpg' alt='' />
+        </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
           {/*<div className="absolute left-0 top-0 h-1/4 w-1/4 flex-shrink-0">*/}
+ 
 
-
+        <li>
+          <NavLink exact to="/"  onClick={closeMobileMenu} >About</NavLink>
+        </li>
+       {/* <li>
+          <NavLink activeStyle={{ color:'#5754a8' }} to="/about">
+            Learn More
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeStyle={{ color:'#5754a8' }} to="/destinations">
+            Destinations
+          </NavLink>
+        </li>*/}
+          {/*
             <li>
-              <Link to='/' onClick={closeMobileMenu}>
+              <Link to='/' onClick={closeMobileMenu} activeClassName="active">
                 About
               </Link>
-            </li>
+            </li>*/}
+            
+            {/*<li>
+ 
+              <NavLink to='/home' onClick={closeMobileMenu} activeClassName="active">
+                About
+              </NavLink>
+            </li>*/}
             <li>
-              <Link to='/about' onClick={closeMobileMenu}>
+              <NavLink to='/about' onClick={closeMobileMenu} activeClassName="active" >
                 Learn More 
-              </Link>
+              </NavLink>
             </li>
             {/*<li>
               <Link to='/gallery' onClick={closeMobileMenu}>
                 Get Help
               </Link>
             </li>*/}
+ 
             <li>
-              <Link to='/destinations' onClick={closeMobileMenu}>
+              <NavLink to='/destinations' onClick={closeMobileMenu} activeClassName="active">
                 Get Help
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to='/blog' onClick={closeMobileMenu}>
+              <NavLink to='/blog' onClick={closeMobileMenu} activeClassName="active">
                 Make An Impact
-              </Link>
+              </NavLink>
             </li>
             {/*<li>
               <Link to='/testimonial' onClick={closeMobileMenu}>

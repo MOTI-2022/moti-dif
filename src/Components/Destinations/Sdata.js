@@ -31,7 +31,7 @@ const Sdata = [
     image: "/images/dest-4.jpg",
     desc: "Courses teaching IT knowledge and theme-based internet skills",
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
-    newPage: "contact",
+    newPage: "courses",
 
   },
   {
@@ -40,7 +40,7 @@ const Sdata = [
     image: "/images/dest-5.jpg",
     desc: "Enroll in or upgrade a wired internet plan at your house",
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
-    newPage: "gallery",
+    newPage: "contact",
 
   },
   {
@@ -49,6 +49,8 @@ const Sdata = [
     image: "/images/dest-6.jpg",
     desc: "Find the FAQs, glassaries here and help us to help you",
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
+    newPage: "FAQ1",
+
   },
 ]
 

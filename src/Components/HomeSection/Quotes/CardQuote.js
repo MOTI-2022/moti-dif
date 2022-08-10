@@ -9,7 +9,7 @@ const CardQuote = (props) => {
           <h2>{props.title}</h2>
             <p>{props.desc}</p>
         </div>
-        <div className='img'>
+        <div className='icon1 img'>
           <img src={props.cover} alt='' />
         </div>
       </div>

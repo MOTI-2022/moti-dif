@@ -1,6 +1,6 @@
 import React from "react"
 import Cards1 from "./Cards1"
-import "./MostPopular.css"
+import "./AdvSkills.css"
 
 const MostPopular = () => {
   return (
@@ -8,7 +8,7 @@ const MostPopular = () => {
       <section className='popular top'>
         <div className='full_container'>
           <div className='heading'>
-            <h1>Basic Skills</h1>
+            <h1>Advanced Skills</h1>
             <div className='line'></div>
           </div>
 

@@ -51,7 +51,7 @@ margin-right: 100px;
   margin: auto;
 }
 
-.features1{
+.features2{
   /*margin-right: 300px;
   margin-left: 40px;
   margin-right: 40px;
@@ -62,7 +62,7 @@ margin-right: 100px;
 
 }
 
-.features1 .top1
+.features2 .top1
 {
   margin-right: 100px;
   margin-right: 30px;
@@ -70,24 +70,17 @@ margin-right: 100px;
   max-width: fit-content;
 }
 
-.features1 .flex_space1 {
-  display: block;
-  display: inline-block;
+.features2 .flex_space1 {
 
-  column-count: 2;
-  column-count: 1;
-
-  column-count: 2;
+ 
 
   margin-left: 5px;
+  margin-left: 100px;
   margin-right: 150px;
   margin-right: 10px;
 
   padding-right: 50px;
-  column-gap: 150px;
-  column-width: 300px;
   
-
 
 }
 .dignav-btn {
@@ -116,16 +109,16 @@ margin-right: 100px;
   color: white;
 }
 
-.features1 .control-btn,
-.features1 .image::after,
-.features1 .image::before,
-.features1 .control-btn::before {
+.features2 .control-btn,
+.features2 .image::after,
+.features2 .image::before,
+.features2 .control-btn::before {
   display: none;
 }
-.features1 h1 {
+.features2 h1 {
   font-weight: bold;
 }
-.features1 h1 span {
+.features2 h1 span {
   color: #6aa1c1;
 }
 
@@ -136,7 +129,7 @@ margin-right: 100px;
   color: #6aa1c1;
 }
 @media screen and (max-width: 968px) {
-  .features1 .flex_space1, .top1
+  .features2 .flex_space1, .top1
   .aboutCard1, .timeline {
     flex-direction: column;
 

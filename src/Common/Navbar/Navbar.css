@@ -15,6 +15,9 @@
   height: 100%;
   width: 370px;
   }
+  .active{
+    color: #6aa1c1;
+   }
 .navbar {
   background: white;
   position: sticky;
@@ -38,26 +41,33 @@ nav ul li {
   margin-left: 0px;
 }
 
-#logo{
+.picture{
+  height: 30px;
+  width: 20%;
+  margin-top: 12px;
+}
+
+.logoImg{
   flex-basis: 60%;
   font-size: 0;
   margin-right: -50px;
   margin-left: 0px;
   margin-top: 1px;
+  flex-basis: 0%;
+  width: 10px;
+  
 }
 
-/*
-.pic{
-  width: 10%;
-  height: auto;
-}*/
-
-#logo img{
+.logoImg img{
   height: 18%;
   width: auto;
-  max-width: 50%;
+  max-width: 20%;
   max-height: 70%;
   overflow: hidden;
+  max-height: 20%;
+  height: 5px;
+  width: 10px;
+
 }
 
 nav ul li a {

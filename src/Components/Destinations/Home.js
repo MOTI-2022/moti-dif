@@ -10,8 +10,8 @@ const Destinations = () => {
     <div>
       <HeadTitle />
       <AllItem />
-      <MostPopular />
-     {/* <Faq />*/}
+      {/*<MostPopular />
+      <Faq />*/}
     </div>
   )
 }
