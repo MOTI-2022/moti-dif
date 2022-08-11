@@ -7,6 +7,7 @@ import { useLocation, Link } from "react-router-dom"
 
 import React, { useEffect, useState } from "react";
 
+import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -19,6 +20,8 @@ const Help1 = () => {
     // This just tells react to run this code when page first loads
     return () => {
       setData([]);
+      <ScrollToTop smooth />
+
     };
   }, []);
 
@@ -27,6 +30,7 @@ const Help1 = () => {
     <>
       {/*<HeadTitle />*/}
 
+      <ScrollToTop smooth />
 
       <section className='about1 top1'>
         <div className='container1'>

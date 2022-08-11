@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { Link } from "react-router-dom"
 import { NavLink } from "react-router-dom";
 import Home from "../../Components/HomeSection/Slide";
+import {animateScroll as scroll } from "react-scroll";
 
 
 const Navbar = () => {
@@ -27,14 +28,14 @@ const Navbar = () => {
           
         {/*  </div>*/}
         <div className="picture">
-          <img src='/images/logo.jpg' alt='' />
+          <img src='/images/logo2.png' alt='' />
         </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
           {/*<div className="absolute left-0 top-0 h-1/4 w-1/4 flex-shrink-0">*/}
  
 
         <li>
-          <NavLink exact to="/"  onClick={closeMobileMenu} >About</NavLink>
+          <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>
         </li>
        {/* <li>
           <NavLink activeStyle={{ color:'#5754a8' }} to="/about">
@@ -60,7 +61,7 @@ const Navbar = () => {
               </NavLink>
             </li>*/}
             <li>
-              <NavLink to='/about' onClick={closeMobileMenu} activeClassName="active" >
+              <NavLink to='/about' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active" >
                 Learn More 
               </NavLink>
             </li>
@@ -71,12 +72,12 @@ const Navbar = () => {
             </li>*/}
  
             <li>
-              <NavLink to='/destinations' onClick={closeMobileMenu} activeClassName="active">
+              <NavLink to='/destinations' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
                 Get Help
               </NavLink>
             </li>
             <li>
-              <NavLink to='/blog' onClick={closeMobileMenu} activeClassName="active">
+              <NavLink to='/blog' onClick= {()=>(closeMobileMenu, scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
                 Make An Impact
               </NavLink>
             </li>

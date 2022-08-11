@@ -12,6 +12,7 @@ const Gallery = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 2,
+    arrows: false,
   }
   return (
     <div>

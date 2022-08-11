@@ -47,14 +47,26 @@ const SinglePage = () => {
                 </div>*/}
                 {/*<h1>Whta is the {item.title} City ?</h1>*/}
                 <h1>{item.title}</h1>
-                <p>{item.desc}</p>
+                <br></br>
 
-                <div className='image grid1 '>
-                  <img src={item.paraImage_one} alt='' />
-                  <img src={item.paraImage_two} alt='' />
-                </div>
-                <p>{item.desc}</p>
-                <a target="_blank" href="https://storelocator.site/LDAAwP" className="primary-btn lib">Find a Library</a>
+                <h1><font size="5" >{item.title1}</font></h1>
+
+                <p><font color="darkslategray">{item.desc1}</font></p>
+
+               {/* <div className='image resources grid1 '>
+                  <img src={item.paraImage_one} alt='' />*/}
+                 {/* <img src={item.paraImage_two} alt='' />*/}
+                {/*</div>*/}
+                <img src={item.paraImage_one} alt='' />
+
+                <a target="_blank" href="https://storelocator.site/LDAAwP" className="primary-btn lib">Find a Library Near Me</a>
+                <br></br>
+                <br></br>
+                <h1><font size="5" >{item.title2}</font></h1>
+
+                <p><font color="darkslategray">{item.desc2}</font></p>
+
+                <p><font color="darkslategray">{item.desc3}</font></p>
 
               </div>
               {/* --------- main-content--------- */}

@@ -4,7 +4,7 @@ import AboutCard from "./AboutCard"
 import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import Download from "../HomeSection/Download/Download"
 import { Timeline } from "../timeline/timeline.jsx"
-
+import GalleryLogos from "../HomeSection/galleryLogos/GalleryLogos"
 // // FIREBASE
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -12,7 +12,15 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"
 import { collection, query, getDocs, orderBy } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
-import { VerticalTimeline } from "react-vertical-timeline-component"
+import { VerticalTimeline } from "react-vertical-timeline-component";
+import FAQ1 from "../FAQ1/FAQ1"
+import ScrollToTop from "react-scroll-to-top";
+
+
+import Collapsible from 'react-collapsible';
+import Grantees from "../../Grantees/Grantees"
+
+{/*import { Collapsible } from 'react-simple-collapsible';*/}
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -57,6 +65,7 @@ const About = () => {
     <>
       <HeadTitle />
 
+      <ScrollToTop smooth />
 
       <section className='about top'>
         <div className='container'>
@@ -73,13 +82,13 @@ const About = () => {
             </h1>
             <p>San José is the first city in the country to pledge to close the Digital Divide by establishing the Digital Inclusion Fund, a $24 million cross-sector fund that will be distributed in grant awards over a ten-year period. The fund is raised through innovative public-private partnerships, private and public philanthropic donors, and matched City funding. </p>
             <p>The City of San José, in partnership with the City of San José Mayor’s Office of Technology and Innovation, has engaged the California Emerging Technology Fund to work with community organizations and administer grant making. The Digital Inclusion Partnership will disburse approximately $500K - 1M each year to organizations in San José who are closing the Digital Divide through expanding Internet connectivity, device access and digital literacy skills.</p>
-            <p>The Partnership will target three key components of Digital Inclusion: <br></br>
-Access Programs<br></br>
-PROVIDING INTERNET CONNECTIVITY TO RESIDENTS<br></br>
-Device Programs<br></br>
-ENSURING EVERY RESIDENT HAS A WORKING DEVICE<br></br>
-Digital Literacy<br></br>
-ENHANCING DIGITAL SKILLS TO ACCESS JOBS, EDUCATIONAL OPPORTUNITIES, & CRITICAL SERVICES<br></br>
+            <p>The Partnership will target three key components of Digital Inclusion: </p>
+      <tab></tab> <tab></tab> <p>  1. Access programs: providing internet connectivity to residents<br></br>
+      <tab></tab>
+2. Device programs: ensuring every resident has a working device<br></br>
+      <tab></tab>
+3. Digital literacy: enhancing digital skills to access jobs, educational opportunities & critical services
+
 </p>
 
             <button className='secondary-btn'>
@@ -105,12 +114,21 @@ ENHANCING DIGITAL SKILLS TO ACCESS JOBS, EDUCATIONAL OPPORTUNITIES, & CRITICAL S
        {/* <Download />*/}
 
       </section>
-      <div className="timeline">
-          Our <span>Milestones</span>
-      </div>
+
       {/*<section>*/}
+      <div className="h5">
+          Our <span>Milestones</span>
+        </div>
         <div className="App">
+        <div className = "coll">
+        <tab></tab>        <tab></tab>
+        <tab></tab>
+
+        <Collapsible trigger="Show timeline" triggerWhenOpen="Hide timeline" open= "true"  >
+  
+    
           {data && ( // This just says: if data exists, then show this code
+          
             <VerticalTimeline>
               {data.map((item, key) => {
                 return (
@@ -119,7 +137,37 @@ ENHANCING DIGITAL SKILLS TO ACCESS JOBS, EDUCATIONAL OPPORTUNITIES, & CRITICAL S
               })}
             </VerticalTimeline>
           )}
+        </Collapsible>
+              </div>
+
+              <Grantees>
+
+              </Grantees>
+              {/* <div className = "coll">
+
+             <Collapsible trigger="Grantees 2022" triggerWhenOpen="Collapse Grantees 2022" open= "true"  >
+             <tab></tab> <h6>hello </h6><br></br>
+             <tab></tab> <h6>hello </h6><br></br>
+             <tab></tab>  <h6>hello </h6><br></br>
+              </Collapsible>
+              <Collapsible trigger="Grantees 2021" triggerWhenOpen="Collapse" open= "false"  >
+              <tab></tab> <h6>hello </h6><br></br>
+             <tab></tab> <h6>hello </h6><br></br>
+             <tab></tab>  <h6>hello </h6><br></br>
+              </Collapsible>
+              <Collapsible trigger="Grantees 2020" triggerWhenOpen="Collapse" open= "false"  >
+              <tab></tab> <h6>hello </h6><br></br>
+             <tab></tab> <h6>hello </h6><br></br>
+             <tab></tab>  <h6>hello </h6><br></br>
+              </Collapsible>
+              </div>*/}
+
+            <div className="h4">
+              Also, special thanks to the institutions that have rendered tremendous financial and technical support during the past years, in random order:
+            </div>
+            <GalleryLogos/>
         </div>
+
      {/* </section>*/}
     </>
   )

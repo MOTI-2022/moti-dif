@@ -22,6 +22,88 @@
   font-weight: 300;
   font-size: 20px;
 }
+.collapsible-header{
+  background-color: pink;
+}
+.collapsible-trigger{
+  color: red;
+}
+/*
+.collapsible-content{
+  font-style: italic;
+}*/
+.Collapse .trigger{
+  color: pink;
+}
+
+.collapsible-trigger {
+  padding: 10px 6px;
+
+  background-color: lightgreen;
+  color: white;
+  font-weight: 400;
+  transition: 0.5s;
+  font-size: 15px;
+  width: 150px;
+  margin-left: 20%;
+  margin: auto;
+}
+
+
+.collapseContent.open{
+  padding: 10px 6px;
+
+  background-color: grey;
+  color: white;
+  font-weight: 400;
+  transition: 0.5s;
+  font-size: 15px;
+  width: 150px;
+  margin-left: 20%;
+  margin: auto;
+
+}
+.coll{
+  margin: auto;
+  font-size: 24px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: blue;
+}
+.coll:hover {
+  background-color: rgb(111, 199, 228);
+  color: darkmagenta;
+}
+
+.coll.trigger{
+  background-color: brown;
+}
+
+
+
+.h5 {
+  font-size: 45px;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  text-align: center;
+}
+.h4 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: auto;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: -20px;
+  margin-top: 50px;
+  float: center;
+  text-align: center;
+}
 .aboutCard .row1 {
   padding-right: 30px;
 }
@@ -101,12 +183,32 @@
   color: #6aa1c1;
 }
 
+.h5 span{
+  color: #6aa1c1;
+
+}
+
 .timeline {
   font-weight: bold;
 }
 .timeline span {
   color: #6aa1c1;
 }
+/*
+.allLogos{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  
+}
+.allLogos img{
+  height: auto;
+  width: 700px;
+  margin-left: 500px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}*/
 @media screen and (max-width: 768px) {
   .features .flex_space,
   .aboutCard, .timeline {

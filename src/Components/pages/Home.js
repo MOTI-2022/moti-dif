@@ -8,10 +8,14 @@ import Download from "../HomeSection/Download/Download"
 import Works from "../HomeSection/Works/Works"
 import Gallery from "../HomeSection/gallery/Gallery"
 import Quotes from "../HomeSection/Quotes/Quotes"
+import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
   return (
+    
     <>
+      <ScrollToTop smooth />
+
       {/*<Hero />*/}
       <HomeAbout />
       <Works/>

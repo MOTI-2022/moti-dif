@@ -7,9 +7,10 @@ const AllBlog = () => {
   const [items, setIems] = useState(BlogData)
   return (
     <>
+    <h5><font size = "5">Make An Impact</font></h5>
       <section className='blog top'>
+
         <div className='container'>
-        For Individuals
 
           <div className='content grid'>
             {items.map((item) => {
@@ -17,7 +18,6 @@ const AllBlog = () => {
             })}
           </div>
 
-          For Orgs
         </div>
       </section>
     </>

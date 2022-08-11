@@ -1,39 +1,74 @@
 //import React from "react"
 import "./FAQ1.css"
+import Collapsible from 'react-collapsible';
+
 
 import Blog from "../Blog/Blog"
 import { useLocation, Link } from "react-router-dom"
 
 
 import React, { useEffect, useState } from "react";
+import SingleQuestion from './Question'
+import data from './data'
 
-
-
+import data2 from './data2'
 
 
 
 const FAQ1 = () => {
-  const [data, setData] = useState([]);
+  {/*const [data, setData] = useState([]);*/}
+  const [questions,  setQuestions] = useState(data);
+  const [questions2] = useState(data2);
 
   useEffect(() => {
     // This just tells react to run this code when page first loads
     return () => {
-      setData([]);
+      {/*setData([]);*/}
     };
   }, []);
 
 
   return (
     <>
-      {/*<HeadTitle />*/}
+      <h5>Frequently Asked Questions</h5>
+
+    {/*<div className="allQ">*/}
+
+      <div className='containerFAQ'>
+      <h6>  <font size = "5"> Digital Inclusion</font></h6>
+        <section className='infoFAQ'>
+          {questions.map((question) => (
+            <SingleQuestion data key={question.id} {...question} />
+          ))}
+        </section>
+      {/*</div>
+      <div className='containerFAQ'>*/}
+      <br></br>
+      <h6>  <font size = "5">Device & Internet</font></h6>
+        <section className='infoFAQ'>
+          {questions2.map((question) => (
+            <SingleQuestion data2 key={question.id} {...question} />
+          ))}
+        </section>
+      </div>
+    {/*</div>*/}
+    </>
+    
+  )
+}
+
+export default FAQ1
+
+{/*
+    <>
 
 
-      <section className='about1 top1'>
+    
+        <section className='about1 top1'>
         <div className='container1'>
-        {/*  <AboutCard />*/}
         </div>
         <h5>
-              Frequently Asked Questions{/*<span>Story</span>*/}
+              Frequently Asked Questions
       </h5>
     
       <br></br>
@@ -54,7 +89,6 @@ const FAQ1 = () => {
       <p>
         About Digital Inclusion
       </p>
-      <br></br>
 
 
         <div className='container1 aboutCard1 flex_space1'>
@@ -64,22 +98,31 @@ const FAQ1 = () => {
             <p>
    
 
-           <br></br>           <br></br>
-          <font size = "5">
+           <br></br>      
+          <font size = "3">
 
-        Question?
-      <br></br>
+       
+        
+        <br></br>        <br></br>
+
+      
+      <Collapsible trigger= {<b>"What is the Digital Inclusion Project?" </b>} >
+       
+      <p>
+        Answer
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
+        <b> Question?     </b>
+
         Answer
         <br></br>        <br></br>
 
 
-        Question?      <br></br>
-
-        Answer
-        <br></br>        <br></br>
-
-
-        Question?      <br></br>
+        Question?     
 
         Answer
         <br></br>        <br></br> </font></p>
@@ -88,7 +131,6 @@ const FAQ1 = () => {
         <p>
         About Devices and the Internet
       </p>
-      <br></br>
 
       <div className='container1 aboutCard1 flex_space1'>
 
@@ -97,24 +139,34 @@ const FAQ1 = () => {
         <p>
 
 
-        <br></br>           <br></br>
-        <font size = "5">
+        <br></br>          
+        <font size = "3">
 
-        Question?
+        How can I find a people to help me configure the current wires at my home? <tab></tab>
+        </font>
+        
+        <font size="3"  color="blue">
+         Answer
+        </font>
+        <br></br>        <br></br>
+
+        <font size = "3" >
+
+        The chromebook I borrowed from SJPL had some problems with it when I was using it. Whom can I ask for help?    
+        </font>
+        Answer
+        <br></br>        <br></br>
+
+        <font size = "3" >
+
+        <b>
+        Do I need to turn back the computer to the place where I borrowed from? Can I turn it back to another SJPL branch?    </b>
+        </font>
+        <font size="3"  color="blue">
+
+        No, you don’ t need to turn back your chromebook exactly to the branch from which you borrow it. You can send it back to any branch that is close to you, as long as the device is well maintained. 
         <br></br>
-        Answer
-        <br></br>        <br></br>
-
-
-        Question?      <br></br>
-
-        Answer
-        <br></br>        <br></br>
-
-
-        Question?      <br></br>
-
-        Answer
+        Please DO NOT return your Chromebook in the book drop. This might make your laptop missing and you have to pay additional fine for it. Please make sure you return it to our staff in any SJPL branch.
         <br></br>        <br></br> </font></p>
         </div>
 
@@ -124,8 +176,4 @@ const FAQ1 = () => {
       </section>
 
 
-    </>
-  )
-}
-
-export default FAQ1
+          </>*/}

@@ -10,7 +10,7 @@ const AboutCard = () => {
           <h1>
              <span> Digital Inclusion <br></br>Lives Here </span> 
           </h1>
-          <p>Ensuring all San Joseans have access to  devices, access, and literacy.</p>
+          <p>Ensuring all San Joséans can achieve devices, access, and literacy.</p>
          {/* <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
           <button className='secondary-btn'>
             Explore More <i className='fas fa-long-arrow-alt-right'></i>

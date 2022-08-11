@@ -4,7 +4,7 @@ const BlogData = [
     date: "January 01, 2020",
     catgeory: "For Individuals ",
     title: "Donate Money",
-    cover: "/images/singlepage/blog-1.jpg",
+    cover: "/images/donateInd.jpg",
     para: "All proceeds donated are administered by the California Emerging Technology Fund’s general Digital Inclusion Fund. $30 sponsors a student’s internet through the summer, and $150 buys a refurbished device. We deeply appreciate your support!",
     desc: "Checks can be written out to the “California Emerging Technology Fund” and note in the Memo section “San Jose Digital Inclusion Fund.”  Mail checks to 333 West San Carlos Street, 6th Floor, San Jose, CA 95110.”    ",
     page: "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=MUZC664CJEB32&source=url",
@@ -15,7 +15,7 @@ const BlogData = [
     date: "January 15, 2021",
     catgeory: "For Individuals",
     title: "Donate Devices",
-    cover: "/images/singlepage/blog-2.jpg",
+    cover: "/images/deviceInd.jpg",
     para: "Donate your old computers and devices to Closing the Divide’s E-Waste Program! Your devices will refurbished and then donated to households in need.    ",
     page: "https://closingthedivide.foundation/ewaste-1",
     newPage: "blogsingle/2",
@@ -26,7 +26,7 @@ const BlogData = [
     date: "January 21, 2018",
     catgeory: "For Individuals",
     title: "Volunteer as a Digital Navigator",
-    cover: "/images/singlepage/blog-3.jpg",
+    cover: "/images/volunteer.jpg",
     para: `San José Public Library https://www.sjpl.org/volunteer-how-to Catholic Charities of Santa Clara County https://www.catholiccharitiesscc.org/volunteer?locale=en",
     
     Closing the Divide
@@ -65,7 +65,7 @@ const BlogData = [
     date: "January 30, 2019",
     catgeory: "For Organizations",
     title: "Apply to the Digital Inclusion Fund",
-    cover: "/images/singlepage/blog-4.jpg",
+    cover: "/images/apply.jpg",
     para: `LEARN MORE
     These resources will help you understand how a Digital Inclusion Grant can benefit residents you serve. Aditional resources, including Frequently Asked Questions and a sample Work Plan and Budget are available in a shared folder-> Click below!`,
     desc: `GRANT APPLICATIONS CLOSED ON FEBRUARY 1, 2022! 
@@ -83,7 +83,7 @@ const BlogData = [
     date: "January 10, 2022",
     catgeory: "For Organizations",
     title: "Donate Money",
-    cover: "/images/singlepage/blog-5.jpg",
+    cover: "/images/money.jpg",
     para: "All proceeds donated are administered by the California Emerging Technology Fund’s general Digital Inclusion Fund. $30 sponsors a student’s internet through the summer, and $150 buys a refurbished device. We deeply appreciate your support!",
     desc: "Checks can be written out to the “California Emerging Technology Fund” and note in the Memo section “San Jose Digital Inclusion Fund.”  Mail checks to 333 West San Carlos Street, 6th Floor, San Jose, CA 95110.”    ",
     page: "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=MUZC664CJEB32&source=url",
@@ -95,7 +95,7 @@ const BlogData = [
     date: "January 18, 2021",
     catgeory: "For Organizations",
     title: "Donate Corporate Devices",
-    cover: "/images/singlepage/blog-6.jpg",
+    cover: "/images/deviceOrg.jpg",
     desc: "If you would like to donate your corporate devices, please contact Revivn and state that you would like to donate to the San José Digital Inclusion Fund. Example message below:",
     para: `
     

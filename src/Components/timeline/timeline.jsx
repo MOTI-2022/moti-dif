@@ -2,13 +2,15 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { Link } from "react-router-dom"
 import './style.min.css'
+import Collapsible from 'react-collapsible';
+
 
 const Event = (props) => {
     const {year, img, title, date, description} = props
     return(
         
      
-
+        
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'lightgrey', color: '#000000' }}
@@ -16,20 +18,22 @@ const Event = (props) => {
 
                 date={year} // Prop: Year
                 iconStyle={{ background: 'lightseagreen', color: 'blue' }}
-
                 layout = {'2-columns'}
             >
-               
+                <font size = "4">
+
                 <h2 className="vertical-timeline-element-title"> {title} </h2>
+            
                 <h4> <br></br>{date} </h4>
                 <p>
                 {description}
 
                 </p>
                 <br></br>
-                <a target="_blank" href="https://storelocator.site/LDAAwP" className="primary-btn lib">Learn More</a>
-
+                <a target="_blank" href="https://www.sanjoseca.gov/Home/Components/News/News/4181/" className="primary-btn lib">Learn More</a>
+                </font>
             </VerticalTimelineElement>
+
     
     )
 }
