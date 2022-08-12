@@ -9,7 +9,7 @@ const Sdata = [
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
     paraImage_one: "/images/singlepage/single-1.jpg",
     paraImage_two: "/images/singlepage/single-2.jpg",
-    newPage: "access/1",
+    newPage: "accessSJ",
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const Sdata = [
     image: "/images/wifi.jpg",
     desc: "Enroll in or upgrade a wired internet plan at your house",
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
-    newPage: "contact",
+    newPage: "broadband",
 
   },
   {

@@ -1,5 +1,5 @@
 //import React from "react"
-import "./Courses.css"
+import "./Broadband.css"
 
 import Blog from "../Blog/Blog"
 import { useLocation, Link } from "react-router-dom"
@@ -13,7 +13,7 @@ import AllWifi from "../Wifi/AllWifi";
 
 import CourseInfo from "../CourseInfo/CourseInfo"
 
-const Courses = () => {
+const AccessSJ = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -29,13 +29,25 @@ const Courses = () => {
       {/*<HeadTitle />*/}
       <br></br>
       <h5>
-              Digital Literacy Training{/*<span>Story</span>*/}
+      SJ Access Services {/*<span>Story</span>*/}
 
               <br></br>
-              <font size="4">San José provides several resources for everyone to gain digital skills:</font>
+              <font size="5">Find an affordable home internet plan that works for you.</font>
+              <br></br>
+
 
 
       </h5>
+      <div className="plan">
+      <u><font size="4">Affordable Broadband Plans:</font></u>
+              <br></br>
+
+<font size="3">If you need an affordable home internet plan for you or your household, check out these flyers for instructions on determining your eligibility and signing up for a plan.
+If you are a San José resident and need assistance with connecting to affordable internet at home, please call (408) 716-3811 and you will be transferred to an organization that can assist you.
+</font></div>
+<br></br>
+<br></br>
+  
       {/*<MostPopular />
 
       <AdvSkills />*/}
@@ -144,4 +156,4 @@ const Courses = () => {
   )
 }
 
-export default Courses
+export default AccessSJ

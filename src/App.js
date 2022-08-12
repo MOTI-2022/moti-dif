@@ -31,6 +31,8 @@ import Faq from "./Components/faq/Faq"
 import Help1 from "./Components/Help1/Help1"
 import FAQ1 from "./Components/FAQ1/FAQ1"
 import Courses from "./Components/Courses/Courses"
+import Broadband from "./Components/Broadband/Broadband"
+import AccessSJ from "./Components/AccessSJ/AccessSJ"
 import Grantees from "./Grantees/Grantees"
 
 /*-------------blog------------ */
@@ -95,6 +97,8 @@ function App() {
           <Route path='/faq1' exact component={FAQ1} />
           <Route path='/grantees' exact component={Grantees} />
           <Route path='/courses' exact component={Courses} />
+          <Route path='/broadband' exact component={Broadband} />
+          <Route path='/accessSJ' exact component={AccessSJ} />
           <Route path='/gallery' exact component={Gallery} />
           <Route path='/destinations' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />

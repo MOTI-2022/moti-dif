@@ -5,6 +5,7 @@ import EmptyFile from "../Common/Empty/EmptyFile"
 import { useParams } from "react-router-dom"
 import HeadTitle from "../Common/HeadTitle/HeadTitle"
 import "./access.css"
+import MostPopular from "../Components/HomeSection/popular/MostPopular"
 
 const Access = () => {
   const { id } = useParams()
@@ -73,7 +74,7 @@ const Access = () => {
               </div>
               {/* --------- main-content--------- */}
 
-              {/* --------- side-content--------- */}
+              {/* --------- side-content--------- 
               <div className='side-content'>
                 <div className='box'>
                   <h2>How can we help you?</h2>
@@ -89,6 +90,9 @@ const Access = () => {
               </div>
               {/* --------- side-content--------- */}
             </article>
+
+            <MostPopular />
+
           </div>
         </section>
       ) : (
