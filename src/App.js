@@ -11,10 +11,16 @@ import Destinations from "./Components/Destinations/Home"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import SinglePage from "./SinglePage/SinglePage"
+import Access from "./Access/Access"
+
 
 /*-------------blog------------ */
 import Blog from "./Components/Blog/Blog"
 import BlogSingle from "./Components/Blog/blog-single-page/BlogSingle"
+import People from "./Components/People/People"
+import Reports from "./Components/Reports/Reports"
+
+import PeopleSingle from "./Components/People/people-single-page/PeopleSingle"
 import Testimonial from "./Components/Testimonial/Testimonial"
 import Contact from "./Components/Contact/Contact"
 import Digitalnav from "./Components/Digitalnav/Digitalnav"
@@ -92,8 +98,12 @@ function App() {
           <Route path='/gallery' exact component={Gallery} />
           <Route path='/destinations' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />
+          <Route path='/access/:id' component={Access} />
           <Route path='/blog' exact component={Blog} />
           <Route path='/blogsingle/:id' component={BlogSingle} />
+          <Route path='/people' exact component={People} />
+          <Route path='/reports' exact component={Reports} />
+          <Route path='/peoplesingle/:id' component={PeopleSingle} />
           <Route path='/testimonial' component={Testimonial} />
           <Route path='/digitalnav' component={Digitalnav} />
           <Route path='/faq' component={Faq} />

@@ -7,6 +7,7 @@ import MostPopular from "../HomeSection/popular/MostPopular";
 import AdvSkills from "../HomeSection/advancedSkills/AdvSkills";
 import React, { useEffect, useState } from "react";
 
+import AllBlog from "../Blog/AllBlog"
 
 
 
@@ -34,7 +35,7 @@ const Courses = () => {
 
       <AdvSkills />
 
-
+      
       <section className='about1 top1'>
         <div className='container1'>
         {/*  <AboutCard />*/}

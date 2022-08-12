@@ -4,11 +4,9 @@ import Sdata from "../Components/Destinations/Sdata"
 import EmptyFile from "../Common/Empty/EmptyFile"
 import { useParams } from "react-router-dom"
 import HeadTitle from "../Common/HeadTitle/HeadTitle"
-import "./singlepage.css"
-import AllBlog from "../Components/Blog/AllBlog"
-import AllWifi from "../Components/Wifi/AllWifi"
+import "./access.css"
 
-const SinglePage = () => {
+const Access = () => {
   const { id } = useParams()
   const [item, setItem] = useState(null)
 
@@ -37,6 +35,8 @@ const SinglePage = () => {
 
             {/* --------- main-content--------- */}
 
+            <article className='content flex'>
+              <div className='main-content'>
                 {/*<img src={item.image} alt='' />
                 <p>{item.desc}</p>
                 <p>{item.desc}</p>
@@ -46,10 +46,12 @@ const SinglePage = () => {
                   <p>{item.sidepara}</p>
                 </div>*/}
                 {/*<h1>Whta is the {item.title} City ?</h1>*/}
-                <h5><font size="6" >{item.title}</font></h5>
+                
+                <h1>{item.title}</h1>
+                Hello
                 <br></br>
 
-                <h1><font size="5.5" >{item.title1}</font></h1>
+                <h1><font size="6" >{item.title1}</font></h1>
 
                 <p><font color="darkslategray">{item.desc1}</font></p>
 
@@ -57,20 +59,21 @@ const SinglePage = () => {
                   <img src={item.paraImage_one} alt='' />*/}
                  {/* <img src={item.paraImage_two} alt='' />*/}
                 {/*</div>*/}
-                <div className="map">
                 <img src={item.paraImage_one} alt='' />
-                </div>
 
                 <a target="_blank" href="https://storelocator.site/LDAAwP" className="primary-btn lib">Find a Library Near Me</a>
                 <br></br>
                 <br></br>
-                
-                
+                <h1><font size="5" >{item.title2}</font></h1>
 
+                <p><font color="darkslategray">{item.desc2}</font></p>
 
+                <p><font color="darkslategray">{item.desc3}</font></p>
+
+              </div>
               {/* --------- main-content--------- */}
 
-              {/* --------- side-content--------- 
+              {/* --------- side-content--------- */}
               <div className='side-content'>
                 <div className='box'>
                   <h2>How can we help you?</h2>
@@ -85,20 +88,9 @@ const SinglePage = () => {
                 </div>
               </div>
               {/* --------- side-content--------- */}
-
-
-            <h1><font size="5.5" >{item.title2}</font></h1>
-
-                <p><font color="darkslategray">{item.desc2}</font></p>
-
-                <p><font color="darkslategray">{item.desc3}</font></p>
-            <AllWifi />
-
+            </article>
           </div>
-
         </section>
-
-
       ) : (
         <EmptyFile />
       )}
@@ -106,4 +98,4 @@ const SinglePage = () => {
   )
 }
 
-export default SinglePage
+export default Access

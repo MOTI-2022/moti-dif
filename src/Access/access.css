@@ -10,12 +10,6 @@
   margin-top: -60px;
 }
 
-.map img{
-  height: 300px;
-  width: auto;
-  margin-bottom: 50px;
-}
-
 .main-content p {
   margin: 10px 0 20px 0;
   color: black;
@@ -49,8 +43,6 @@
 .resources img{
   height: 20px;
 }
-
-
 
 article .box {
   background-color: lightseagreen;

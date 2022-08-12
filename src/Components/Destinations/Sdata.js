@@ -2,14 +2,14 @@ const Sdata = [
   {
     id: 1,
     title: "SJAccess Services",
-    image: "/images/phone.png",
+    image: "/images/phone1.jpg",
     desc: "Borrow a device, rent a hotspot for free to get connected",
     desc1: "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected. ",
 
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
     paraImage_one: "/images/singlepage/single-1.jpg",
     paraImage_two: "/images/singlepage/single-2.jpg",
-    newPage: "singlepage/2",
+    newPage: "access/1",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const Sdata = [
     image: "/images/digNav.jpg",
     desc: "Find the right person to render in-person help on Internet & IT issues",
     sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
-    newPage: "singlepage/2",
+    newPage: "people",
   },
   {
     id: 4,

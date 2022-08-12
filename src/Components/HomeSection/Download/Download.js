@@ -1,5 +1,8 @@
 import React from "react"
 import "./download.css"
+import { Link } from "react-router-dom"
+import {animateScroll as scroll } from "react-scroll";
+
 
 const Download = () => {
   return (
@@ -18,7 +21,11 @@ const Download = () => {
               <li>&#10003; No booking or credit card fees</li>
               <li>&#10003; Add your own reviews and photos</li>*/}
               <li> San José is committed to connecting 50,000 San José households </li>
-              <li>Learn more about the San José Digital Inclusion Fund here.</li>
+              <li>Learn more about the San José Digital Inclusion Fund        <t></t>   <t></t> 
+              <u><Link to='/about' onClick= {()=>(scroll.scrollToTop())} activeClassName="active" >
+             here
+            </Link></u>
+            </li>
 
 
             </ul>
@@ -28,7 +35,7 @@ const Download = () => {
             </div>
           </div>
           <div className='row row2'>
-            <img src='/images/diagram.png' alt='' className='image' />
+            <img src='/images/diagram1.png' alt='' className='image' />
           </div>
         </div>
       </section>

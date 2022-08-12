@@ -35,6 +35,7 @@ const Navbar = () => {
  
 
         <li>
+         {/* <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>*/}
           <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>
         </li>
        {/* <li>

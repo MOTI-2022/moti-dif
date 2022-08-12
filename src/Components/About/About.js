@@ -15,10 +15,11 @@ import React, { useEffect, useState } from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import FAQ1 from "../FAQ1/FAQ1"
 import ScrollToTop from "react-scroll-to-top";
-
+import AllBlog from "../Blog/AllBlog"
 
 import Collapsible from 'react-collapsible';
 import Grantees from "../../Grantees/Grantees"
+import AllReports from "../Reports/AllReports"
 
 {/*import { Collapsible } from 'react-simple-collapsible';*/}
 
@@ -81,7 +82,7 @@ const About = () => {
               Who We Are: <span>Our Story</span>
             </h1>
             <p>San José is the first city in the country to pledge to close the Digital Divide by establishing the Digital Inclusion Fund, a $24 million cross-sector fund that will be distributed in grant awards over a ten-year period. The fund is raised through innovative public-private partnerships, private and public philanthropic donors, and matched City funding. </p>
-            <p>The City of San José, in partnership with the City of San José Mayor’s Office of Technology and Innovation, has engaged the California Emerging Technology Fund to work with community organizations and administer grant making. The Digital Inclusion Partnership will disburse approximately $500K - 1M each year to organizations in San José who are closing the Digital Divide through expanding Internet connectivity, device access and digital literacy skills.</p>
+            <p>The City of San José, in partnership with the <u><a href="https://www.catholiccharitiesscc.org/volunteer?locale=en" target="_blank"  > City of San José Mayors Office of Technology and Innovation</a></u>, has engaged the <u><a href="https://www.catholiccharitiesscc.org/volunteer?locale=en" target="_blank"  > California Emerging Technology Fund</a></u> to work with community organizations and administer grant making. The Digital Inclusion Partnership will disburse approximately $500K - 1M each year to organizations in San José who are closing the Digital Divide through expanding Internet connectivity, device access and digital literacy skills.</p>
             <p>The Partnership will target three key components of Digital Inclusion: </p>
       <tab></tab> <tab></tab> <p>  1. Access programs: providing internet connectivity to residents<br></br>
       <tab></tab>
@@ -91,9 +92,9 @@ const About = () => {
 
 </p>
 
-            <button className='secondary-btn'>
-              Explore More <i className='fas fa-long-arrow-alt-right'></i>
-            </button>
+
+
+        
           </div>
 
           <div className='row image'>
@@ -139,6 +140,11 @@ const About = () => {
           )}
         </Collapsible>
               </div>
+
+
+              <AllReports>
+
+              </AllReports>
 
               <Grantees>
 

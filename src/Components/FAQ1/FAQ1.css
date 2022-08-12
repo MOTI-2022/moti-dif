@@ -349,7 +349,7 @@ max-width: fit-content;
   box-shadow: var(--light-shadow);
   background-color: lightgrey;
 font-size: 20px;
-margin-bottom: 1px;
+margin-bottom: 0.5px;
 }
 .questionFAQ h4 {
   text-transform: none;
