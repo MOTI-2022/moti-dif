@@ -51,7 +51,11 @@ const SinglePage = () => {
 
                 <h1><font size="5.5" >{item.title1}</font></h1>
 
-                <p><font color="darkslategray">{item.desc1}</font></p>
+                <p><font color="darkslategray">{item.desc1}            
+                <u><Link to='/access' >
+             SJ access
+                </Link></u> page for more information on renting hotspot or computing devices.
+            </font></p>
 
                {/* <div className='image resources grid1 '>
                   <img src={item.paraImage_one} alt='' />*/}
@@ -60,8 +64,7 @@ const SinglePage = () => {
                 <div className="map">
                 <img src={item.paraImage_one} alt='' />
                 </div>
-
-                <a target="_blank" href="https://storelocator.site/LDAAwP" className="primary-btn lib">Find a Library Near Me</a>
+                Find your local San José Public Library <t></t><a target="_blank" href="https://storelocator.site/LDAAwP" className="info-btn ">here</a>
                 <br></br>
                 <br></br>
                 
