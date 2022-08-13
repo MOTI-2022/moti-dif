@@ -1,5 +1,4 @@
 import React from "react"
-import "../popular/MostPopular.css"
 import "./Quotes.css"
 import CardQuote from "./CardQuote"
 import Qdata from "./Qdata"
@@ -7,7 +6,7 @@ import Qdata from "./Qdata"
 const Works = () => {
   return (
     <>
-      <section className='popular works'>
+      <section className='popular quotes'>
         <div className='container'>
           <div className='heading'>
             <h1>Resident Stories, Resident Testimonies</h1>

@@ -1,17 +1,15 @@
-.quotes {
+.works {
   text-align: center;
   background-color: #fff;
   margin-bottom: 20px;
-  padding-right: 35px;
-  padding-left: 25px;
-  height: fit-content;
 }
-.quotes .icon1 img {
+.works .icon1 img {
   width: auto;
   height: auto;
+  margin: auto;
   margin-left: 90%;
 }
-.quotes .icon1 img {
+.works .icon1 img {
   width: auto;
   height: auto;
   margin-right: 20px;
@@ -20,32 +18,22 @@
   border-radius: 5px;
   margin-top: 0%;
   margin-left: 90%;
-  margin-bottom: -10%;
 }
-.quotes .box {
+.works .box {
   padding: 40px 20px;
   background-color: #fff;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
-  height: 320px;
-  height: fit-content;
 }
-.quotes h2 {
+.works h2 {
   font-weight: 500;
   font-size: 20px;
   margin: 15px 0;
-  margin-top: -10px;
 }
-
-.quotes .details{
-  margin-bottom: 0px;
-
-}
-
-.quotes p {
+.works p {
   font-size: 14px;
 }
 @media screen and (max-width: 768px) {
-  .quotes .grid {
+  .works .grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
