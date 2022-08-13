@@ -3,7 +3,9 @@ import { Link } from "react-router-dom"
 
 const BlogCard = ({ item: { id, newPage, cover, title, desc, para, catgeory, date } }) => {
   return (
+
     <>
+
       <div className='items'>
         <div className='img'>
           <img src={cover} alt='Gallery Image' />
@@ -21,7 +23,8 @@ const BlogCard = ({ item: { id, newPage, cover, title, desc, para, catgeory, dat
 
         {/*<Link to={`/blogsingle/${id}`} className='blogItem-link'>*/}
         {/*<Link to={`/${newPage}/${id}`} className='blogItem-link'>*/}
-        <Link to={`/${newPage}`} className='blogItem-link'>
+
+        <Link to={`/${newPage}`} href = 'src/blogsingle/1' className='blogItem-link'>
           LEARN MORE <i className='fa fa-long-arrow-right'></i>
         </Link>
 

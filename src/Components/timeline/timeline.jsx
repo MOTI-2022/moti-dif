@@ -6,7 +6,7 @@ import Collapsible from 'react-collapsible';
 
 
 const Event = (props) => {
-    const {year, img, title, date, description} = props
+    const {year, img, title, date, description, site} = props
     return(
         
      
@@ -27,10 +27,11 @@ const Event = (props) => {
                 <h4> <br></br>{date} </h4>
                 <p>
                 {description}
+            
 
                 </p>
                 <br></br>
-                <a target="_blank" href="https://www.sanjoseca.gov/Home/Components/News/News/4181/" className="primary-btn lib">Learn More</a>
+                <a target="_blank" href={site} className="primary-btn lib">Learn More</a>
                 </font>
             </VerticalTimelineElement>
 
@@ -48,6 +49,7 @@ function Timeline(props) {
                 title={props.timelineData.title}
                 date={newDate}
                 description={props.timelineData.description}
+                site = {props.timelineData.site}
             />
 
     )

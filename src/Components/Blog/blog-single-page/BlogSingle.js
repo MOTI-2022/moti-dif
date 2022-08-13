@@ -54,10 +54,14 @@ const BlogSingle = () => {
                  
                 </div>
 
-                <p>{item.contact}</p>
-                <p>{item.contact1}</p>
-                <p>{item.contact2}</p>
-                <p>{item.contact3}</p>
+                <p>
+
+                <font size="5">{item.contact} {item.contact1} </font>
+
+
+                  <br></br>{item.contact2}<br></br>
+                  {item.contact3}</p>
+               
                 </font>
                 
                 {/*
@@ -77,7 +81,7 @@ const BlogSingle = () => {
 
                 <font size="10">
                 <p>OTHER <br></br>
-                For all other inquiries, please contact our Program Director, Charlene Tatis, at info@sjdigitalinclusion.org.</p>
+                For all other inquiries, please contact our Program Director, Charlene Tatis, at <u>info@sjdigitalinclusion.org.</u></p>
                 </font>
                 
 

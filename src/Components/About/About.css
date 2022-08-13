@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.row iframe{
+  width: 420px;
+}
+
 .aboutCard
 {
   margin-left: 20px;

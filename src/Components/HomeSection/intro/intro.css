@@ -1,45 +1,56 @@
-.download {
+.num2{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.intro {
   color: black;
   height: 75vh;
   padding: 20px 0;
-  margin-left: 0px;
+  margin-left: 40px;
   height: fit-content;
-  margin-bottom: 100px;
-  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  padding-top: 2px;
 }
-.download h1 {
+
+.intro h1 {
   font-size: 40px;
 }
-.download ul {
+.intro ul {
   margin: 20px 0;
   margin-right: 20px;
 }
-.download ul li {
+.intro ul li {
   margin: 10px 0;
 }
-.download .row img {
-  margin-right: 20px;
+.intro .row img {
+  margin-right: 30px;
+  width: 60%;
+  margin-left: 20px;
+  margin: auto;
 }
-.download .row {
+.intro .row {
   position: relative;
 }
-.download .image {
+.intro .image {
   position: absolute;
   left: 0%;
   right: 0;
+  margin-right: 200px;
 }
 @media screen and (max-width: 768px) {
-  .download .flex_space {
+  .intro .flex_space {
     flex-direction: column;
     padding: 40px;
   }
-  .download .row {
+  .intro .row {
     width: 100%;
   }
-  .download .row2 {
+  .intro .row2 {
     display: none;
   }
-  .download {
+  .intro {
     height: 60vh;
     height: 100vh;
     margin-top: 50px;

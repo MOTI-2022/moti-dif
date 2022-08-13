@@ -15,10 +15,17 @@ const Works = () => {
           </div>
 
           <div className='content grid'>
+          
             {Wdata.map((value, index) => {
-              return <Card key={index} cover={value.cover} title={value.title} desc={value.desc} />
-            })}
+              return <Card key={index} cover={value.cover} title={value.title} title1={value.title1} desc={value.desc} desc1= {value.desc1} icon={value.icon} />
+
+            })     
+
+               }
+
+
           </div>
+          
         </div>
       </section>
     </>

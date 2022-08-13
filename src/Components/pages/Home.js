@@ -9,6 +9,7 @@ import Works from "../HomeSection/Works/Works"
 import Gallery from "../HomeSection/gallery/Gallery"
 import Quotes from "../HomeSection/Quotes/Quotes"
 import ScrollToTop from "react-scroll-to-top";
+import Intro from "../HomeSection/intro/Intro"
 
 const Home = () => {
   return (
@@ -19,11 +20,13 @@ const Home = () => {
       {/*<Hero />*/}
       <HomeAbout />
       <Works/>
+
+      <Intro />
       <DestinationHome />
       <Quotes />
 
       <Download />
-      <Gallery />
+     {/* <Gallery />*/}
     </>
   )
 }

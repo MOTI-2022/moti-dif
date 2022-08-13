@@ -29,6 +29,8 @@ import Login from "./Components/login/Login"
 import Register from "./Components/login/Register"
 import Faq from "./Components/faq/Faq"
 import Help1 from "./Components/Help1/Help1"
+import Help2 from "./Components/Help2/Help2"
+
 import FAQ1 from "./Components/FAQ1/FAQ1"
 import Courses from "./Components/Courses/Courses"
 import Broadband from "./Components/Broadband/Broadband"
@@ -94,6 +96,7 @@ function App() {
           <Route path='/home' exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/help1' exact component={Help1} />
+          <Route path='/help2' exact component={Help2} />
           <Route path='/faq1' exact component={FAQ1} />
           <Route path='/grantees' exact component={Grantees} />
           <Route path='/courses' exact component={Courses} />
@@ -104,7 +107,7 @@ function App() {
           <Route path='/singlepage/:id' component={SinglePage} />
           <Route path='/access/:id' component={Access} />
           <Route path='/blog' exact component={Blog} />
-          <Route path='/blogsingle/:id' component={BlogSingle} />
+          <Route path='/blogsingle/:id' exact component={BlogSingle} />
           <Route path='/people' exact component={People} />
           <Route path='/reports' exact component={Reports} />
           <Route path='/peoplesingle/:id' component={PeopleSingle} />
@@ -117,7 +120,7 @@ function App() {
           <Route path="*" component={Home} />
 
         </Switch>
-       {/* <Footer />*/}
+        <Footer />
 
        
       </Router>

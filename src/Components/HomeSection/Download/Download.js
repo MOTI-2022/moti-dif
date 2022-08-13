@@ -12,11 +12,13 @@ const Download = () => {
           <div className='row'>
             {/*<h3>Presenting..</h3>*/}
             <h1>What is the San José Digital Inclusion Fund?</h1>
+            <font size="5">
             <ul>
               <li> The San José aims to close the digital divide through the Digital Inclusion Fund, a $24 million cross-sector fund over a ten-year period. By targeting three key components of digital inclusion:</li>
               <li>&#10003; Access programs: providing internet connectivity to residents</li>
               <li>&#10003; Device programs: ensuring every resident has a working device</li>
-              <li>&#10003; Digital literacy: enhancing digital skills to access jobs, educational opportunities & critical services</li>
+              <li>&#10003; Digital literacy: enhancing digital skills to access jobs, educational opportunities & critical services</li>              
+
               {/*<li>&#10003; No booking or credit card fees</li>
               <li>&#10003; No booking or credit card fees</li>
               <li>&#10003; Add your own reviews and photos</li>*/}
@@ -29,11 +31,13 @@ const Download = () => {
 
 
             </ul>
+            </font>
             <div className='img flex'>
              {/* <img src='/images/appstore-button.png' alt='' />
               <img src='/images/google-play-button.png' alt='' />*/}
             </div>
           </div>
+          <br></br>
           <div className='row row2'>
             <img src='/images/diagram1.png' alt='' className='image' />
           </div>

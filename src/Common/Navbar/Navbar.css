@@ -23,15 +23,20 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  height: 11vh;
+  height: 12vh;
   line-height: 10vh;
   width: auto;
+  padding-bottom: 80px;
+  padding-top: 3px;
+  padding-left: 0px;
+  margin-left: -10px;
 }
 
 nav ul 
 {
   margin-left: -60px;
   margin-inline-start: -50px;
+
 }
 
 nav ul li {
@@ -44,7 +49,10 @@ nav ul li {
 .picture{
   height: 25px;
   width: 20%;
-  margin-top: 10px;
+  margin-top: 0px;
+  max-height: fit-content;
+  max-height: min-content;
+
 }
 
 .logoImg{

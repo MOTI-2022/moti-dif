@@ -1,15 +1,15 @@
 const questions2 = [
     {
       id: 1,
-      title: 'The chromebook I borrowed from SJPL had some problems with it when I was using it. Whom can I ask for help?',
+      title: 'Do I need a San José Public Library card to rent a device?',
       info:
-        'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+      'Yes, you need a physical SJPL card (not an e-Library card) to borrow SJ Access Wi-Fi hotspots, laptops, and other tech devices. Visit https://www.sjpl.org/membership for more information on how to get your SJPL library card.',
     },
     {
       id: 2,
-      title: 'How can I find a people to help me configure the current wires at my home?',
+      title: 'If I live outside of San José, can I still rent devices from the library?',
       info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+        'Yes! Anyone living in California can get a San José Public Library card that allows you to borrow internet hotspots and computing devices, and sign up for computer classes.',
     },
     {
       id: 3,

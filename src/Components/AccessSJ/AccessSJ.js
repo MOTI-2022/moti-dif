@@ -10,6 +10,7 @@ import React, { useEffect, useState } from "react";
 import AllBlog from "../Blog/AllBlog"
 
 import AllWifi from "../Wifi/AllWifi";
+import AllReports from "../Reports/AllReports";
 
 import CourseInfo from "../CourseInfo/CourseInfo"
 
@@ -54,6 +55,7 @@ If you are a San José resident and need assistance with connecting to affordabl
 
       <div className='container1'>
         <CourseInfo />
+        <AllReports />
 
 
         {/*  <AboutCard />*/}
@@ -70,6 +72,7 @@ If you are a San José resident and need assistance with connecting to affordabl
    
 
       </section>
+      <MostPopular />
 
 
       {/*<section className='features2 top1'>

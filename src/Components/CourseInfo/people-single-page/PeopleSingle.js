@@ -77,7 +77,7 @@ const PeopleSingle = () => {
 
                 <font size="10">
                 <p>OTHER <br></br>
-                For all other inquiries, please contact our Program Director, Charlene Tatis, at info@sjdigitalinclusion.org.</p>
+                For all other inquiries, please contact our Program Director, Charlene Tatis, at <u>info@sjdigitalinclusion.org.</u></p>
                 </font>
                 
 

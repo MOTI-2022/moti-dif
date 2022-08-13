@@ -10,7 +10,7 @@ const Works = () => {
       <section className='popular works'>
         <div className='container'>
           <div className='heading'>
-            <h1>How are you affected by the Digital Divide?</h1>
+            <h1>Resident Stories, Resident Testimonies</h1>
             <div className='line'></div>
           </div>
 
@@ -21,8 +21,9 @@ const Works = () => {
           </div>
 
         </div>
+        <font size="4">
         Source: <u><a href="https://www.youtube.com/watch?v=3VwLxfUj5ls&ab_channel=SanJos%C3%A9Mayor%27sOfficeofTechnology%26Innovation" target="_blank"  > San José Digital Inclusion Fund</a></u>
-        <br></br><br></br>
+        <br></br><br></br></font>
       </section>
       
     </>
