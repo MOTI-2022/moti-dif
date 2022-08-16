@@ -32,6 +32,15 @@
   margin-left: -10px;
 }
 
+.language-select{
+  background-color: lightblue;
+  margin-top: 20px;
+  line-height: 1vh;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  margin: 10px;
+}
+
 nav ul 
 {
   margin-left: -60px;
@@ -134,6 +143,10 @@ nav i {
   }
   .navbar {
     text-align: center;
+  }
+
+  .language-select{
+    margin-right: 200px;
   }
 
 

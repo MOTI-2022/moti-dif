@@ -11,11 +11,10 @@ const Footer = () => {
         <div className='container grid'>
           <div className='box'>
             <h2>SAN JOSÉ DIGITAL INCLUSION FUND</h2>
-            <p>San jose Mayor’s Office of Tech & Innovation</p>
+            <font size="3" color="white">San Jose Mayor’s Office of Tech & Innovation</font>
             <br />
-            <p>Address: 200 E Santa Clara St, San Jose, CA 95113</p>
-            <br />
-            <p>Email us: <a href="mailto:info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a></p>
+            <p><b>Address</b>: 200 E Santa Clara St, San Jose, CA 95113</p>
+            <p><b>Email us</b>: <a href="mailto:info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a></p>
             <div className='icon flex_space'>
             <a href="https://www.instagram.com/sanjosemoti/?hl=en" target="_blank"><i className='fab fa-instagram'></i></a>
             <a href="https://www.motisanjose.org" target="_blank"><i className='fa fa-globe'></i></a>

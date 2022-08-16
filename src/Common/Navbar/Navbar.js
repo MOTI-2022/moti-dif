@@ -33,15 +33,19 @@ const Navbar = () => {
           <img src='/images/logo2.png' alt='' />
         </div>
 
-        {/* Select Language Container - Action: need to move */}
+        {/* Select Language Container - Action: need to move 
+        <div className="language-select">
+          <LanguageSelect />
+        </div>*/}
         <div className="language-select">
           <LanguageSelect />
         </div>
-
           <ul className={click ? "nav-menu active" : "nav-menu"}>
           {/*<div className="absolute left-0 top-0 h-1/4 w-1/4 flex-shrink-0">*/}
  
-
+        
+   
+        
         <li>
          {/* <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>*/}
           <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >{t("nav_about")}</NavLink>
