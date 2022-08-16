@@ -10,7 +10,7 @@ const Works = () => {
       <section className='popular works'>
         <div className='container'>
           <div className='heading'>
-            <h1>Digital Divide · Digital Inclusion · Digital equity</h1>
+            <h1>Digital Divide · Digital Inclusion · Digital Equity</h1>
             <div className='line'></div>
           </div>
 
