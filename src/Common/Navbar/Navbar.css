@@ -44,6 +44,8 @@ nav ul li {
   transition: all 0.2s ease-out;
   margin: 0 30px 0 0;
   margin-left: 0px;
+
+
 }
 
 .picture{
@@ -85,10 +87,15 @@ nav ul li a {
   letter-spacing: 1px;
   transition: all 0.2s ease-out;
   opacity: 0.8;
+
 }
 nav ul li a:hover {
   color: white;
   background-color: #6aa1c1;
+  border-radius: 30%;
+  border-radius: 30px;
+  height: 20%;
+  line-height: 40px;
 }
 
 .nav-links-mobile {

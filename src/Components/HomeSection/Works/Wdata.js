@@ -1,7 +1,7 @@
 const Wdata = [
   {
     id: 1,
-    cover: "/images/problem1.png",
+    cover: "/images/divide.png",
     title: "Digital Divide",
     title1: "The Problem",
     desc: `The digital divide describes the increasing disparities between those who have affordable access to the technology, digital skills, and support to effectively engage online and people who do not.
@@ -13,7 +13,7 @@ const Wdata = [
   },
   {
     id: 1,
-    cover: "/images/works/work-3.png",
+    cover: "/images/inclusion.png",
     title: "Digital Inclusion",
     title1: "The Work",
     desc: "Digital inclusion work includes the activities necessary to ensure that all individuals and communities, particularly the most disadvantaged, have equitable access to and use of digital information, digital communication, and other technologies.",
@@ -23,7 +23,7 @@ const Wdata = [
   },
   {
     id: 1,
-    cover: "/images/works/work-2.png",
+    cover: "/images/equity.png",
     title: "Digital Literacy",
     title1: "The Goal",
     desc: "Digital equity is the goal in which all individuals and communities have the digital information and technological capacity needed for full participation in our society, democracy, and economy.",

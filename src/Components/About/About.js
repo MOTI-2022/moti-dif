@@ -5,6 +5,7 @@ import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import Download from "../HomeSection/Download/Download"
 import { Timeline } from "../timeline/timeline.jsx"
 import GalleryLogos from "../HomeSection/galleryLogos/GalleryLogos"
+
 // // FIREBASE
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";

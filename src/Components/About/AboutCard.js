@@ -2,6 +2,8 @@ import React from "react"
 import "./About.css"
 
 const AboutCard = () => {
+
+
   return (
     <>
       <div className='aboutCard mtop flex_space background-color: blue'>
@@ -34,7 +36,11 @@ const AboutCard = () => {
       {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/sN1S--keOXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/}
       </div>
     </>
+
+    
   )
+
+
 }
 
 export default AboutCard

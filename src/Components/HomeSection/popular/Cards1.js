@@ -30,15 +30,17 @@ const Cards = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 2,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    swipeToSlide: true,
+
     responsive: [
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 2,
         },

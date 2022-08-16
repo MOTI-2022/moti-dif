@@ -16,6 +16,10 @@ import Access from "./Access/Access"
 
 /*-------------blog------------ */
 import Blog from "./Components/Blog/Blog"
+import Blog1 from "./Components/Blog1/Blog"
+import Blog2 from "./Components/Blog2/Blog"
+
+
 import BlogSingle from "./Components/Blog/blog-single-page/BlogSingle"
 import People from "./Components/People/People"
 import Reports from "./Components/Reports/Reports"
@@ -30,6 +34,7 @@ import Register from "./Components/login/Register"
 import Faq from "./Components/faq/Faq"
 import Help1 from "./Components/Help1/Help1"
 import Help2 from "./Components/Help2/Help2"
+import Split from "./Components/Split/Split"
 
 import FAQ1 from "./Components/FAQ1/FAQ1"
 import Courses from "./Components/Courses/Courses"
@@ -97,6 +102,7 @@ function App() {
           <Route path='/about' exact component={About} />
           <Route path='/help1' exact component={Help1} />
           <Route path='/help2' exact component={Help2} />
+          <Route path='/split' exact component={Split} />
           <Route path='/faq1' exact component={FAQ1} />
           <Route path='/grantees' exact component={Grantees} />
           <Route path='/courses' exact component={Courses} />
@@ -107,6 +113,8 @@ function App() {
           <Route path='/singlepage/:id' component={SinglePage} />
           <Route path='/access/:id' component={Access} />
           <Route path='/blog' exact component={Blog} />
+          <Route path='/blog1' exact component={Blog1} />
+          <Route path='/blog2' exact component={Blog2} />
           <Route path='/blogsingle/:id' exact component={BlogSingle} />
           <Route path='/people' exact component={People} />
           <Route path='/reports' exact component={Reports} />

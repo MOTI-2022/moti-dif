@@ -38,7 +38,7 @@ const Help1 = () => {
         </div>
         <h5>
               Volunteer as a Digital Navigator {/*<span>Story</span>*/}
-      </h5>
+        </h5>
     
       <br></br>
       <p>

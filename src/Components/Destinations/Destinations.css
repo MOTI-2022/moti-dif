@@ -34,8 +34,10 @@
 
 .items .img {
   min-width: 100%;
+  min-width: fit-content;
   width: auto;
-  max-width: 90%;
+  max-width: 60%;
+  min-height: 60%;
 }
 
 /*

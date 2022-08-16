@@ -1,9 +1,15 @@
-.collection img {
+.collection1 img {
   filter: grayscale(100%);
   transition: 0.5s;
   height: 100px;
   width: 80%;
 }
-.collection img:hover {
+.collection1 img:hover {
   filter: grayscale(0);
+}
+
+.collection1{
+  height: fit-content;
+  padding-top: 0px;
+  margin-top: 0px;
 }

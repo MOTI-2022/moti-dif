@@ -1,0 +1,101 @@
+.collection img {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  height: 100px;
+  width: 80%;
+}
+.collection img:hover {
+  filter: grayscale(0);
+}
+
+.collection{
+  margin-bottom: 100px;
+  margin-top: 0px;
+}
+
+/*
+  .slick-prev {
+    left: 1%;
+    z-index: 1;
+    color: black;
+   }
+  .slick-next {
+    right: 3%;
+    z-index: 1;
+
+    
+  }
+
+  .slick-next:hover{
+    background-color: purple;
+  }*/
+  .arrows .control-btn button {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 45px;
+    height: 45px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+  }
+  .arrows .control-btn i {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+  }
+
+
+/*----- control btn -------*/
+  .arrows .control-btn .next,
+ .arrows .control-btn .prev {
+  background: none;
+  z-index: 3;
+  background: #1ca9c9;
+  top: 50%;
+
+
+
+}
+
+.arrows .control-btn .prev{
+  left: 0%;
+}
+.arrows .control-btn .next{
+  right: 1%;
+}
+
+   .arrows .control-btn .button .next {
+  right: 0%;
+}
+  .arrows .control-btn .prev i,
+  .arrows .control-btn .next i {
+  background: rgba(0, 0, 0, 0.05);
+  color: black;
+  font-size: 15px;
+  transition: 0.5s;
+}
+  .arrows .control-btn .prev i:hover,
+  .arrows .control-btn .next i:hover {
+  background: #1ca9c9;
+  color: white;
+  background: slateblue;
+}
+/*----- control btn -------
+@media screen and (max-width: 768px) {
+    .intro .    .control-btn .prev {
+    left: 35%;
+  }
+    .intro .    .control-btn .next {
+    right: 35%;
+  }
+
+
+}*/

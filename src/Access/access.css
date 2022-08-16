@@ -6,38 +6,35 @@
 .single-page {
   position: relative;
 }
-.main-content{
+.main-contentA{
   margin-top: -60px;
 }
 
-.main-content p {
+.main-contentA p {
   margin: 10px 0 20px 0;
   color: black;
   font-size: large;
 
 }
-.main-content .para p {
+.main-contentA .para p {
   margin-right: 10px;
 
 }
-.main-content h1 {
+.main-contentA h1 {
   font-size: 30px;
 }
-.main-content img {
-  width: 100%;
-  height: auto;
-  width: 100%;
-  height: 20%;
-  width: auto;
-  
-}
-.main-content img {
+
+
+.main-contentA img {
   width: 100%;
   height: auto;
   width: 100%;
   height: 30%;
   width: auto;
   margin-bottom: 20px;
+
+  width: 60%;
+  height: auto;
 }
 
 .resources img{

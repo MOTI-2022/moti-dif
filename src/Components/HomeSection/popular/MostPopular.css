@@ -91,12 +91,14 @@
 .popular .control-btn .prev {
   top: 100%;
   background: none;
+  
+
 }
 .popular .control-btn .prev {
-  left: 45%;
+  left: 40%;
 }
 .popular .control-btn .next {
-  right: 45%;
+  right: 40%;
 }
 .popular .control-btn .prev i,
 .popular .control-btn .next i {
@@ -113,9 +115,11 @@
 /*----- control btn -------*/
 @media screen and (max-width: 768px) {
   .popular .control-btn .prev {
-    left: 40%;
+    left: 35%;
   }
   .popular .control-btn .next {
-    right: 42%;
+    right: 35%;
   }
+
+
 }

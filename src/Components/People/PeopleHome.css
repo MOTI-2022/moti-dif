@@ -12,15 +12,29 @@
   transition: 0.5s ease-in-out;
 
   width: 80%;
-  height: 90%;
   
+  padding-bottom: 0px;
+
+
   height: 330px;
+  height: 70%;
+  min-height: fit-content;
+max-height: 340px;
+height: fit-content;
+
+
+}
+
+.words{
+  height: 70px;
+  margin-bottom: 10px;
 }
 
 .people{
   margin-top: 10px;
   margin-right: -60px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .category span {
@@ -75,6 +89,8 @@
 .people .items .peopleItem-link
 {
   font-size: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .people .items a {

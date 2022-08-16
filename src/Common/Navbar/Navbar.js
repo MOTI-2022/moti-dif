@@ -78,7 +78,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to='/blog' onClick= {()=>(closeMobileMenu, scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
+              <NavLink to='/split' onClick= {()=>(closeMobileMenu, scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
                 Make An Impact
               </NavLink>
             </li>

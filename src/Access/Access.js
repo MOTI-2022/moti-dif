@@ -37,7 +37,7 @@ const Access = () => {
             {/* --------- main-content--------- */}
 
             <article className='content flex'>
-              <div className='main-content'>
+              <div className='main-contentA'>
                 {/*<img src={item.image} alt='' />
                 <p>{item.desc}</p>
                 <p>{item.desc}</p>

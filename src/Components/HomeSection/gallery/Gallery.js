@@ -16,7 +16,7 @@ const Gallery = () => {
   }
   return (
     <div>
-      <section className='collection'>
+      <section className='collection1'>
         <div className='container top'>
           <Slider {...settings}>
             {data.map((value) => {

@@ -1,6 +1,6 @@
 .num2{
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 1px;
+  margin-bottom: 5px;
 }
 
 .intro {
@@ -11,7 +11,32 @@
   height: fit-content;
   margin-bottom: 0px;
   margin-top: 30px;
-  padding-top: 2px;
+  padding-top: 0px;
+  min-height: fit-content;
+}
+
+a, figure {
+  display: inline-block;
+}
+figcaption {
+  margin: 10px 0 0 0;
+  font-variant: small-caps;
+  font-variant: normal;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 45px;
+  padding-right: 40px;
+
+}
+.row2 figure img {
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.stat{
+  margin-bottom: 10px;
 }
 
 .intro h1 {
@@ -20,41 +45,75 @@
 .intro ul {
   margin: 20px 0;
   margin-right: 20px;
+  margin-bottom: 0px;
 }
 .intro ul li {
   margin: 10px 0;
 }
 .intro .row img {
   margin-right: 30px;
-  width: 60%;
+  width: 70%;
   margin-left: 20px;
   margin: auto;
+  margin-bottom: 0px;
+
+  
 }
 .intro .row {
   position: relative;
+
+  margin-top: 0px;
 }
+
+
+figure .caption{
+
+  font-size: 13px;
+}
+
 .intro .image {
   position: absolute;
   left: 0%;
   right: 0;
   margin-right: 200px;
+  
 }
 @media screen and (max-width: 768px) {
   .intro .flex_space {
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 40px;
+
+
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 0px;
+    
   }
   .intro .row {
     width: 100%;
   }
   .intro .row2 {
     display: none;
+
+
+    /*!!!!!!!*/
+
+    display: inline-block;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
   }
   .intro {
     height: 60vh;
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 0px;
     height: fit-content;
+    min-height: fit-content;
 
+  }
+  .figcaption{
+    padding-top: 0px;
   }
 }

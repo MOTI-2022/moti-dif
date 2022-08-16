@@ -1,5 +1,5 @@
 //import React from "react"
-import "./Broadband.css"
+import "./AccessSJ.css"
 
 import Blog from "../Blog/Blog"
 import { useLocation, Link } from "react-router-dom"

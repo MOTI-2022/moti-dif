@@ -10,6 +10,7 @@ const Intro = () => {
     <div className="carousel">
       <section className='intro top'>
         <div className='container flex_space'>
+
           <div className='row'>
             {/*<h3>Presenting..</h3>*/}
             <h1>Digital Divide- The Problem</h1>
@@ -24,23 +25,36 @@ const Intro = () => {
 
             </ul>
             </font>
-            <div className='img flex'>
-             {/* <img src='/images/appstore-button.png' alt='' />
-              <img src='/images/google-play-button.png' alt='' />*/}
-            </div>
+
           </div>
-          <br></br>
           <div className='row row2'>
-            <img src='/images/stat1.png' alt='' className='image' />
+          <figure>
+            <div className="stat">
+            <img src='/images/statistic1.png' alt=''  />
+            </div>
+            <div className="caption">
+            <figcaption>In 2020, 10% of Californians reported not having a desktop, laptop, or other computing device at home. Access was especially limited among low-income (23%), Black (15%), and Latino (15%) households. (Source: PPIC, 2022)</figcaption>
+            </div>
+          </figure>
           </div>
+          
         </div>
+
       </section>
 
 <div className="num2">
       <section className='intro top'>
         <div className='container flex_space'>
         <div className='row row2'>
-            <img src='/images/stat1.png' alt='' className='image' />
+          <figure>
+            <div className="stat">
+            <img src='/images/statistic2.png' alt=''  />
+            </div>
+            <div className="caption">
+            <figcaption>In Santa Clara County, roughly a quarter of the county’s households don’t have access to the internet (Source: SJ Spotlight Digital Divide)
+            </figcaption>
+            </div>
+          </figure>
           </div>
 
           <div className='row'>
@@ -63,7 +77,7 @@ const Intro = () => {
             </div>
           </div>
 
-          <br></br>
+          
    
         </div>
       </section>
@@ -84,8 +98,7 @@ const Intro = () => {
         Sources: <u><a href="https://www.digitalinclusion.org/" target="_blank"  > National Digital Inclusion Alliance;  </a></u> 
         <u><a href="https://www.bcg.com/publications/2022/how-to-close-digital-divide-with-human-approach" target="_blank"  > BCG 2022; </a></u>
         <u><a href="https://www.nature.com/articles/s41746-021-00413-8" target="_blank"  > Sieck et al 2021</a></u>
-        <br></br></font>
-<br></br>
+        </font>
 
             </ul>
             </font>
@@ -94,9 +107,16 @@ const Intro = () => {
               <img src='/images/google-play-button.png' alt='' />*/}
             </div>
           </div>
-          <br></br>
           <div className='row row2'>
-            <img src='/images/diagram1.png' alt='' className='image' />
+          <figure>
+            <div className="stat">
+            <img src='/images/statistic3.png' alt=''  />
+            </div>
+            <div className="caption">
+            <figcaption>Over 97,000 older Santa Clara County residents do not have access to broadband at home (Source: Santa Clara County Digital Inclusion Working Group, 2021)
+            </figcaption>
+            </div>
+          </figure>
           </div>
         </div>
       </section>

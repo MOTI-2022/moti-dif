@@ -10,6 +10,7 @@ import Gallery from "../HomeSection/gallery/Gallery"
 import Quotes from "../HomeSection/Quotes/Quotes"
 import ScrollToTop from "react-scroll-to-top";
 import Intro from "../HomeSection/intro/Intro"
+import MovingSlide from "../HomeSection/movingSlide/movingSlide"
 
 const Home = () => {
   return (
@@ -21,7 +22,10 @@ const Home = () => {
       <HomeAbout />
       <Works/>
 
-      <Intro />
+
+      <MovingSlide />
+
+      {/*<Intro />*/}
       <DestinationHome />
       <Quotes />
 
