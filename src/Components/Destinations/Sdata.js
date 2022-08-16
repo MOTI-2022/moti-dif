@@ -14,7 +14,7 @@ const Sdata = [
   {
     id: 2,
     title: "Public Free Internet/ Find a Library",
-    title1: "Find Your San José Public Librarnd ",
+    title1: "Find Your San José Public Library ",
     title2: "Free Public Wifi",
     paraImage_one: "/images/findLib.png",
     desc: "Find free wifi in public library, downtown and communities",

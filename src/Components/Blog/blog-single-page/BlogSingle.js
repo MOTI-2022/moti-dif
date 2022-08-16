@@ -81,8 +81,8 @@ const BlogSingle = () => {
 
                 <font size="10">
                 <p>OTHER <br></br>
-                For all other inquiries, please contact our Program Director, Charlene Tatis, at <u>            <p>Email us: <a href="info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a></p>
-info@sjdigitalinclusion.org.</u></p>
+                For all other inquiries, please contact our Program Director, Charlene Tatis, at  <a href="mailto:info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a>
+</p>
                 </font>
                 
 

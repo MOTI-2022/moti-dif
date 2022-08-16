@@ -9,7 +9,7 @@ const AllBlog = () => {
   return (
     <>
   
-    <h5><font size = "5">Make An Impact</font></h5>
+    <h5><font size = "5">Make An Impact- For Organizations</font></h5>
  
       <section className='blog top'>
 

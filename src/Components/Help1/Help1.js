@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 
 import ScrollToTop from "react-scroll-to-top";
 
-
+import HeadTitle from "../../Common/HeadTitle/HeadTitle";
 
 
 
@@ -28,7 +28,7 @@ const Help1 = () => {
 
   return (
     <>
-      {/*<HeadTitle />*/}
+      <HeadTitle />
 
       <ScrollToTop smooth />
 
@@ -62,7 +62,7 @@ const Help1 = () => {
 
 
 
-        <div className='container1 aboutCard1 flex_space1'>
+        {/*<div className='container1 aboutCard1 flex_space1'>*/}
 
             {/*<div className='row row1'>*/}
 
@@ -71,7 +71,6 @@ const Help1 = () => {
             <p>
    
 
-           <br></br>           <br></br>
           <font size = "5">
           <b>San Jose Public Library </b><tab></tab><tab></tab>
           <a href="https://www.digitalinclusion.org/digital-navigator-model/#:~:text=Who%20Are%20Digital%20Navigators%3F,community%20members%20through%20repeated%20interactions" target="_blank" className="info-btn lib" >Volunteer</a>
@@ -108,7 +107,6 @@ const Help1 = () => {
             
 
             <br></br>            <br></br>
-            <br></br>           <br></br>
 
             <b>Sourcewise</b> <tab></tab><tab></tab>
           <a href="https://mysourcewise.com/support-sourcewise/volunteer/" target="_blank" className="info-btn lib" >Volunteer</a>
@@ -140,8 +138,8 @@ const Help1 = () => {
             </p>
             <br></br>
             <p>
-            <font size ="5">
-                For all other inquiries, please contact our Program Director, Charlene Tatis, at <b>  <u>info@sjdigitalinclusion.org </u> </b></font></p>
+            <font size ="5" color="blue">
+                For all other inquiries, please contact our Program Director, Charlene Tatis, at <b> <a href="mailto:info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a> </b></font></p>
             
             {/*<button className='secondary-btn'>
               Explore More <i className='fas fa-long-arrow-alt-right'></i>
@@ -155,7 +153,7 @@ const Help1 = () => {
           {/*</div>*/}
 
 
-        </div>
+       {/* </div>*/}
 
         
         

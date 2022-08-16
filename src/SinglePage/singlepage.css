@@ -44,6 +44,7 @@
   height: 30%;
   width: auto;
   margin-bottom: 20px;
+  max-height: 400px;
 }
 
 .resources img{

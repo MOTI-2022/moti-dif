@@ -2,7 +2,6 @@ import React from "react"
 import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import AllItem from "./AllItem"
 import MostPopular from "../HomeSection/popular/MostPopular"
-import Faq from '../faq/Faq';
 import ScrollToTop from "react-scroll-to-top";
 
 

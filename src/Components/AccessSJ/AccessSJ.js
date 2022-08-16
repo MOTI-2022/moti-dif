@@ -13,6 +13,8 @@ import AllWifi from "../Wifi/AllWifi";
 import AllReports from "../Reports/AllReports";
 
 import CourseInfo from "../CourseInfo/CourseInfo"
+import Devices from "../Devices/CourseInfo";
+import Hotspot from "../Hotspot/Hotspot";
 
 const AccessSJ = () => {
   const [data, setData] = useState([]);
@@ -32,19 +34,22 @@ const AccessSJ = () => {
       <h5>
       SJ Access Services {/*<span>Story</span>*/}
 
-              <br></br>
+              {/*<br></br>
               <font size="5">Find an affordable home internet plan that works for you.</font>
-              <br></br>
+              <br></br>*/}
 
 
 
       </h5>
       <div className="plan">
-      <u><font size="4">Affordable Broadband Plans:</font></u>
-              <br></br>
+     {/* <u><b><font size="5">DEVICES</font></b></u>
+              <br></br>*/}
 
-<font size="3">If you need an affordable home internet plan for you or your household, check out these flyers for instructions on determining your eligibility and signing up for a plan.
-If you are a San José resident and need assistance with connecting to affordable internet at home, please call (408) 716-3811 and you will be transferred to an organization that can assist you.
+              <h5><u><b><font size="5">Devices</font></b></u></h5>
+
+
+<font size="4">In different branches of San Jose public libraries, San Joseans can borrow a laptop, Chromebook or an iPad, togeter with a Wi-Fi hotspot. <br></br>
+NOTE: check the following cards to get more details of the availability, durations of rental, turning back policies of each device.
 </font></div>
 <br></br>
 <br></br>
@@ -54,8 +59,14 @@ If you are a San José resident and need assistance with connecting to affordabl
       <AdvSkills />*/}
 
       <div className='container1'>
-        <CourseInfo />
-        <AllReports />
+        <Devices />
+        <div className="plan">
+
+       {/* <u><b><font size="5">WIFI HOTSPOT</font></b></u>
+              <br></br>*/}
+        </div>
+
+        <Hotspot />
 
 
         {/*  <AboutCard />*/}

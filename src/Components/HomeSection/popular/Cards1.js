@@ -64,6 +64,7 @@ const Cards = () => {
                       <label>{value.country}</label>
                     </i>*/}
                   </div>
+                  <br></br>
                  {/* <div className='rate'>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>

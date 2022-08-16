@@ -27,8 +27,15 @@ margin-right: 100px;
 
 margin-left: 20px;
 margin-right: 20px;
+float: center;
 
 }
+.container1 .plan2{
+
+  margin-left: 200px;
+  margin-right: 20px;
+  
+  }
  .top1 p {
   font-size: 25px;
   margin: auto;

@@ -8,7 +8,7 @@ const CourseInfo = () => {
   return (
     <>
     <div className="wifi">
-      <section className='blog top'>
+      <section className='people top'>
 
         <div className='container'>
 

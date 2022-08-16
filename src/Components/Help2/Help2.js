@@ -1,5 +1,6 @@
 //import React from "react"
 import "../Blog/BlogHome.css"
+import "./Help2.css"
 
 import Blog from "../Blog/Blog"
 import { useLocation, Link } from "react-router-dom"
@@ -40,14 +41,19 @@ const Help2 = () => {
       {/* --------- main-content--------- */}
 
       <article className='content flex_space'>
+   
         <div className='main-content'>
+        <div className="money">
           <img src='/images/donateInd.jpg' alt='' />
+          </div>
 
           <div className='category flex_space'>
           <br></br>
             {/*<span>{item.date}</span>*/}
+
             <label>For Individuals</label>
           </div>
+
 
           <h1> Donate Money  </h1>
 

@@ -11,7 +11,6 @@ import Destinations from "./Components/Destinations/Home"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import SinglePage from "./SinglePage/SinglePage"
-import Access from "./Access/Access"
 
 
 /*-------------blog------------ */
@@ -31,7 +30,6 @@ import Digitalnav from "./Components/Digitalnav/Digitalnav"
 import Footer from "./Common/footer/Footer"
 import Login from "./Components/login/Login"
 import Register from "./Components/login/Register"
-import Faq from "./Components/faq/Faq"
 import Help1 from "./Components/Help1/Help1"
 import Help2 from "./Components/Help2/Help2"
 import Split from "./Components/Split/Split"
@@ -111,7 +109,6 @@ function App() {
           <Route path='/gallery' exact component={Gallery} />
           <Route path='/destinations' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />
-          <Route path='/access/:id' component={Access} />
           <Route path='/blog' exact component={Blog} />
           <Route path='/blog1' exact component={Blog1} />
           <Route path='/blog2' exact component={Blog2} />
@@ -121,7 +118,6 @@ function App() {
           <Route path='/peoplesingle/:id' component={PeopleSingle} />
           <Route path='/testimonial' component={Testimonial} />
           <Route path='/digitalnav' component={Digitalnav} />
-          <Route path='/faq' component={Faq} />
           <Route path='/contact' component={Contact} />
           <Route path='/sign-in' component={Login} />
           <Route path='/Register' component={Register} />

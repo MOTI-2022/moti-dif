@@ -56,6 +56,7 @@ const SinglePage = () => {
              SJ access
                 </Link></u> page for more information on renting hotspot or computing devices.
             </font></p>
+            <br></br>
 
                {/* <div className='image resources grid1 '>
                   <img src={item.paraImage_one} alt='' />*/}
@@ -64,10 +65,10 @@ const SinglePage = () => {
                 <div className="map">
                 <img src={item.paraImage_one} alt='' />
                 </div>
+
                 Find your local San José Public Library <t></t><a target="_blank" href="https://storelocator.site/LDAAwP" className="info-btn ">here</a>
                 <br></br>
                 <br></br>
-                
                 
 
 
@@ -95,6 +96,8 @@ const SinglePage = () => {
                 <p><font color="darkslategray">{item.desc2}</font></p>
 
                 <p><font color="darkslategray">{item.desc3}</font></p>
+                <br></br>
+
             <AllWifi />
 
           </div>
