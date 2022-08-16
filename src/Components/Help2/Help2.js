@@ -33,7 +33,7 @@ const Help2 = () => {
 
   <section className='single-page top'>
     <div className='container'>
-      <Link to='/blog' className='primary-btn back'>
+      <Link to='/blog1' className='primary-btn back'>
         <i className='fas fa-long-arrow-alt-left'></i> Go Back
       </Link>
 

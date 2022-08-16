@@ -1,20 +1,20 @@
 const questions = [
     {
       id: 1,
-      title: 'Can anyone get help from the DIF?',
-      info: 'Are there income requirements to participate?',
+      title: 'Who can receive funding from the Digital Inclusion Fund?      ',
+      info: 'Any organization that is a 501(c)(3), public agency, or educational institution that serves San José residents can receive funding from the Digital Inclusion Fund. Please visit the Apply to the Digital Inclusion Fund page in the Make an Impact for Organizations tab for more info:',
     },
     {
       id: 2,
-      title: 'Are there income requirements to participate?',
+      title: 'How do I apply to the Digital Inclusion Fund?',
       info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+        'Updated information for open applications is available on the Apply to the Digital Inclusion Fund page under the Make an Impact for Organizations tab.      ',
     },
     {
       id: 3,
-      title: 'Who can receive funding for the Digital Inclusion Fund?',
+      title: 'Can individuals receive funding from the Digital Inclusion Fund?      ',
       info:
-        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+        'Unfortunately no, sorry! However, if you need financial help getting digital resources (i.e. getting an internet plan, finding a device), please visit your local San Jose Public Library or contact one of our partner organizations who can help you directly.',
     },
     {
       id: 4,

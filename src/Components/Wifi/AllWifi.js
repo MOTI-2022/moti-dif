@@ -7,7 +7,7 @@ const AllWifi = () => {
   const [items, setIems] = useState(WifiData)
   return (
     <>
-    <div className="wifi">
+    <div className="pl">
       <section className='blog top'>
 
         <div className='container'>

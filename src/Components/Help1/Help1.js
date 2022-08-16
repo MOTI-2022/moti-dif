@@ -56,7 +56,7 @@ const Help1 = () => {
 
    
 
-      <Link to='/blog' className='primary-btn lib'>
+      <Link to='/blog1' className='primary-btn lib'>
             <i className='fas fa-long-arrow-alt-left'></i> Go Back
             </Link>
 

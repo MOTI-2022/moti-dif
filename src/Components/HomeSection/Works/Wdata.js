@@ -24,7 +24,7 @@ const Wdata = [
   {
     id: 1,
     cover: "/images/equity.png",
-    title: "Digital Literacy",
+    title: "Digital Equity",
     title1: "The Goal",
     desc: "Digital equity is the goal in which all individuals and communities have the digital information and technological capacity needed for full participation in our society, democracy, and economy.",
     desc1: "Sources: National Digital Inclusion Alliance; BCG, 2022; Sieck et al, 2021",

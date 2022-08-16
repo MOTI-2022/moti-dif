@@ -32,6 +32,13 @@ import Login from "./Components/login/Login"
 import Register from "./Components/login/Register"
 import Help1 from "./Components/Help1/Help1"
 import Help2 from "./Components/Help2/Help2"
+import Resource2 from "./Components/Resource2/Resource2"
+import DIF from "./Components/DIF/DIF"
+import Money from "./Components/Money/Money"
+import DonateDev from "./Components/DonateDev/DonateDev"
+import Rev from "./Components/Rev/Rev"
+
+
 import Split from "./Components/Split/Split"
 
 import FAQ1 from "./Components/FAQ1/FAQ1"
@@ -100,6 +107,11 @@ function App() {
           <Route path='/about' exact component={About} />
           <Route path='/help1' exact component={Help1} />
           <Route path='/help2' exact component={Help2} />
+          <Route path='/dif' exact component={DIF} />
+          <Route path='/money' exact component={Money} />
+          <Route path='/donatedev' exact component={DonateDev} />
+          <Route path='/rev' exact component={Rev} />
+          <Route path='/resource2' exact component={Resource2} />
           <Route path='/split' exact component={Split} />
           <Route path='/faq1' exact component={FAQ1} />
           <Route path='/grantees' exact component={Grantees} />

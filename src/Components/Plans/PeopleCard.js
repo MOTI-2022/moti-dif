@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, para1,para2,para3, page, page1,page2, btnLabel1, btnLabel2, catgeory, date } }) => {
+const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, para1,para2,para3, page, catgeory, date, page1, btnLabel1 } }) => {
   return (
     <>
       <div className='items'>
@@ -15,10 +15,12 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
           <label>{catgeory}</label>
         </div>*/}
 
-        <div className='details'>
+        <div className='details3'>
           <h3>{title}</h3>
-          <p>{para}</p>
-
+         <p>{para}</p>
+          {/*<p>{para1}</p>
+          <p>{para2}</p>
+          <p>{para3}</p>*/}
 
         </div>
 
@@ -32,15 +34,12 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
         </Link>
 
         */}
-        <font color = "blue">
-        <a href={page} target="_blank" className="peopleItem-link" >{btnLabel}   </a> <t/>
-  
+        <a href={page} target="_blank" className="peopleItem-link" >{btnLabel}<i className='fa fa-long-arrow-right'></i></a>
+        <br></br>
+        <a href={page1} target="_blank" className="peopleItem-link" >{btnLabel1}<i className='fa fa-long-arrow-right'></i></a>
 
-        <a href={page1} target="_blank" className="peopleItem-link" >{btnLabel1}   </a> <t/>
-    
 
-        <a href={page2} target="_blank" className="peopleItem-link" >{btnLabel2}</a>
-        </font>
+ 
 
 
       </div>

@@ -3,7 +3,7 @@ import "./PeopleHome.css"
 import CourseData from "./CourseData"
 import PeopleCard from "./PeopleCard"
 
-const CourseInfo = () => {
+const Devices = () => {
   const [items, setIems] = useState(CourseData)
   return (
     <>
@@ -25,4 +25,4 @@ const CourseInfo = () => {
   )
 }
 
-export default CourseInfo
+export default Devices 

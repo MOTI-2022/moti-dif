@@ -12,6 +12,7 @@ import AllBlog from "../Blog/AllBlog"
 import AllWifi from "../Wifi/AllWifi";
 
 import CourseInfo from "../CourseInfo/CourseInfo"
+import Plans from "../Plans/Plans"
 
 const Broadband = () => {
   const [data, setData] = useState([]);
@@ -53,7 +54,7 @@ If you are a San José resident and need assistance with connecting to affordabl
       <AdvSkills />*/}
 
       <div className='container1'>
-        <CourseInfo />
+        <Plans />
 
 
         {/*  <AboutCard />*/}

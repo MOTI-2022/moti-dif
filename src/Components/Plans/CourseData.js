@@ -1,38 +1,37 @@
 const CourseData = [
   {
     id: 1,
-    date: "January 01, 2020",
-    catgeory: "For Individuals ",
-    title: "Courses in San Jose Public Libraries",
-    cover: "/images/adult.png",
-    para: "Take hybrid (can join in-person or online) computer classes through your local San José Public Library:",
-    desc: "Checks can be written out to the “California Emerging Technology Fund” and note in the Memo section “San Jose Digital Inclusion Fund.”  Mail checks to 333 West San Carlos Street, 6th Floor, San Jose, CA 95110.”    ",
-    page: "https://www.sjpl.org/computer-classes",
-    btnLabel: "LEARN MORE",
+    title: "English",
+    cover: "/images/hello.png",
+    para: "Find Plans in English",
+    page: "https://www.internetforallnow.org/applytoday",
+    page1: "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+    btnLabel: "Affordable Connectivity Program",
+    btnLabel1: "Find Affordable Internet and Computers",
+
   },
   {
     id: 2,
-    date: "January 15, 2021",
-    catgeory: "For Individuals",
-    title: "Online Courses on Software Essentials",
-    cover: "/images/kid.png",
-    para: "Take an online digital literacy course in your own language, at your own pace:",
-    page: "https://rise.articulate.com/share/Xd1tvRvGfIIDaTnnXWMGqC7M7OFaGtrB#/",
-    page1: "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
-    page2: "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
-    btnLabel: "English,  ",
-    btnLabel1: "Español,  ",
-    btnLabel2: "Tiếng Việt",
+    title: "Español",
+    cover: "/images/hola.png",
+    para: "Find Plans in Español",
+    page: "https://www.internetforallnow.org/aplicahoy",
+    page1: "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+    btnLabel: "Programa de Descuentos para Internet (ACP)",
+    btnLabel1: "Encuentra Servicio de Internet y Computadoras en Tu Área",
+
 
   },
   {
     id: 3,
-    date: "January 21, 2018",
-    catgeory: "For Individuals",
-    title: "Advanced and Themed Skills",
-    cover: "/images/theme.png",
-    para: `Coming soon!`,
-    contact: "Click below to learn more about what a digital navigator is!",
+    title: "Theong Viet",
+    cover: "/images/viet.png",
+    para: `Find Plans in Vietnamese`,
+    page: "https://www.internetforallnow.org/viet",
+    page1: "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+    btnLabel: "Chương Trình Kết Nối Giá Phải Chăng",
+    btnLabel1: "Find Affordable Internet and Computers",
+
 
   },/*
   {

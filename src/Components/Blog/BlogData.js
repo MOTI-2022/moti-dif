@@ -1,5 +1,5 @@
 const BlogData = [
-  {
+  /*{
     id: 1,
     date: "January 01, 2020",
     catgeory: "For Individuals ",
@@ -20,7 +20,7 @@ const BlogData = [
     page: "https://closingthedivide.foundation/ewaste-1",
     newPage: "blogsingle/2",
 
-  },
+  },/*
   {
     id: 3,
     date: "January 21, 2018",
@@ -74,7 +74,7 @@ const BlogData = [
      You are a 501(c)(3), public agency, or educational institution.\n-You provide services to San José residents in areas such as 
      (but not limited to) education, workforce development, homelessness, healthcare, affordable housing, public safety, emergency preparedness, or another social service. 
      \n-You are already addressing or would like to address the digital needs of San José residents.`,
-    newPage: "blogsingle/4",
+    newPage: "dif",
     page: "https://drive.google.com/drive/folders/1sRrfWosqnx19bNaTV6iICCvNaGQv8-M4",
 
   },

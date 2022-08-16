@@ -22,8 +22,7 @@ const Sdata = [
     desc1: "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
     desc2: "Access free, public Wi-Fi on your device in select locations throughout San José.",
     desc3: "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
-    sidepara: "Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur cipsum dolor sit amet consectetur adipiscing elit amet consect piscing elit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit",
-    newPage: "singlepage/2",
+    newPage: "resource2",
   },
   {
     id: 3,

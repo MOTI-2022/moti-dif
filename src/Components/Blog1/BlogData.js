@@ -18,7 +18,7 @@ const BlogData = [
     cover: "/images/deviceInd.jpg",
     para: "Donate your old computers and devices to Closing the Divide’s E-Waste Program! Your devices will refurbished and then donated to households in need.    ",
     page: "https://closingthedivide.foundation/ewaste-1",
-    newPage: "blogsingle/2",
+    newPage: "donatedev",
 
   },
   {

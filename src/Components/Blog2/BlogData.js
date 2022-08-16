@@ -75,7 +75,7 @@ const BlogData = [
      You are a 501(c)(3), public agency, or educational institution.\n-You provide services to San José residents in areas such as 
      (but not limited to) education, workforce development, homelessness, healthcare, affordable housing, public safety, emergency preparedness, or another social service. 
      \n-You are already addressing or would like to address the digital needs of San José residents.`,
-    newPage: "blogsingle/4",
+    newPage: "dif",
     page: "https://drive.google.com/drive/folders/1sRrfWosqnx19bNaTV6iICCvNaGQv8-M4",
 
   },
@@ -88,7 +88,7 @@ const BlogData = [
     para: "All proceeds donated are administered by the California Emerging Technology Fund’s general Digital Inclusion Fund. $30 sponsors a student’s internet through the summer, and $150 buys a refurbished device. We deeply appreciate your support!",
     desc: "Checks can be written out to the “California Emerging Technology Fund” and note in the Memo section “San Jose Digital Inclusion Fund.”  Mail checks to 333 West San Carlos Street, 6th Floor, San Jose, CA 95110.”    ",
     page: "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=MUZC664CJEB32&source=url",
-    newPage: "blogsingle/5",
+    newPage: "money",
 
   },
   {
@@ -103,7 +103,7 @@ const BlogData = [
     Example message:
     Hello, I am a corporate donor representative for [corporation], and would like to discuss donating devices for the San José Digital Inclusion Fund. My contact information is [contact information], please let me know how we can proceed. Thank you so much!`,
     page: "https://www.revivn.com/contact-us",
-    newPage: "blogsingle/6",
+    newPage: "rev",
     contact: 'Contact:',
     contact1: 'Revivn',
     contact2: 'Phone: +1 347 762 8193',
