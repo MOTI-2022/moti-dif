@@ -234,3 +234,9 @@ input {
     margin-left: 0px;
   }
 }
+
+.language-select {
+  float: right;
+  margin-top: -35px;
+  
+}

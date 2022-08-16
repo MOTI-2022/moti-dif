@@ -4,9 +4,11 @@ import { Link } from "react-router-dom"
 import { NavLink } from "react-router-dom";
 import Home from "../../Components/HomeSection/Slide";
 import {animateScroll as scroll } from "react-scroll";
-
+import LanguageSelect from "../../languageSelect";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [click, setClick] = useState(false)
 
   const handleClick = () => setClick(!click)
@@ -30,13 +32,19 @@ const Navbar = () => {
         <div className="picture">
           <img src='/images/logo2.png' alt='' />
         </div>
+
+        {/* Select Language Container - Action: need to move */}
+        <div className="language-select">
+          <LanguageSelect />
+        </div>
+
           <ul className={click ? "nav-menu active" : "nav-menu"}>
           {/*<div className="absolute left-0 top-0 h-1/4 w-1/4 flex-shrink-0">*/}
  
 
         <li>
          {/* <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>*/}
-          <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>
+          <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >{t("nav_about")}</NavLink>
         </li>
        {/* <li>
           <NavLink activeStyle={{ color:'#5754a8' }} to="/about">
@@ -63,7 +71,7 @@ const Navbar = () => {
             </li>*/}
             <li>
               <NavLink to='/about' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active" >
-                Learn More 
+              {t("nav_learn_more")} 
               </NavLink>
             </li>
             {/*<li>
@@ -74,12 +82,12 @@ const Navbar = () => {
  
             <li>
               <NavLink to='/destinations' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
-                Get Help
+              {t("nav_get_help")}
               </NavLink>
             </li>
             <li>
               <NavLink to='/split' onClick= {()=>(closeMobileMenu, scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
-                Make An Impact
+              {t("nav_make_impact")}
               </NavLink>
             </li>
             {/*<li>

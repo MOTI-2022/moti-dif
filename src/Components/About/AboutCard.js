@@ -1,8 +1,9 @@
 import React from "react"
 import "./About.css"
+import { useTranslation } from "react-i18next";
 
 const AboutCard = () => {
-
+  const { t } = useTranslation();
 
   return (
     <>
@@ -10,7 +11,7 @@ const AboutCard = () => {
         <div className='row row1'>
          {/* <h4>About Us</h4>*/}
           <h1>
-             <span> Digital Inclusion <br></br>Lives Here </span> 
+          <span> {t("about_tag1")} <br></br> {t("about_tag2")} </span> 
           </h1>
           <p>Ensuring all San Joséans can achieve devices, access, and literacy.</p>
          {/* <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
