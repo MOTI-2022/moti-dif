@@ -35,6 +35,8 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
         </Link>
 
         */}
+
+        <br></br>
         <a href={page} target="_blank" className="peopleItem-link" >{btnLabel}<i className='fa fa-long-arrow-right'></i></a>
 
 

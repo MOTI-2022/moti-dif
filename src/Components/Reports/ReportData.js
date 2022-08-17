@@ -2,13 +2,11 @@ const ReportData = [
   {
     id: 1,
     date: "January 01, 2020",
-    catgeory: "For Individuals ",
-    title: "SAN	JOSÉ DIF FAMILY	SURVEYS REPORT",
+    title: "SAN	JOSÉ DIF ROUND III GRANT REPORT",
     cover: "/images/donateInd.jpg",
     para: "Santa Clara County Office of Education, City of San José, and California Emerging Technology Fund ",
     desc: "Checks can be written out to the “California Emerging Technology Fund” and note in the Memo section “San Jose Digital Inclusion Fund.”  Mail checks to 333 West San Carlos Street, 6th Floor, San Jose, CA 95110.”    ",
     page: "https://sanjose.legistar.com/View.ashx?M=F&ID=10708445&GUID=88188936-EA00-483C-A49A-D618205A916E",
-    newPage: "blogsingle/1",
     btnLabel: "Find a library",
   },
   /*

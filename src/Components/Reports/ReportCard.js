@@ -34,12 +34,7 @@ const ReportCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
         </Link>
 
         */}
-        <a href={page} target="_blank" className="read-btn" >Read in English<i className='fa fa-long-arrow-right'></i></a>
-        <br></br>
-        <a href={page} target="_blank" className="read-btn" >En Español<i className='fa fa-long-arrow-right'></i></a>
-        <br></br>
-        <a href={page} target="_blank" className="read-btn" >Theong Viet<i className='fa fa-long-arrow-right'></i></a>
-
+        <a href={page} target="_blank" className="read-btn" >Read here <i className='fa fa-long-arrow-right'></i></a>
 
  
 

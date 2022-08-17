@@ -30,7 +30,7 @@ const Intro = () => {
           <div className='row row2'>
           <figure>
             <div className="stat">
-            <img src='/images/statistic1.png' alt=''  />
+            <img src='/images/number1.png' alt=''  />
             </div>
             <div className="caption">
             <figcaption>In 2020, 10% of Californians reported not having a desktop, laptop, or other computing device at home. Access was especially limited among low-income (23%), Black (15%), and Latino (15%) households. (Source: PPIC, 2022)</figcaption>

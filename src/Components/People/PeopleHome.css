@@ -11,7 +11,7 @@
   border-radius: 5px;
   transition: 0.5s ease-in-out;
 
-  width: 80%;
+  width: 70%;
   
   padding-bottom: 0px;
 
@@ -21,6 +21,13 @@
   min-height: fit-content;
 max-height: 340px;
 height: fit-content;
+
+
+min-width: 300px;
+max-width: 400px;
+
+
+
 
 
 }
@@ -80,7 +87,7 @@ height: fit-content;
   margin-bottom: 10px;
 }
 .people .items p {
-  font-size: 12px;
+  font-size: 14px;
   color: black;
   margin-bottom: 5px;
   transition: 0.5s ease-in-out;
@@ -88,9 +95,10 @@ height: fit-content;
 
 .people .items .peopleItem-link
 {
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
+
 }
 
 .people .items a {

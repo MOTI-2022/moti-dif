@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 //import Sdata from "./Sdata"
 import SJaccess from "./SJaccess"
 import Home from "./Home"
+import {animateScroll as scroll} from "react-scroll"
 
 
 const Cards = ({ item: { id, newPage, image, title, sidepara, desc, paraImage_one, paraImage_two } }) => {
@@ -14,7 +15,7 @@ const Cards = ({ item: { id, newPage, image, title, sidepara, desc, paraImage_on
 
           {/*<Link to={`/singlepage/${id}`} className='blogItem-link'>*/}
          {/*<Link to={`./destinations`} >*/}
-         <Link to={`./${newPage}`}>{desc}
+         <Link to={`./${newPage}`} onClick= {()=>(scroll.scrollToTop())} >{desc}
 
           {/*<Link to={`./destinations/${newPage}`} className='blogItem-link'>*/}
 

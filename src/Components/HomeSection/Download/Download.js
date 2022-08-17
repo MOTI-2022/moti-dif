@@ -39,7 +39,7 @@ const Download = () => {
           </div>
           <br></br>
           <div className='row row2'>
-            <img src='/images/diagram1.png' alt='' className='image' />
+            <img src='/images/difpic.png' alt='' className='image' />
           </div>
         </div>
       </section>
