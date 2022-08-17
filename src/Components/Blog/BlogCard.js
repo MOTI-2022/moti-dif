@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import { animateScroll as scroll } from "react-scroll"
+
 
 const BlogCard = ({ item: { id, newPage, cover, title, desc, para, catgeory, date } }) => {
   return (
@@ -24,7 +26,7 @@ const BlogCard = ({ item: { id, newPage, cover, title, desc, para, catgeory, dat
         {/*<Link to={`/blogsingle/${id}`} className='blogItem-link'>*/}
         {/*<Link to={`/${newPage}/${id}`} className='blogItem-link'>*/}
 
-        <Link to={`/${newPage}`} href = 'src/blogsingle/1' className='blogItem-link'>
+        <Link to={`/${newPage}`} onClick= {()=>(scroll.scrollToTop())} className='blogItem-link'>
           LEARN MORE <i className='fa fa-long-arrow-right'></i>
         </Link>
 

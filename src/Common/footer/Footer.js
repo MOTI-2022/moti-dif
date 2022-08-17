@@ -2,7 +2,7 @@ import React from "react"
 import "./Footer.css"
 import { Link } from "react-router-dom"
 import Gallery from "../..//Components/HomeSection/gallery/Gallery"
-
+import { animateScroll as scroll } from "react-scroll"
 
 const Footer = () => {
   return (
@@ -36,19 +36,19 @@ const Footer = () => {
             <ul>
             
               <li>
-                <Link to='/accessSJ'>SJ Access Services</Link>
+                <Link to='/accessSJ' onClick= {()=>(scroll.scrollToTop())}>SJ Access Services</Link>
               </li>
               <li>
-                <Link to='/singlepage/2'>Public Free Internet</Link>
+                <Link to='/resource2' onClick= {()=>(scroll.scrollToTop())} >Public Free Internet</Link>
               </li>
               <li>
-                <Link to='/broadband'>Broadband Connection</Link>
+                <Link to='/broadband' onClick= {()=>(scroll.scrollToTop())}>Broadband Connection</Link>
               </li>
               <li>
-                <Link to='/courses'>Digital Literacy Training</Link>
+                <Link to='/courses' onClick= {()=>(scroll.scrollToTop())}>Digital Literacy Training</Link>
               </li>
               <li>
-                <Link to='/people'>People Offering Help</Link>
+                <Link to='/people' onClick= {()=>(scroll.scrollToTop())}>People Offering Help</Link>
               </li>
               {/*
               <li>

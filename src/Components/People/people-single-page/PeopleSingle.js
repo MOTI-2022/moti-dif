@@ -4,6 +4,7 @@ import PeopleData from "../PeopleData"
 import EmptyFile from "../../../Common/Empty/EmptyFile"
 import HeadTitle from "../../../Common/HeadTitle/HeadTitle"
 import { useParams } from "react-router-dom"
+import {animateScroll as scroll } from "react-scroll";
 
 const PeopleSingle = () => {
   const { id } = useParams()

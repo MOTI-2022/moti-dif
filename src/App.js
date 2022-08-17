@@ -7,6 +7,7 @@ import Gallery from "./Components/gallery/Gallery"
 //import DHome from "./Components/Destinations/Home"
 import Destinations from "./Components/Destinations/Home"
 //import { Timeline } from './timeline/timeline.jsx'
+import {animateScroll as scroll } from "react-scroll";
 
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
@@ -103,7 +104,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/home' exact component={Home} />
+          <Route path='/home' onClick= {()=>(scroll.scrollToTop())} exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/help1' exact component={Help1} />
           <Route path='/help2' exact component={Help2} />

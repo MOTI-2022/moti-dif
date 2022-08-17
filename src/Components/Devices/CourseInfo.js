@@ -8,7 +8,7 @@ const Devices = () => {
   return (
     <>
     <div className="wifi">
-      <section className='dv top'>
+      <section className='pl top'>
 
         <div className='container'>
 

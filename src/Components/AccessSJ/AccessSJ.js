@@ -48,10 +48,9 @@ const AccessSJ = () => {
               <h5><u><b><font size="5">Devices</font></b></u></h5>
 
 
-<font size="4">In different branches of San Jose public libraries, San Joseans can borrow a laptop, Chromebook or an iPad, togeter with a Wi-Fi hotspot. <br></br>
+<h6><font size="4">In different branches of San Jose public libraries, San Joséans can borrow a laptop, Chromebook or an iPad, together with a Wi-Fi hotspot. <br></br>
 NOTE: check the following cards to get more details of the availability, durations of rental, turning back policies of each device.
-</font></div>
-<br></br>
+</font></h6></div>
 <br></br>
   
       {/*<MostPopular />
