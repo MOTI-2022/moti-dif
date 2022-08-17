@@ -1,15 +1,15 @@
 const data = [
   {
-    cover: "./images/gallery/gallery-1.png",
+    cover: "./images/cetfLogo.png",
   },
   {
-    cover: "./images/gallery/gallery-2.png",
+    cover: "./images/cityLogo.png",
   },
   {
     cover: "./images/gallery/gallery-3.png",
   },
   {
-    cover: "./images/sjpl.png",
+    cover: "./images/sjplLogo.png",
   },
 
 ]

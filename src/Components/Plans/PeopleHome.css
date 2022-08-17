@@ -22,14 +22,14 @@
   width: 90%;
   max-width: 240px;
 
-  height: 20%;
   min-height: fit-content;
-  height: fit-content;
   min-width: 50%;
   min-width: 100px;
   max-width: 400px;
   margin: auto;
   padding-left: 20px;
+
+  
 }
 
 .pl{

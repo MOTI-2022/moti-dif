@@ -1,27 +1,27 @@
 const data = [
   {
-    cover: "./images/gallery/gallery-1.png",
+    cover: "./images/cetfLogo.png",
   },
   {
-    cover: "./images/gallery/gallery-2.png",
+    cover: "./images/cityLogo.png",
   },
   {
-    cover: "./images/sjpl.png",
+    cover: "./images/sjplLogo.png",
   },
   {
-    cover: "./images/service.png",
+    cover: "./images/servicenowLogo.png",
   },
   {
     cover: "./images/zoom.png",
   },
   {
-    cover: "./images/att.png",
+    cover: "./images/attLogo.png",
   },
   {
-    cover: "./images/adobe.png",
+    cover: "./images/adobeLogo.png",
   },
   {
-    cover: "./images/rev.png",
+    cover: "./images/revLogo.png",
   },
 ]
 

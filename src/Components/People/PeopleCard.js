@@ -41,6 +41,8 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
 
 
  
+        <br></br>
+        <br></br>
 
 
       </div>
