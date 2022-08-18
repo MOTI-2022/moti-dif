@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./PeopleHome.css"
-import CourseData from "./CourseData"
+// import CourseData from "./CourseData"
 import PeopleCard from "./PeopleCard"
 import { useTranslation } from "react-i18next";
 
