@@ -332,5 +332,49 @@
                 "para": "Sắp ra mắt!"
             }
         ]
+    },
+
+    "people": {
+        "title": "Trợ giúp trực tiếp",
+        "para": "Tìm hỗ trợ trực tiếp hoặc trực tiếp cho các câu hỏi và nhu cầu kỹ thuật của bạn.",
+        "cards": [
+            {
+                "id": 1,
+                "title": "1) Hỗ trợ trong Thư viện",
+                "cover": "/images/ppl1.png",
+                "para": "Tìm Thư viện Công cộng San José địa phương của bạn thông qua bản đồ của chúng tôi và yêu cầu nhân viên hỗ trợ kỹ thuật trực tiếp.",
+                "page": "https://storelocator.site/LDAAwP",
+                "newPage": "blogsingle/1",
+                "btnLabel": "Tìm thư viện"
+            },
+            {
+                "id": 2,
+                "title": "2) Cuộc hẹn Hỗ trợ Kỹ thuật",
+                "cover": "/images/ppl2.png",
+                "para": "Đăng ký sự kiện hoặc cuộc hẹn Hỗ trợ Kỹ thuật tại thư viện của bạn. Những sự kiện này có thể diễn ra theo peson, hầu như hoặc trong một mô hình kết hợp.",
+                "page": "https://sjpl.bibliocommons.com/v2/events?locations=BC_VIRTUAL&types=5d65e9ae2f3a81f8aeaabba3",
+                "newPage": "blogsingle/2",
+                "btnLabel": "Đăng ký tại đây"
+            },
+            {
+                "id": 3,
+                "title": "3) Các tổ chức cộng đồng",
+                "cover": "/images/ppl3.png",
+                "para": "Liên hệ với bất kỳ tổ chức địa phương nào có thể giúp bạn với các nhu cầu kỹ thuật số của bạn.",
+                "newPage": "help1",
+                "page": "https://www.digitalinclusion.org/digital-navigator-model/#:~:text=Who%20Are%20Digital%20Navigators%3F,community%20members%20through%20repeated%20interactions.",
+                "btnLabel": "Tìm tổ chức"
+            },
+            {
+                "id": 4,
+                "title": "4) Đường dây trợ giúp hỗ trợ kỹ thuật",
+                "cover": "/images/ppl4.png",
+                "para": "Gọi cho Đường dây trợ giúp hỗ trợ kỹ thuật theo số (408) 808-2000 Thứ Hai-Thứ Bảy từ 11:00 sáng đến 6:00 chiều nếu bạn cần hỗ trợ bằng tiếng Anh hoặc tiếng Tây Ban Nha.",
+                "para1": "",
+                "newPage": "blogsingle/4",
+                "page": "https://www.sjpl.org/sj-access-tech-support",
+                "btnLabel": "Nhận hỗ trợ kỹ thuật"
+            }
+        ]
     }
 }

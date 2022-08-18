@@ -1,21 +1,23 @@
 import React, { useState } from "react"
 import "./PeopleHome.css"
-import PeopleData from "./PeopleData"
+// import PeopleData from "./PeopleData"
 import PeopleCard from "./PeopleCard"
+import { useTranslation } from "react-i18next";
 
 const AllPeople = () => {
-  const [items, setIems] = useState(PeopleData)
+  // const [items, setIems] = useState(PeopleData)
+  const { t } = useTranslation();
+
   return (
     <>
-    <h5><font size = "6" >In person help</font></h5>
-    <h6><font size = "4" color="brown">Get connected to one-on-one support for your digital needs. <br></br>
-  Find in-person or one-on-one support for your technical questions and needs.</font></h6>
+    <h5><font size = "6" > {t("people.title")} </font></h5>
+    <h6><font size = "4" color="brown"> {t("people.para")} </font></h6>
       <section className='people top'>
 
         <div className='containerPeople'>
 
           <div className='content grid'>
-            {items.map((item) => {
+            {t("people.cards", { returnObjects: true }).map((item) => {
               return <PeopleCard key={item.id} item={item} />
             })}
           </div>
