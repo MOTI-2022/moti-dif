@@ -159,5 +159,61 @@
                 "newPage": "FAQ1"
             }
         ]
+    },
+
+    "sj_access": {
+        "title": "Dịch vụ SJ Access",
+        "pg1": "Thông qua SJ Access, Thư viện Công cộng San José cung cấp cho cư dân quyền truy cập internet và các thiết bị công nghệ mà họ cần. Tại bất kỳ thư viện SJPL nào, bạn có thể thuê máy tính hoặc thiết bị internet miễn phí bằng thẻ thư viện. Kiểm tra các thẻ sau để biết thêm thông tin về tính khả dụng, hướng dẫn về chính sách thuê và trả lại của từng thiết bị.",
+        "devices": {
+            "title": "Thiết bị",
+            "devices": [
+                {
+                    "id": 1,
+                    "title": "iPad",
+                    "cover": "/images/ipad1.png",
+                    "para": "Thuê iPad - Máy tính bảng, máy tính cầm tay, di động có màn hình cảm ứng để nhập và điều hướng.",
+                    "page": "https://www.sjpl.org/ipads",
+                    "btnLabel": "SINH RA MỘT IPAD"
+                },
+                {
+                    "id": 2,
+                    "title": "Chromebook",
+                    "cover": "/images/chromebook.png",
+                    "para": "Truy cập trình duyệt internet thông qua máy tính xách tay Chromebook chạy trên Google Chrome OS.",
+                    "page": "https://www.sjpl.org/chromebooks",
+                    "btnLabel": "SINH RA MỘT SỔ CHROMEBOOK"
+                },
+                {
+                    "id": 3,
+                    "title": "Máy tính xách tay",
+                    "cover": "/images/laptop.png",
+                    "para": "Kiểm tra một máy tính xách tay, một máy tính di động cho tất cả các nhu cầu kỹ thuật số của bạn.",
+                    "page": "https://www.sjpl.org/laptops",
+                    "btnLabel": "SINH RA MỘT LAPTOP"
+                }
+            ]
+        },
+        "hotspot": {
+            "title": "Điểm phát sóng Wi-Fi",
+            "hotspot": [
+                {
+                    "id": 1,
+                    "title": "Điểm phát sóng Wi-Fi",
+                    "cover": "/images/hotspot.png",
+                    "para": "Kết nối với internet khi đang di chuyển hoặc ở nhà bằng cách thuê điểm phát sóng Wi-Fi.",
+                    "page": "https://www.sjpl.org/hotspot",
+                    "btnLabel": "Mượn điểm phát sóng"
+                }
+            ]
+        },
+        "self_troubleshooting": {
+            "title": "Tự khắc phục sự cố",
+            "para_p1": "Nếu bạn gặp bất kỳ sự cố nào khi thiết lập thiết bị của mình, hãy xem các video SJ Access này, có sẵn bằng tiếng Anh, tiếng Tây Ban Nha hoặc tiếng Việt. Đối với bất kỳ vấn đề nào khác, bạn có thể tìm hỗ trợ kỹ thuật ",
+            "para_linked": "tại đây",
+            "para_p2": ", hoặc yêu cầu trợ giúp tại chi nhánh Thư viện Công cộng San José tại địa phương của bạn.",
+            "playlist_en": "Toàn bộ danh sách SJ Access: Tiếng Anh",
+            "playlist_es": "Toàn bộ danh sách SJ Access: Español",
+            "playlist_vi": "Toàn bộ danh sách SJ Access: Tiếng Việt"
+        }
     }
 }

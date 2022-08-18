@@ -159,5 +159,61 @@
                 "newPage": "FAQ1"
             }
         ]
+    },
+
+    "sj_access": {
+        "title": "Servicios SJ Access",
+        "pg1": "A través del SJ Access , la Biblioteca Pública de San José brinda a los residentes el acceso a Internet y los dispositivos tecnológicos que necesitan. En cualquier biblioteca SJPL, puede alquilar un dispositivo informático o de Internet de forma gratuita con una tarjeta de biblioteca. Consulte las siguientes tarjetas para obtener más información sobre la disponibilidad, las instrucciones de alquiler y las políticas de devolución de cada dispositivo.",
+        "devices": {
+            "title": "DISPOSITIVOS",
+            "devices": [
+                {
+                    "id": 1,
+                    "title": "iPad",
+                    "cover": "/images/ipad1.png",
+                    "para": "Alquile un iPad - Una tableta, una computadora portátil de mano que tiene una pantalla sensible al tacto para escribir y navegar.",
+                    "page": "https://www.sjpl.org/ipads",
+                    "btnLabel": "PEDIR PRESTADO UN IPAD"
+                },
+                {
+                    "id": 2,
+                    "title": "Chromebook",
+                    "cover": "/images/chromebook.png",
+                    "para": "Acceda al navegador de Internet a través de la computadora portátil Chromebook, que se ejecuta en el sistema operativo Google Chrome OS.",
+                    "page": "https://www.sjpl.org/chromebooks",
+                    "btnLabel": "PEDIR PRESTADO UN CHROMEBOOK"
+                },
+                {
+                    "id": 3,
+                    "title": "Computadora Portátil",
+                    "cover": "/images/laptop.png",
+                    "para": "Vea una computadora portátil, una computadora portátil para todas sus necesidades digitales.",
+                    "page": "https://www.sjpl.org/laptops",
+                    "btnLabel": "PEDIR PRESTADA UNA COMPUTADORA PORTÁTIL"
+                }
+            ]
+        },
+        "hotspot": {
+            "title": "WI-FI HOTSPOT",
+            "hotspot": [
+                {
+                    "id": 1,
+                    "title": "Wi-Fi Hotspot",
+                    "cover": "/images/hotspot.png",
+                    "para": "Conéctese a Internet en movimiento o en casa alquilando un hotspot Wi-Fi.",
+                    "page": "https://www.sjpl.org/hotspot",
+                    "btnLabel": "PEDIR PRESTADO UN HOTSPOT"
+                }
+            ]
+        },
+        "self_troubleshooting": {
+            "title": "Solución Automática de Problemas",
+            "para_p1": "Si tiene problemas para configurar su dispositivo, mire estos videos de SJ Access, disponibles en inglés, español o vietnamita. Para cualquier otro problema, puede encontrar soporte técnico ",
+            "para_linked": "aquí",
+            "para_p2": ", o pedir ayuda en su sucursal local de la Biblioteca Pública de San José.",
+            "playlist_en": "Lista de reproducción completa de SJ Access: Inglés",
+            "playlist_es": "Lista de reproducción completa de SJ Access: Español",
+            "playlist_vi": "Lista de reproducción completa de SJ Access: Tiếng Việt"
+        }
     }
 }

@@ -16,8 +16,11 @@ import CourseInfo from "../CourseInfo/CourseInfo"
 import Devices from "../Devices/CourseInfo";
 import Hotspot from "../Hotspot/Hotspot";
 
+import { useTranslation } from "react-i18next";
+
 const AccessSJ = () => {
   const [data, setData] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     // This just tells react to run this code when page first loads
@@ -32,7 +35,7 @@ const AccessSJ = () => {
       {/*<HeadTitle />*/}
       <br></br>
       <h5>
-      SJ Access Services {/*<span>Story</span>*/}
+      {t("sj_access.title")} {/*<span>Story</span>*/}
 
               {/*<br></br>
               <font size="5">Find an affordable home internet plan that works for you.</font>
@@ -45,13 +48,10 @@ const AccessSJ = () => {
      {/* <u><b><font size="5">DEVICES</font></b></u>
               <br></br>*/}
 
-              <h5><u><b><font size="5">Devices</font></b></u></h5>
+      <h6><font size="4"> {t("sj_access.pg1")} </font></h6></div>
+      <br></br>
 
-
-<h6><font size="4">In different branches of San Jose public libraries, San Joséans can borrow a laptop, Chromebook or an iPad, together with a Wi-Fi hotspot. <br></br>
-NOTE: check the following cards to get more details of the availability, durations of rental, turning back policies of each device.
-</font></h6></div>
-<br></br>
+      <h5><u><b><font size="5"> {t("sj_access.devices.title")} </font></b></u></h5>
   
       {/*<MostPopular />
 

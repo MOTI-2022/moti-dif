@@ -159,5 +159,61 @@
                 "newPage": "FAQ1"
             }
         ]
+    },
+
+    "sj_access": {
+        "title": "SJ Access Services",
+        "pg1": "Through the SJ Access program, the San José Public Library provides residents with the internet access and technology devices they need. At any SJPL library, you can rent a computing or internet device for free with a library card. Check the following cards for more information on the availability, instructions on renting, and return policies of each device.",
+        "devices": {
+            "title": "DEVICES",
+            "devices": [
+                {
+                    "id": 1,
+                    "title": "iPad",
+                    "cover": "/images/ipad1.png",
+                    "para": "Rent an iPad - a tablet, handheld, portable computer that has a touch-sensitive screen for typing and navigation.",
+                    "page": "https://www.sjpl.org/ipads",
+                    "btnLabel": "BORROW AN IPAD"
+                },
+                {
+                    "id": 2,
+                    "title": "Chromebook",
+                    "cover": "/images/chromebook.png",
+                    "para": "Access the internet browser through the Chromebook laptop, which runs on the Google Chrome OS.",
+                    "page": "https://www.sjpl.org/chromebooks",
+                    "btnLabel": "BORROW A CHROMEBOOK"
+                },
+                {
+                    "id": 3,
+                    "title": "Laptop",
+                    "cover": "/images/laptop.png",
+                    "para": "Check out a laptop, a portable computer for all your digital needs.",
+                    "page": "https://www.sjpl.org/laptops",
+                    "btnLabel": "BORROW A LAPTOP"
+                }
+            ]
+        },
+        "hotspot": {
+            "title": "WI-FI HOTSPOT",
+            "hotspot": [
+                {
+                    "id": 1,
+                    "title": "Wi-Fi Hotspot",
+                    "cover": "/images/hotspot.png",
+                    "para": "Connect to the internet on the move or at home by renting a Wi-Fi hotspot.",
+                    "page": "https://www.sjpl.org/hotspot",
+                    "btnLabel": "BORROW A HOTSPOT"
+                }
+            ]
+        },
+        "self_troubleshooting": {
+            "title": "Self Troubleshooting",
+            "para_p1": "If you have any problems setting up your device, watch these SJ Access videos, available in English, Spanish, or Vietnamese. For any further issues, you can find tech support ",
+            "para_linked": "here",
+            "para_p2": ", or ask for help at your local San José Public Library branch.",
+            "playlist_en": "Full SJ Access Playlist: English",
+            "playlist_es": "Full SJ Access Playlist: Español",
+            "playlist_vi": "Full SJ Access Playlist: Tiếng Việt"
+        }
     }
 }

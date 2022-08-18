@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, para1,para2,para3, page, catgeory, date } }) => {
+const PeopleCard = ({ item: { cover, btnLabel, title, para, para1,para2,para3, page } }) => {
   return (
     <>
       <div className='items'>
