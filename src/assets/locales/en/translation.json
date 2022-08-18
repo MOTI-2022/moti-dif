@@ -259,5 +259,44 @@
                 }
             ]
         }
+    },
+
+    "broadband": {
+        "title": "Wired - Broadband Plan",
+        "tagline": "Find an affordable home internet plan that works for you.",
+        "subtitle": "Affordable Broadband Plans",
+        "para": "If you need an affordable home internet plan for you or your household, check out these flyers for instructions on determining your eligibility and signing up for a plan. If you are a San José resident and need assistance with connecting to affordable internet at home, please call (408) 716-3811 and you will be transferred to an organization that can assist you.",
+        "cards": [
+            {
+                "id": 1,
+                "title": "English",
+                "cover": "/images/hello.png",
+                "para": "Find Plans in English",
+                "page": "https://www.internetforallnow.org/applytoday",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Affordable Connectivity Program",
+                "btnLabel1": "Find Affordable Internet and Computers"
+            },
+            {
+                "id": 2,
+                "title": "Español",
+                "cover": "/images/hola.png",
+                "para": "Find Plans in Español",
+                "page": "https://www.internetforallnow.org/aplicahoy",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Programa de Descuentos para Internet (ACP)",
+                "btnLabel1": "Encuentra Servicio de Internet y Computadoras en Tu Área"
+            },
+            {
+                "id": 3,
+                "title": "Tiếng Việt",
+                "cover": "/images/viet.png",
+                "para": "Find Plans in Vietnamese",
+                "page": "https://www.internetforallnow.org/viet",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Chương Trình Kết Nối Giá Phải Chăng",
+                "btnLabel1": "Tìm Internet và Máy tính Giá cả phải chăng"
+            }
+        ]
     }
 }

@@ -13,9 +13,11 @@ import AllWifi from "../Wifi/AllWifi";
 
 import CourseInfo from "../CourseInfo/CourseInfo"
 import Plans from "../Plans/Plans"
+import { useTranslation } from "react-i18next";
 
 const Broadband = () => {
   const [data, setData] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     // This just tells react to run this code when page first loads
@@ -30,24 +32,24 @@ const Broadband = () => {
       {/*<HeadTitle />*/}
       <br></br>
       <h5>
-      Wired - Broadband Plan {/*<span>Story</span>*/}
+      {t("broadband.title")} {/*<span>Story</span>*/}
 
               <br></br>
-              <font size="5">Find an affordable home internet plan that works for you.</font>
+              <font size="5"> {t("broadband.tagline")} </font>
               <br></br>
 
 
 
       </h5>
       <div className="plan">
-      <u><font size="4">Affordable Broadband Plans:</font></u>
+      <u><font size="4"> {t("broadband.subtitle")} </font></u>
               <br></br>
 
-<font size="3">If you need an affordable home internet plan for you or your household, check out these flyers for instructions on determining your eligibility and signing up for a plan.
-If you are a San José resident and need assistance with connecting to affordable internet at home, please call (408) 716-3811 and you will be transferred to an organization that can assist you.
-</font></div>
-<br></br>
-<br></br>
+      <font size="3">
+        {t("broadband.para")} 
+      </font></div>
+      <br></br>
+      <br></br>
   
       {/*<MostPopular />
 

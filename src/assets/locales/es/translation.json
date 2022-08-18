@@ -259,5 +259,44 @@
                 }
             ]
         }
+    },
+
+    "broadband": {
+        "title": "Cableado - Plan de Banda Ancha",
+        "tagline": "Encuentre un plan asequible de Internet en el hogar que funcione para usted.",
+        "subtitle": "Planes de Banda Ancha Asequibles",
+        "para": "Si necesita un plan de Internet doméstico asequible para usted o su hogar, consulte estos folletos para obtener instrucciones sobre cómo determinar su elegibilidad e inscribirse en un plan. Si es residente de San José y necesita ayuda para conectarse a Internet asequible en su hogar, llame al (408) 716-3811 y será transferido a una organización que pueda ayudarlo.",
+        "cards": [
+            {
+                "id": 1,
+                "title": "English",
+                "cover": "/images/hello.png",
+                "para": "Encuentra Planes en Inglés",
+                "page": "https://www.internetforallnow.org/applytoday",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Affordable Connectivity Program",
+                "btnLabel1": "Find Affordable Internet and Computers"
+            },
+            {
+                "id": 2,
+                "title": "Español",
+                "cover": "/images/hola.png",
+                "para": "Encuentra Planes en Español",
+                "page": "https://www.internetforallnow.org/aplicahoy",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Programa de Descuentos para Internet (ACP)",
+                "btnLabel1": "Encuentra Servicio de Internet y Computadoras en Tu Área"
+            },
+            {
+                "id": 3,
+                "title": "Tiếng Việt",
+                "cover": "/images/viet.png",
+                "para": "Encuentra Planes en Tiếng Việt",
+                "page": "https://www.internetforallnow.org/viet",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Chương Trình Kết Nối Giá Phải Chăng",
+                "btnLabel1": "Tìm Internet và Máy tính Giá cả phải chăng"
+            }
+        ]
     }
 }

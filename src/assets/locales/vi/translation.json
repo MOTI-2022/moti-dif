@@ -259,5 +259,44 @@
                 }
             ]
         }
+    },
+
+    "broadband": {
+        "title": "Có dây - Gói cước băng thông rộng",
+        "tagline": "Tìm một gói internet gia đình giá cả phải chăng phù hợp với bạn.",
+        "subtitle": "Các gói cước Băng thông rộng Giá cả phải chăng",
+        "para": "Nếu bạn cần một gói cước Internet gia đình giá cả phải chăng cho mình hoặc cho hộ gia đình, hãy xem các tờ rơi này để biết hướng dẫn về cách xác định tính đủ điều kiện của bạn và đăng ký một gói. Nếu bạn là cư dân San José và cần hỗ trợ kết nối với internet giá cả phải chăng tại nhà, vui lòng gọi (408) 716-3811 và bạn sẽ được chuyển đến một tổ chức có thể hỗ trợ bạn.",
+        "cards": [
+            {
+                "id": 1,
+                "title": "English",
+                "cover": "/images/hello.png",
+                "para": "Tìm kế hoạch bằng Tiếng Anh",
+                "page": "https://www.internetforallnow.org/applytoday",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Affordable Connectivity Program",
+                "btnLabel1": "Find Affordable Internet and Computers"
+            },
+            {
+                "id": 2,
+                "title": "Español",
+                "cover": "/images/hola.png",
+                "para": "Tìm kế hoạch bằng tiếng Tây Ban Nha",
+                "page": "https://www.internetforallnow.org/aplicahoy",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Programa de Descuentos para Internet (ACP)",
+                "btnLabel1": "Encuentra Servicio de Internet y Computadoras en Tu Área"
+            },
+            {
+                "id": 3,
+                "title": "Tiếng Việt",
+                "cover": "/images/viet.png",
+                "para": "Tìm kế hoạch bằng Tiếng Việt",
+                "page": "https://www.internetforallnow.org/viet",
+                "page1": "https://www.everyoneon.org/find-offers-sanjose?partner=sanjose&custom=1",
+                "btnLabel": "Chương Trình Kết Nối Giá Phải Chăng",
+                "btnLabel1": "Tìm Internet và Máy tính Giá cả phải chăng"
+            }
+        ]
     }
 }
