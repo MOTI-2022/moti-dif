@@ -15,7 +15,7 @@ const AllItem = () => {
 
         <div className='container'>
           <div className='content grid'>
-            {t('resource_cards', { returnObjects: true }).map((item) => {
+            {t('get_help.resource_cards', { returnObjects: true }).map((item) => {
               return <Dcards key={item.id} item={item} />
             })}
           </div>

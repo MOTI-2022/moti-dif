@@ -106,58 +106,58 @@
         }
     },
 
-    "resource_cards": [
-        {   
-            "id": 1,
-            "title": "Servicios de SJ Access",
-            "image": "/images/phone1.jpg",
-            "desc": "Pida prestado un dispositivo o alquile un punto de acceso gratuito para conectarse",
-            "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
-            "newPage": "accessSJ"
-        },
-        {   
-            "id": 2,
-            "title": "Internet público gratuito / Encuentre una biblioteca",
-            "title1": "Find Your San José Public Library ",
-            "title2": "Free Public Wifi",
-            "paraImage_one": "/images/findLib.png",
-            "desc": "Encuentre Wi-Fi gratuito en su biblioteca local, en el centro de la ciudad y en las comunidades",
-            "image": "/images/lib.jpg",
-            "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
-            "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
-            "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
-            "newPage": "resource2"
-        },
-        {   
-            "id": 3,
-            "title": "Conexión de banda ancha",
-            "image": "/images/wifi.jpg",
-            "desc": "Inscríbase o actualice su plan de Internet para su hogar",
-            "newPage": "broadband"
-        },
-        {   
-            "id": 4,
-            "title": "Capacitación en alfabetización digital",
-            "image": "/images/help1.jpg",
-            "desc": "Tome clases para mejorar su conocimiento digital y sus habilidades en Internet",
-            "newPage": "courses"
-        },
-        {
-            "id": 5,
-            "title": "Personas que ofrecen ayuda",
-            "image": "/images/digNav.jpg",
-            "desc": "Encuentre a la persona adecuada para obtenga ayuda en persona sobre Internet y problemas de TI",
-            "newPage": "people"
-        },
-        {
-            "id": 6,
-            "title": "Preguntas frecuentes",
-            "image": "/images/faq.jpg",
-            "desc": "¿Tiene una pregunta? ¡Lea las preguntas frecuentes para obtener más respuestas!",
-            "newPage": "FAQ1"
-        }
-    ],
-
-    "help_title": "Obtener Ayuda"
-
+    "get_help": {
+        "title": "Obtener Ayuda",
+        "resource_cards": [
+            {   
+                "id": 1,
+                "title": "Servicios de SJ Access",
+                "image": "/images/phone1.jpg",
+                "desc": "Pida prestado un dispositivo o alquile un punto de acceso gratuito para conectarse",
+                "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
+                "newPage": "accessSJ"
+            },
+            {   
+                "id": 2,
+                "title": "Internet público gratuito / Encuentre una biblioteca",
+                "title1": "Find Your San José Public Library ",
+                "title2": "Free Public Wifi",
+                "paraImage_one": "/images/findLib.png",
+                "desc": "Encuentre Wi-Fi gratuito en su biblioteca local, en el centro de la ciudad y en las comunidades",
+                "image": "/images/lib.jpg",
+                "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
+                "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
+                "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
+                "newPage": "resource2"
+            },
+            {   
+                "id": 3,
+                "title": "Conexión de banda ancha",
+                "image": "/images/wifi.jpg",
+                "desc": "Inscríbase o actualice su plan de Internet para su hogar",
+                "newPage": "broadband"
+            },
+            {   
+                "id": 4,
+                "title": "Capacitación en alfabetización digital",
+                "image": "/images/help1.jpg",
+                "desc": "Tome clases para mejorar su conocimiento digital y sus habilidades en Internet",
+                "newPage": "courses"
+            },
+            {
+                "id": 5,
+                "title": "Personas que ofrecen ayuda",
+                "image": "/images/digNav.jpg",
+                "desc": "Encuentre a la persona adecuada para obtenga ayuda en persona sobre Internet y problemas de TI",
+                "newPage": "people"
+            },
+            {
+                "id": 6,
+                "title": "Preguntas frecuentes",
+                "image": "/images/faq.jpg",
+                "desc": "¿Tiene una pregunta? ¡Lea las preguntas frecuentes para obtener más respuestas!",
+                "newPage": "FAQ1"
+            }
+        ]
+    }
 }

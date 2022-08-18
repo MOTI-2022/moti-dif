@@ -106,58 +106,58 @@
         }
     },
 
-    "resource_cards": [
-        {   
-            "id": 1,
-            "title": "Dịch vụ SJ Access",
-            "image": "/images/phone1.jpg",
-            "desc": "Mượn thiết bị hoặc thuê điểm phát sóng miễn phí để kết nối",
-            "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
-            "newPage": "accessSJ"
-        },
-        {   
-            "id": 2,
-            "title": "Internet Miễn phí Công cộng / Tìm Thư viện",
-            "title1": "Find Your San José Public Library ",
-            "title2": "Free Public Wifi",
-            "paraImage_one": "/images/findLib.png",
-            "desc": "Tìm Wi-Fi miễn phí trong thư viện địa phương, trung tâm thành phố và trong cộng đồng",
-            "image": "/images/lib.jpg",
-            "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
-            "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
-            "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
-            "newPage": "resource2"
-        },
-        {   
-            "id": 3,
-            "title": "Nối băng thông rộng",
-            "image": "/images/wifi.jpg",
-            "desc": "Đăng ký hoặc nâng cấp gói internet cho gia đình của bạn",
-            "newPage": "broadband"
-        },
-        {   
-            "id": 4,
-            "title": "Đào tạo kỹ thuật số",
-            "image": "/images/help1.jpg",
-            "desc": "Tham gia các lớp học để nâng cao kiến ​​thức kỹ thuật số và kỹ năng internet của bạn",
-            "newPage": "courses"
-        },
-        {
-            "id": 5,
-            "title": "Mọi người Cung cấp Trợ giúp",
-            "image": "/images/digNav.jpg",
-            "desc": "Tìm người phù hợp để nhận trợ giúp trực tiếp về các vấn đề internet & CNTT",
-            "newPage": "people"
-        },
-        {
-            "id": 6,
-            "title": "Câu hỏi thường gặp",
-            "image": "/images/faq.jpg",
-            "desc": "Bạn có câu hỏi? Đọc Câu hỏi thường gặp để có thêm câu trả lời!",
-            "newPage": "FAQ1"
-        }
-    ],
-
-    "help_title": "Được trợ giúp"
-
+    "get_help": {
+        "title": "Được trợ giúp",
+        "resource_cards": [
+            {   
+                "id": 1,
+                "title": "Dịch vụ SJ Access",
+                "image": "/images/phone1.jpg",
+                "desc": "Mượn thiết bị hoặc thuê điểm phát sóng miễn phí để kết nối",
+                "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
+                "newPage": "accessSJ"
+            },
+            {   
+                "id": 2,
+                "title": "Internet Miễn phí Công cộng / Tìm Thư viện",
+                "title1": "Find Your San José Public Library ",
+                "title2": "Free Public Wifi",
+                "paraImage_one": "/images/findLib.png",
+                "desc": "Tìm Wi-Fi miễn phí trong thư viện địa phương, trung tâm thành phố và trong cộng đồng",
+                "image": "/images/lib.jpg",
+                "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
+                "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
+                "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
+                "newPage": "resource2"
+            },
+            {   
+                "id": 3,
+                "title": "Nối băng thông rộng",
+                "image": "/images/wifi.jpg",
+                "desc": "Đăng ký hoặc nâng cấp gói internet cho gia đình của bạn",
+                "newPage": "broadband"
+            },
+            {   
+                "id": 4,
+                "title": "Đào tạo kỹ thuật số",
+                "image": "/images/help1.jpg",
+                "desc": "Tham gia các lớp học để nâng cao kiến ​​thức kỹ thuật số và kỹ năng internet của bạn",
+                "newPage": "courses"
+            },
+            {
+                "id": 5,
+                "title": "Mọi người Cung cấp Trợ giúp",
+                "image": "/images/digNav.jpg",
+                "desc": "Tìm người phù hợp để nhận trợ giúp trực tiếp về các vấn đề internet & CNTT",
+                "newPage": "people"
+            },
+            {
+                "id": 6,
+                "title": "Câu hỏi thường gặp",
+                "image": "/images/faq.jpg",
+                "desc": "Bạn có câu hỏi? Đọc Câu hỏi thường gặp để có thêm câu trả lời!",
+                "newPage": "FAQ1"
+            }
+        ]
+    }
 }
