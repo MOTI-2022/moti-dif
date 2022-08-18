@@ -298,5 +298,39 @@
                 "btnLabel1": "Tìm Internet và Máy tính Giá cả phải chăng"
             }
         ]
+    },
+
+    "digital_literacy": {
+        "title": "Digital Literacy Training",
+        "para": "Why learn how to go online? Digital literacy skills allow people to participate in activities such as staying connected to families and friends, accessing healthcare, education, and transportation, and finding reliable information.",
+        "tagline": "San José provides several resources for everyone to gain digital skills:",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Classes at SJPL",
+                "cover": "/images/adult.png",
+                "para": "Take hybrid (can join in-person or online) computer classes through your local San José Public Library:",
+                "page": "https://www.sjpl.org/computer-classes",
+                "btnLabel": "LEARN MORE"
+            },
+            {
+                "id": 2,
+                "title": "Self-Paced, Online Courses",
+                "cover": "/images/kid.png",
+                "para": "Take an online digital literacy course in your own language, at your own pace:",
+                "page": "https://rise.articulate.com/share/Xd1tvRvGfIIDaTnnXWMGqC7M7OFaGtrB#/",
+                "page1": "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
+                "page2": "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
+                "btnLabel": "English,  ",
+                "btnLabel1": "Español,  ",
+                "btnLabel2": "Tiếng Việt"
+            },
+            {
+                "id": 3,
+                "title": "Advanced and Themed Skills",
+                "cover": "/images/theme.png",
+                "para": "Coming soon!"
+            }
+        ]
     }
 }

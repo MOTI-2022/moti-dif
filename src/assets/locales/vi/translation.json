@@ -298,5 +298,39 @@
                 "btnLabel1": "Tìm Internet và Máy tính Giá cả phải chăng"
             }
         ]
+    },
+
+    "digital_literacy": {
+        "title": "Đào tạo kỹ thuật số",
+        "para": "Tại sao phải học cách lên mạng? Kỹ năng đọc viết kỹ thuật số cho phép mọi người tham gia vào các hoạt động như duy trì kết nối với gia đình và bạn bè, tiếp cận dịch vụ chăm sóc sức khỏe, giáo dục, giao thông và tìm kiếm thông tin đáng tin cậy.",
+        "tagline": "San José cung cấp một số tài nguyên cho mọi người để đạt được các kỹ năng kỹ thuật số:",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Các lớp học tại SJPL",
+                "cover": "/images/adult.png",
+                "para": "Tham gia các lớp học máy tính kết hợp (có thể tham gia trực tiếp hoặc trực tuyến) thông qua Thư viện Công cộng San José tại địa phương của bạn: ",
+                "page": "https://www.sjpl.org/computer-classes",
+                "btnLabel": "Tìm hiểu thêm"
+            },
+            {
+                "id": 2,
+                "title": "Tự nhịp độ, Các khóa học trực tuyến",
+                "cover": "/images/kid.png",
+                "para": "Tham gia khóa học kỹ thuật số trực tuyến bằng ngôn ngữ của riêng bạn, theo tốc độ của riêng bạn:",
+                "page": "https://rise.articulate.com/share/Xd1tvRvGfIIDaTnnXWMGqC7M7OFaGtrB#/",
+                "page1": "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
+                "page2": "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
+                "btnLabel": "Tiếng Anh,  ",
+                "btnLabel1": "Tây Ban Nha,  ",
+                "btnLabel2": "Tiếng Việt"
+            },
+            {
+                "id": 3,
+                "title": "Kỹ năng Nâng cao và Chủ đề",
+                "cover": "/images/theme.png",
+                "para": "Sắp ra mắt!"
+            }
+        ]
     }
 }

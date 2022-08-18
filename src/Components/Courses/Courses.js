@@ -6,6 +6,7 @@ import { useLocation, Link } from "react-router-dom"
 import MostPopular from "../HomeSection/popular/MostPopular";
 import AdvSkills from "../HomeSection/advancedSkills/AdvSkills";
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import AllBlog from "../Blog/AllBlog"
 
@@ -15,6 +16,7 @@ import CourseInfo from "../CourseInfo/CourseInfo"
 
 const Courses = () => {
   const [data, setData] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     // This just tells react to run this code when page first loads
@@ -29,13 +31,19 @@ const Courses = () => {
       {/*<HeadTitle />*/}
       <br></br>
       <h5>
-              Digital Literacy Training{/*<span>Story</span>*/}
-
-              <br></br>
-              <font size="4">San José provides several resources for everyone to gain digital skills:</font>
-
+              {t("digital_literacy.title")}{/*<span>Story</span>*/}
 
       </h5>
+      <div className="plan">
+     {/* <u><b><font size="5">DEVICES</font></b></u>
+              <br></br>*/}
+
+        <h6><font size="4"> {t("digital_literacy.para")}  </font></h6>
+      </div>
+      <h5>
+              <font size="4"> {t("digital_literacy.tagline")} </font>
+      </h5>
+
       {/*<MostPopular />
 
       <AdvSkills />*/}

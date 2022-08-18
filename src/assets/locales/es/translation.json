@@ -298,5 +298,39 @@
                 "btnLabel1": "Tìm Internet và Máy tính Giá cả phải chăng"
             }
         ]
+    },
+
+    "digital_literacy": {
+        "title": "Capacitación en Alfabetización Digital",
+        "para": "¿Por qué aprender a conectarse en línea? Las habilidades de alfabetización digital permiten a las personas participar en actividades como mantenerse conectadas con familiares y amigos, acceder a atención médica, educación y transporte, y encontrar información confiable.",
+        "tagline": "San José ofrece varios recursos para que todos adquieran habilidades digitales:",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Clases en SJPL",
+                "cover": "/images/adult.png",
+                "para": "Tome clases de computación híbridas (puede unirse en persona o en línea) a través de su Biblioteca Pública local de San José: ",
+                "page": "https://www.sjpl.org/computer-classes",
+                "btnLabel": "APRENDE MÁS"
+            },
+            {
+                "id": 2,
+                "title": "Cursos en línea a su propio ritmo",
+                "cover": "/images/kid.png",
+                "para": "Tome una curso de alfabetización digital en línea en su propio idioma, a su propio ritmo:",
+                "page": "https://rise.articulate.com/share/Xd1tvRvGfIIDaTnnXWMGqC7M7OFaGtrB#/",
+                "page1": "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
+                "page2": "https://rise.articulate.com/share/D6dfxvOxIfj-LE5di8--GVV6JuWPb-V7#/",
+                "btnLabel": "Inglés,  ",
+                "btnLabel1": "Español,  ",
+                "btnLabel2": "Tiếng Việt"
+            },
+            {
+                "id": 3,
+                "title": "Habilidades Avanzadas y Temáticas",
+                "cover": "/images/theme.png",
+                "para": "¡Próximamente!"
+            }
+        ]
     }
 }
