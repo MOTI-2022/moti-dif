@@ -11,9 +11,9 @@ const AboutCard = () => {
         <div className='row row1'>
          {/* <h4>About Us</h4>*/}
           <h1>
-          <span> {t("about_tag1")} <br></br> {t("about_tag2")} </span> 
+          <span> {t("about.header.title1")} <br></br> {t("about.header.title2")} </span> 
           </h1>
-          <p>Ensuring all San Joséans can achieve devices, access, and literacy.</p>
+          <p> {t("about.header.tag")} </p>
          {/* <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
           <button className='secondary-btn'>
             Explore More <i className='fas fa-long-arrow-alt-right'></i>

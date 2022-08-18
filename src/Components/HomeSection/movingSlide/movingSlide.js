@@ -1,10 +1,11 @@
 import React from "react"
-import data from "./data"
+// import data from "./data"
 import "./movingSlide.css"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "../intro/intro.css"
+import { useTranslation } from "react-i18next";
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
@@ -35,6 +36,8 @@ const SamplePrevArrow = (props) => {
 
 
 const MovingSlide = () => {
+  const { t } = useTranslation();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -50,17 +53,14 @@ const MovingSlide = () => {
       prevArrow: <SamplePrevArrow />,
       nextArrow: <SampleNextArrow />,
       swipeToSlide: true,
-      
+    }
 
-  }
   return (
     <div>
 
 
-    
           <Slider {...settings}>
-            {data.map((value) => {
-
+            {t('about.digital.carousel', { returnObjects: true }).map((value) => {
 
 
               return (
@@ -88,9 +88,9 @@ const MovingSlide = () => {
 
 
             <font size="3">
-        Sources: <u><a href="https://www.digitalinclusion.org/" target="_blank"  > National Digital Inclusion Alliance;  </a></u> 
-        <u><a href="https://www.bcg.com/publications/2022/how-to-close-digital-divide-with-human-approach" target="_blank"  > BCG 2022; </a></u>
-        <u><a href="https://www.nature.com/articles/s41746-021-00413-8" target="_blank"  > Sieck et al 2021</a></u>
+        {t("about.digital.sources.title")} <u><a href="https://www.digitalinclusion.org/" target="_blank"  > {t("about.digital.sources.source1")}  </a></u> 
+        <u><a href="https://www.bcg.com/publications/2022/how-to-close-digital-divide-with-human-approach" target="_blank"  > {t("about.digital.sources.source2")} </a></u>
+        <u><a href="https://www.nature.com/articles/s41746-021-00413-8" target="_blank"  > {t("about.digital.sources.source3")} </a></u>
         </font>
           </div>
           <br></br>

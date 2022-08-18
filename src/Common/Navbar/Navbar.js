@@ -48,7 +48,7 @@ const Navbar = () => {
         
         <li>
          {/* <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >About</NavLink>*/}
-          <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >{t("nav_about")}</NavLink>
+          <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >{t("nav.about")}</NavLink>
         </li>
        {/* <li>
           <NavLink activeStyle={{ color:'#5754a8' }} to="/about">
@@ -75,7 +75,7 @@ const Navbar = () => {
             </li>*/}
             <li>
               <NavLink to='/about' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active" >
-              {t("nav_learn_more")} 
+              {t("nav.learn_more")} 
               </NavLink>
             </li>
             {/*<li>
@@ -86,12 +86,12 @@ const Navbar = () => {
  
             <li>
               <NavLink to='/destinations' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
-              {t("nav_get_help")}
+              {t("nav.get_help")}
               </NavLink>
             </li>
             <li>
               <NavLink to='/split' onClick= {()=>(closeMobileMenu, scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
-              {t("nav_make_impact")}
+              {t("nav.make_impact")}
               </NavLink>
             </li>
             {/*<li>

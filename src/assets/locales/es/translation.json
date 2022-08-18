@@ -1,14 +1,163 @@
 {
     "select_language": "Seleccione el idioma",
-    "this_is_an_example": "Esto es un ejemplo",
 
-    "nav_about": "Acerca De",
-    "nav_learn_more": "Aprende Más",
-    "nav_get_help": "Obtener Ayuda",
-    "nav_make_impact": "Causar Impacto",
+    "nav": {
+        "about": "Acerca De",
+        "learn_more": "Aprende Más",
+        "get_help": "Obtener Ayuda",
+        "make_impact": "Causar Impacto"
+    },
 
-    "about_tag1": "Inclusión Digital",
-    "about_tag2": "Vive Aquí",
+    "about": {
+        "header": {
+            "title1": "Inclusión Digital",
+            "title2": "Vive Aquí",
+            "tag": "Asegurar que todos los residentes de San José puedan acceder a la tecnología y lograr la alfabetización digital."
+        },
+
+        "digital": {
+            "title": "Brecha Digital · Inclusión Digital · Equidad Digital",
+            "cards": [
+                {
+                    "cover": "/images/divide.png",
+                    "title": "Brecha Digital",
+                    "title1": "El Problema",
+                    "icon": "./images/arrow.png"
+                  },
+                  {
+                    "cover": "/images/inclusion.png",
+                    "title": "Inclusión Digital",
+                    "title1": "La Obra",
+                    "icon": "./images/arrow.png"
+                  },
+                  {
+                    "cover": "/images/equity.png",
+                    "title": "Equidad Digital",
+                    "title1": "La Meta",
+                    "icon": "./images/check.png"
+                  }
+            ],
+            "carousel": [
+                {
+                    "title": "Brecha Digital - El Problema",
+                    "cover": "./images/number1.png",
+                    "text1": "La brecha digital describe la brecha entre quienes tener acceso asequible a la tecnología, las habilidades digitales y el apoyo para interactuar de manera efectiva en línea con las personas que no lo hacen.",
+                    "text2": "Cuando las personas no pueden acceder al mundo digital, experimentan barreras para participar en la sociedad, como el acceso a la educación, los servicios públicos y la asistencia, las oportunidades laborales y de ingresos, y la obtención de servicios esenciales como la salud y los servicios financieros. Estos problemas solo se han visto exacerbados por la mayor dependencia de las herramientas digitales desde la pandemia de COVID-19.",
+                    "caption": "En 2020, el 10% de los californianos informaron que no tenían una computadora de escritorio, una computadora portátil u otros dispositivos informáticos en casa. El acceso fue especialmente limitado entre los hogares de bajos ingresos (23 %), negros (15 %) y latinos (15 %). (Fuente: PPIC, 2022)"
+                },
+                {
+                    "title": "Inclusión Digital - La Obra",
+                    "cover": "./images/number2.png",
+                    "text1": "Inclusión digital incluye las actividades necesarias para garantizar que todas las personas y comunidades, en particular las más desfavorecidas, tengan acceso y uso equitativos de la información digital, la comunicación digital y otras tecnologías.",
+                    "text2": "Esto puede parecer tener un servicio de Internet de banda ancha asequible y de alta velocidad, dispositivos con capacidad de Internet que funcionen para sus necesidades y tener acceso a capacitación en alfabetización digital y soporte técnico de calidad.",
+                    "caption": "En el condado de Santa Clara, aproximadamente una cuarta parte de los hogares del condado no tienen acceso a Internet. (Fuente: SJ Spotlight)"
+                },
+                {
+                    "title": "Equidad Digital - La Meta",
+                    "cover": "./images/number3.png",
+                    "text1": "La equidad digital es la meta en la que todos los individuos y comunidades tienen la información digital y la capacidad tecnológica necesarias para una participación plena en nuestra sociedad, democracia y economía.",
+                    "caption": "Más de 97,000 residentes mayores del condado de Santa Clara no tienen acceso a banda ancha en el hogar. (Fuente: Santa Clara County Digital Inclusion Working Group, 2021)"
+                }
+            ],
+            "sources": {
+                "title": "Fuentes:",
+                "source1": "National Digital Inclusion Alliance; ",
+                "source2": "BCG 2022; ",
+                "source3": "Sieck et al 2021"
+            }
+        },
+
+        "popular_resources": {
+            "title": "Recursos Más Populares Para Residentes"
+        },
+
+        "quotes": {
+            "source": "Fuente:",
+            "quotes": [
+                {
+                    "id": 1,
+                    "cover": "/images/quote1.png",
+                    "title": "Me siento avergonzado de no poder ayudar en el aprendizaje de mis hijos debido a la falta incluso del uso básico de una computadora.",
+                    "desc": "--- Una mamá de San José"
+                },
+                {
+                    "id": 1,
+                    "cover": "/images/quote2.png",
+                    "title": "Algunos niños no tenían tabletas en casa. A veces, sus padres no podían permitírselo. Así que creo que la escuela nos proporcionó tabletas probablemente fue un gran problema para nosotros, por lo que ahora podemos hacer el trabajo en casa y en la escuela.",
+                    "desc": "--- Jazmin, estudiante de séptimo grado, residente de San José"
+                },
+                {
+                    "id": 1,
+                    "cover": "/images/quote3.png",
+                    "title": "Si no tienen acceso a Internet, ¿cómo pueden publicar su currículum? ¿O cómo podemos llegar a esos puestos clave? Tenemos que asegurarnos de llegar a esas comunidades y a esas personas que lo necesitan.",
+                    "desc": "--- Shauntrel Brown, especialista en seguridad cibernética, graduado de NPower"
+                }
+            ]
+        },
+
+        "dif_brief": {
+            "title": "¿Qué es el San José Digital Inclusion Fund?",
+            "pg1": "San José tiene como objetivo cerrar la brecha digital a través del Fondo de Inclusión Digital, un fondo intersectorial de $24 millones durante un período de diez años. Al enfocarse en tres componentes clave de la inclusión digital (abajo), San José se compromete a conectar 50,000 hogares al mundo digital.",
+            "check1": "Programas de acceso: proporcionar conectividad a Internet a los residentes",
+            "check2": "Programas de dispositivos: asegurar que cada residente tenga un dispositivo que funcione",
+            "check3": "Alfabetización digital: mejorar las habilidades digitales para acceder a trabajos, oportunidades educativas y servicios críticos",
+            "learn_more": "Obtenga más información sobre el Fondo de Inclusión Digital de San José",
+            "learn_more_linked": "aquí."
+        }
+    },
+
+    "resource_cards": [
+        {   
+            "id": 1,
+            "title": "Servicios de SJ Access",
+            "image": "/images/phone1.jpg",
+            "desc": "Pida prestado un dispositivo o alquile un punto de acceso gratuito para conectarse",
+            "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
+            "newPage": "accessSJ"
+        },
+        {   
+            "id": 2,
+            "title": "Internet público gratuito / Encuentre una biblioteca",
+            "title1": "Find Your San José Public Library ",
+            "title2": "Free Public Wifi",
+            "paraImage_one": "/images/findLib.png",
+            "desc": "Encuentre Wi-Fi gratuito en su biblioteca local, en el centro de la ciudad y en las comunidades",
+            "image": "/images/lib.jpg",
+            "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
+            "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
+            "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
+            "newPage": "resource2"
+        },
+        {   
+            "id": 3,
+            "title": "Conexión de banda ancha",
+            "image": "/images/wifi.jpg",
+            "desc": "Inscríbase o actualice su plan de Internet para su hogar",
+            "newPage": "broadband"
+        },
+        {   
+            "id": 4,
+            "title": "Capacitación en alfabetización digital",
+            "image": "/images/help1.jpg",
+            "desc": "Tome clases para mejorar su conocimiento digital y sus habilidades en Internet",
+            "newPage": "courses"
+        },
+        {
+            "id": 5,
+            "title": "Personas que ofrecen ayuda",
+            "image": "/images/digNav.jpg",
+            "desc": "Encuentre a la persona adecuada para obtenga ayuda en persona sobre Internet y problemas de TI",
+            "newPage": "people"
+        },
+        {
+            "id": 6,
+            "title": "Preguntas frecuentes",
+            "image": "/images/faq.jpg",
+            "desc": "¿Tiene una pregunta? ¡Lea las preguntas frecuentes para obtener más respuestas!",
+            "newPage": "FAQ1"
+        }
+    ],
 
     "help_title": "Obtener Ayuda"
+
 }

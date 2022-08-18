@@ -1,15 +1,163 @@
 {
     "select_language": "Chọn ngôn ngữ",
-    "this_is_an_example": "Đây là một ví dụ",
 
-    "nav_about": "Về",
-    "nav_learn_more": "Tìm hiểu thêm",
-    "nav_get_help": "Được trợ giúp",
-    "nav_make_impact": "Tạo tác động",
+    "nav": {
+        "about": "Về",
+        "learn_more": "Tìm hiểu thêm",
+        "get_help": "Được trợ giúp",
+        "make_impact": "Tạo tác động"
+    },
 
-    "about_tag1": "Sự bao gồm kỹ thuật",
-    "about_tag2": "số tồn tại ở đây",
+    "about": {
+        "header": {
+            "title1": "Sự bao gồm kỹ thuật",
+            "title2": "số tồn tại ở đây",
+            "tag": "Đảm bảo tất cả cư dân San Jose có thể tiếp cận công nghệ và đạt được hiểu biết về kỹ thuật số."
+        },
+
+        "digital": {
+            "title": "Phân chia kỹ thuật số · Hòa nhập kỹ thuật số · Công bằng kỹ thuật số",
+            "cards": [
+                {
+                    "cover": "/images/divide.png",
+                    "title": "Phân chia kỹ thuật số",
+                    "title1": "Vấn đề",
+                    "icon": "./images/arrow.png"
+                },
+                {
+                    "cover": "/images/inclusion.png",
+                    "title": "Hòa nhập kỹ thuật số",
+                    "title1": "Công việc",
+                    "icon": "./images/arrow.png"
+                },
+                {
+                    "cover": "/images/equity.png",
+                    "title": "Công bằng kỹ thuật số",
+                    "title1": "Mục đích",
+                    "icon": "./images/check.png"
+                }
+            ],
+            "carousel": [
+                {
+                    "title": "Phân chia kỹ thuật số - Vấn đề",
+                    "cover": "./images/number1.png",
+                    "text1": "Phân chia kỹ thuật số ngày càng tăng khoảng cách giữa những người có khả năng tiếp cận công nghệ, kỹ năng kỹ thuật số với giá cả phải chăng và hỗ trợ để tương tác trực tuyến một cách hiệu quả và những người không tham gia.",
+                    "text2": "Khi mọi người không thể tiếp cận thế giới kỹ thuật số, họ sẽ gặp phải những rào cản trong việc tham gia vào xã hội, chẳng hạn như tiếp cận giáo dục, các dịch vụ công và trợ giúp, cơ hội lao động và kiếm tiền cũng như nhận được các dịch vụ thiết yếu như dịch vụ y tế và tài chính. Những vấn đề này chỉ trở nên trầm trọng hơn khi phụ thuộc nhiều hơn vào các công cụ kỹ thuật số kể từ đại dịch COVID-19.",
+                    "caption": "Đầu đề: Vào năm 2020, 10% người dân California cho biết họ không có máy tính để bàn, máy tính xách tay hoặc các thiết bị máy tính khác ở nhà. Khả năng tiếp cận đặc biệt hạn chế ở các hộ gia đình có thu nhập thấp (23%), Da đen (15%) và La tinh (15%). (Nguồn: PPIC, 2022)"
+                },
+                {
+                    "title": "Hòa nhập kỹ thuật số - Công việc",
+                    "cover": "./images/number2.png",
+                    "text1": "Công việc hòa nhập kỹ thuật số bao gồm các hoạt động cần thiết để đảm bảo rằng tất cả các cá nhân và cộng đồng, đặc biệt là những người thiệt thòi nhất, có quyền truy cập và sử dụng thông tin kỹ thuật số, truyền thông kỹ thuật số và các công nghệ khác một cách bình đẳng.",
+                    "text2": "Điều này có thể giống như có dịch vụ internet băng thông rộng tốc độ cao và giá cả phải chăng, các thiết bị có khả năng kết nối internet hoạt động theo nhu cầu của họ và được tiếp cận với chương trình đào tạo kỹ thuật số và hỗ trợ kỹ thuật chất lượng.",
+                    "caption": "Đầu đề: Ở Hạt Santa Clara, khoảng một phần tư số hộ gia đình của hạt không có quyền truy cập Internet. (Nguồn: SJ Spotlight)"
+                },
+                {
+                    "title": "Công bằng kỹ thuật số - Mục đích",
+                    "cover": "./images/number3.png",
+                    "text1": "Công bằng kỹ thuật số là mục tiêu trong đó tất cả các cá nhân và cộng đồng có thông tin kỹ thuật số và năng lực công nghệ cần thiết để tham gia đầy đủ vào xã hội, nền dân chủ và nền kinh tế của chúng ta.",
+                    "caption": "Hơn 97.000 cư dân Santa Clara County lớn tuổi không có quyền truy cập băng thông rộng tại nhà. (Nguồn: Santa Clara County Digital Inclusion Working Group, 2021)"
+                }
+            ],
+            "sources": {
+                "title": "Nguồn:",
+                "source1": "National Digital Inclusion Alliance; ",
+                "source2": "BCG 2022; ",
+                "source3": "Sieck et al 2021"
+            }
+        },
+
+        "popular_resources": {
+            "title": "Tài nguyên Phổ biến nhất cho Cư dân"
+        },
+
+        "quotes": {
+            "source": "Nguồn:",
+            "quotes": [
+                {
+                    "id": 1,
+                    "cover": "/images/quote1.png",
+                    "title": "Tôi cảm thấy xấu hổ vì không thể giúp con tôi học tập do không sử dụng được máy tính một cách cơ bản.",
+                    "desc": "--- Một người mẹ từ San José"
+                },
+                {
+                    "id": 1,
+                    "cover": "/images/quote2.png",
+                    "title": "Một số đứa trẻ không có máy tính bảng ở nhà. Đôi khi, cha mẹ của họ không thể mua được. Vì vậy, tôi nghĩ rằng trường cung cấp máy tính bảng cho chúng tôi có lẽ giống như một việc lớn đối với chúng tôi, vì vậy bây giờ chúng tôi có thể hoàn thành công việc ở nhà và ở trường.",
+                    "desc": "--- Jazmin, Học sinh Lớp 7, Cư trú San José"
+                },
+                {
+                    "id": 1,
+                    "cover": "/images/quote3.png",
+                    "title": "Nếu họ không có điều kiện truy cập internet, làm sao họ có thể đăng lý lịch của mình? Hoặc làm thế nào chúng ta có thể đến được những công việc quan trọng đó? Chúng tôi phải đảm bảo tiếp cận với những cộng đồng đó và những người cần điều đó.",
+                    "desc": "--- Shauntrel Brown, Chuyên gia An ninh Mạng, Cao học NPower"
+                }
+            ]
+        },
+
+        "dif_brief": {
+            "title": "San José Digital Inclusion Fund là gì?",
+            "pg1": "San José đặt mục tiêu đóng phân chia kỹ thuật số thông qua Quỹ Hòa nhập Kỹ thuật số, một quỹ đa lĩnh vực trị giá 24 triệu đô la trong khoảng thời gian 10 năm. Bằng cách nhắm mục tiêu ba thành phần chính của hòa nhập kỹ thuật số (bên dưới), San José cam kết kết nối 50.000 hộ gia đình với thế giới kỹ thuật số.",
+            "check1": "Các chương trình truy cập: cung cấp kết nối internet cho cư dân",
+            "check2": "Các chương trình thiết bị: đảm bảo mọi cư dân đều có thiết bị làm việc Kiến",
+            "check3": "thức kỹ thuật số: nâng cao kỹ năng kỹ thuật số để tiếp cận việc làm, cơ hội giáo dục & các dịch vụ quan trọng",
+            "learn_more": "Tìm hiểu thêm về Quỹ Hòa nhập Kỹ thuật số San José",
+            "learn_more_linked": "tại đây."
+        }
+    },
+
+    "resource_cards": [
+        {   
+            "id": 1,
+            "title": "Dịch vụ SJ Access",
+            "image": "/images/phone1.jpg",
+            "desc": "Mượn thiết bị hoặc thuê điểm phát sóng miễn phí để kết nối",
+            "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
+            "newPage": "accessSJ"
+        },
+        {   
+            "id": 2,
+            "title": "Internet Miễn phí Công cộng / Tìm Thư viện",
+            "title1": "Find Your San José Public Library ",
+            "title2": "Free Public Wifi",
+            "paraImage_one": "/images/findLib.png",
+            "desc": "Tìm Wi-Fi miễn phí trong thư viện địa phương, trung tâm thành phố và trong cộng đồng",
+            "image": "/images/lib.jpg",
+            "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
+            "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
+            "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
+            "newPage": "resource2"
+        },
+        {   
+            "id": 3,
+            "title": "Nối băng thông rộng",
+            "image": "/images/wifi.jpg",
+            "desc": "Đăng ký hoặc nâng cấp gói internet cho gia đình của bạn",
+            "newPage": "broadband"
+        },
+        {   
+            "id": 4,
+            "title": "Đào tạo kỹ thuật số",
+            "image": "/images/help1.jpg",
+            "desc": "Tham gia các lớp học để nâng cao kiến ​​thức kỹ thuật số và kỹ năng internet của bạn",
+            "newPage": "courses"
+        },
+        {
+            "id": 5,
+            "title": "Mọi người Cung cấp Trợ giúp",
+            "image": "/images/digNav.jpg",
+            "desc": "Tìm người phù hợp để nhận trợ giúp trực tiếp về các vấn đề internet & CNTT",
+            "newPage": "people"
+        },
+        {
+            "id": 6,
+            "title": "Câu hỏi thường gặp",
+            "image": "/images/faq.jpg",
+            "desc": "Bạn có câu hỏi? Đọc Câu hỏi thường gặp để có thêm câu trả lời!",
+            "newPage": "FAQ1"
+        }
+    ],
 
     "help_title": "Được trợ giúp"
+
 }
-  

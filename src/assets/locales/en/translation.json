@@ -1,15 +1,163 @@
 {
     "select_language": "Select Language",
-    "this_is_an_example": "This is an example",
 
-    "nav_about": "About",
-    "nav_learn_more": "Learn More",
-    "nav_get_help": "Get Help",
-    "nav_make_impact": "Make an Impact",
+    "nav": {
+        "about": "About",
+        "learn_more": "Learn More",
+        "get_help": "Get Help",
+        "make_impact": "Make an Impact"
+    },
 
-    "about_tag1": "Digital Inclusion",
-    "about_tag2": "Lives Here",
+    "about": {
+        "header": {
+            "title1": "Digital Inclusion",
+            "title2": "Lives Here",
+            "tag": "Ensuring all San Jose residents can access technology and achieve digital literacy."
+        },
+
+        "digital": {
+            "title": "Digital Divide · Digital Inclusion · Digital Equity",
+            "cards": [
+                {
+                    "cover": "/images/divide.png",
+                    "title": "Digital Divide",
+                    "title1": "The Problem",
+                    "icon": "./images/arrow.png"
+                },
+                {
+                    "cover": "/images/inclusion.png",
+                    "title": "Digital Inclusion",
+                    "title1": "The Work",
+                    "icon": "./images/arrow.png"
+                },
+                {
+                    "cover": "/images/equity.png",
+                    "title": "Digital Equity",
+                    "title1": "The Goal",
+                    "icon": "./images/check.png"
+                }
+            ],
+            "carousel": [
+                {
+                    "title": "Digital Divide - The Problem",
+                    "cover": "./images/number1.png",
+                    "text1": "The digital divide describes the increasing gap between those who have affordable access to the technology, digital skills, and support to effectively engage online and people who do not.",
+                    "text2": "When people cannot access the digital world, they experience barriers to participating in society, such as accessing education, public services and assistance, labor and earning opportunities, and obtaining essential services such as health and financial services. These problems have only been exacerbated by the greater reliance on digital tools since the COVID-19 pandemic.",
+                    "caption": "In 2020, 10% of Californians reported not having a desktop, laptop, or other computing devices at home. Access was especially limited among low-income (23%), Black (15%), and Latino (15%) households. (Source: PPIC, 2022)"
+                },
+                {
+                    "title": "Digital Inclusion - The Work",
+                    "cover": "./images/number2.png",
+                    "text1": "Digital inclusion work includes the activities necessary to ensure that all individuals and communities, particularly the most disadvantaged, have equitable access to and use of digital information, digital communication, and other technologies.",
+                    "text2": "This may look like having affordable and high-speed broadband internet service, internet-capable devices that work for their needs, and having access to digital literacy training and quality technical support.",
+                    "caption": "In Santa Clara County, roughly a quarter of the county's households don't have access to the internet. (Source: SJ Spotlight)"
+                },
+                {
+                    "title": "Digital Equity - The Goal",
+                    "cover": "./images/number3.png",
+                    "text1": "Digital equity is the goal in which all individuals and communities have the digital information and technological capacity needed for full participation in our society, democracy, and economy.",
+                    "caption": "Over 97,000 older Santa Clara County residents do not have access to broadband at home. (Source: Santa Clara County Digital Inclusion Working Group, 2021)"
+                }
+            ],
+            "sources": {
+                "title": "Sources:",
+                "source1": "National Digital Inclusion Alliance; ",
+                "source2": "BCG 2022; ",
+                "source3": "Sieck et al 2021"
+            }
+        },
+
+        "popular_resources": {
+            "title": "Most Popular Resources For Residents"
+        },
+
+        "quotes": {
+            "source": "Source:",
+            "quotes": [
+                {
+                    "id": 1,
+                    "cover": "/images/quote1.png",
+                    "title": "I feel shamed of not being able to help my kids' learning due to lack of even the basic use of a computer.",
+                    "desc": "--- A San Joséan Mom"
+                },
+                {
+                    "id": 1,
+                    "cover": "/images/quote2.png",
+                    "title": "Some kids didn't have tablets at home. Sometimes, their parents couldn’t afford it. So I think that the school provided tablets for us was probably like a big deal for us, so now we can get work done at home and at school.",
+                    "desc": "--- Jazmin, 7th Grader, San Jose Resident"
+                },
+                {
+                    "id": 1,
+                    "cover": "/images/quote3.png",
+                    "title": "If they have no access to the internet, how can they post their resume? Or how can we get to those key jobs? We gotta make sure to get out to those communities and those people that need that.",
+                    "desc": "--- Shauntrel Brown, Cyber Security Specialist, NPower Graduate"
+                }
+            ]
+        },
+
+        "dif_brief": {
+            "title": "What is the San José Digital Inclusion Fund?",
+            "pg1": "San José aims to close the digital divide through the Digital Inclusion Fund, a $24 million cross-sector fund over a ten-year period. By targeting three key components of digital inclusion (below), San José is committed to connecting 50,000 households to the digital world.",
+            "check1": "Access programs: providing internet connectivity to residents",
+            "check2": "Device programs: ensuring every resident has a working device",
+            "check3": "Digital literacy: enhancing digital skills to access jobs, educational opportunities & critical services",
+            "learn_more": "Learn more about the San José Digital Inclusion Fund",
+            "learn_more_linked": "here."
+        }
+    },
+
+    "resource_cards": [
+        {   
+            "id": 1,
+            "title": "SJAccess Services",
+            "image": "/images/phone1.jpg",
+            "desc": "Borrow a device or rent a hotspot for free to get connected",
+            "desc1": "Free wifi are availabe in SJ public libraries, downtown areas and specifially east-side communities. SJPL provides specific guidance to help you get publicly connected.",
+            "newPage": "accessSJ"
+        },
+        {   
+            "id": 2,
+            "title": "Public Free Internet/ Find a Library",
+            "title1": "Find Your San José Public Library ",
+            "title2": "Free Public Wifi",
+            "paraImage_one": "/images/findLib.png",
+            "desc": "Find free Wi-Fi at your library, downtown, and in your community",
+            "image": "/images/lib.jpg",
+            "desc1": "All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our ",
+            "desc2": "Access free, public Wi-Fi on your device in select locations throughout San José.",
+            "desc3": "San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.",
+            "newPage": "resource2"
+        },
+        {   
+            "id": 3,
+            "title": "Broadband Connection",
+            "image": "/images/wifi.jpg",
+            "desc": "Enroll in or upgrade your internet plan for your household",
+            "newPage": "broadband"
+        },
+        {   
+            "id": 4,
+            "title": "Digital Literacy Training",
+            "image": "/images/help1.jpg",
+            "desc": "Take classes to improve your digital knowledge and internet skills",
+            "newPage": "courses"
+        },
+        {
+            "id": 5,
+            "title": "People Offering Help",
+            "image": "/images/digNav.jpg",
+            "desc": "Find the right person to get in-person help on internet & IT issues",
+            "newPage": "people"
+        },
+        {
+            "id": 6,
+            "title": "FAQs",
+            "image": "/images/faq.jpg",
+            "desc": "Have a question? Read the FAQs for more answers!",
+            "newPage": "FAQ1"
+        }
+    ],
 
     "help_title": "Get Help"
+
 }
-  

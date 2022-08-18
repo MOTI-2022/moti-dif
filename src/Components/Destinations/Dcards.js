@@ -6,7 +6,7 @@ import Home from "./Home"
 import {animateScroll as scroll} from "react-scroll"
 
 
-const Cards = ({ item: { id, newPage, image, title, sidepara, desc, paraImage_one, paraImage_two } }) => {
+const Cards = ({ item: { newPage, image, title, desc } }) => {
   return (
     <>
       <div className='items'>
