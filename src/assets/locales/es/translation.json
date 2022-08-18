@@ -215,5 +215,49 @@
             "playlist_es": "Lista de reproducción completa de SJ Access: Español",
             "playlist_vi": "Lista de reproducción completa de SJ Access: Tiếng Việt"
         }
+    },
+
+    "public_internet_lib": {
+        "title": "Internet Público Gratuito / Encuentra una Biblioteca",
+        "find_lib": {
+            "title": "Encuentre su biblioteca pública de San José",
+            "para_p1": "Todas las ubicaciones de la biblioteca pública de San José están equipadas para sus necesidades digitales, como salas de computadoras, Wi-Fi público gratuito o puntos de acceso y dispositivos tecnológicos disponibles para alquilar. Visite nuestra página ",
+            "para_linked": "SJ Access",
+            "para_p2": " para obtener más información sobre el alquiler de puntos de acceso o dispositivos informáticos. ",
+            "button_p1": "Encuentre su biblioteca pública local de San José ",
+            "button_linked": "aquí"
+        },
+        "public_wifi": {
+            "title": "Wi-Fi Público Gratuito",
+            "para_p1": "San José actualmente brinda acceso gratuito e ilimitado a Internet en todas las ubicaciones de la Biblioteca Pública de San José, en el centro de San José y en el Este de San José. El programa Community Wi-Fi se completó oficialmente en el otoño de 2022. Informe cualquier problema de conexión a SJ 311 ",
+            "para_linked": "aquí",
+            "para_p2": ".",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "WI-FI EN LA BIBLIOTECA",
+                    "cover": "/images/inlib.png",
+                    "para": "Todas las ubicaciones de la Biblioteca Pública de San José tienen acceso gratuito a Internet Wi-Fi las 24 horas del día, los 7 días de la semana.",
+                    "page": "https://www.sjpl.org/library-wifi",
+                    "btnLabel": "APRENDE MÁS"
+                },
+                {
+                    "id": 2,
+                    "title": "WI-FI EN EL CENTRO",
+                    "cover": "/images/downtown.jpg",
+                    "para": "Wi-Fi público gratuito está disponible en ciertos corredores populares en el centro de San José.",
+                    "page": "https://www.sjpl.org/sjdowntown-wifi",
+                    "btnLabel": "APRENDE MÁS"
+                },
+                {
+                    "id": 3,
+                    "title": "ESTE DE SAN JOSÉ WI-FI",
+                    "cover": "/images/community.png",
+                    "para": "Una red Wi-Fi al aire libre con fuerte acceso cercade escuelas secundarias.",
+                    "page": "https://www.sjpl.org/eastside-wifi",
+                    "btnLabel": "APRENDE MÁS"
+                }
+            ]
+        }
     }
 }

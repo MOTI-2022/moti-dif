@@ -215,5 +215,49 @@
             "playlist_es": "Toàn bộ danh sách SJ Access: Español",
             "playlist_vi": "Toàn bộ danh sách SJ Access: Tiếng Việt"
         }
+    },
+
+    "public_internet_lib": {
+        "title": "Internet miễn phí công cộng / Tìm thư viện",
+        "find_lib": {
+            "title": "Tìm Thư viện Công cộng San José của bạn",
+            "para_p1": "Tất cả các địa điểm Thư viện Công cộng San José đều được trang bị cho nhu cầu kỹ thuật số của bạn, chẳng hạn như phòng máy tính, Wi-Fi công cộng miễn phí hoặc điểm phát sóng và các thiết bị công nghệ có sẵn cho thuê. Vui lòng truy cập trang ",
+            "para_linked": "SJ Access",
+            "para_p2": " của chúng tôi để biết thêm thông tin về việc thuê điểm phát sóng hoặc thiết bị máy tính.",
+            "button_p1": "Tìm Thư viện Công cộng San José tại địa phương của bạn ",
+            "button_linked": "tại đây"
+        },
+        "public_wifi": {
+            "title": "Wi-Fi Công cộng Miễn phí",
+            "para_p1": "San José hiện cung cấp quyền truy cập miễn phí và không giới hạn vào internet tại tất cả các địa điểm của Thư viện Công cộng San José, ở trung tâm thành phố San José và ở Đông San José. Chương trình Wi-Fi cộng đồng đã chính thức hoàn thành vào Mùa thu năm 2022. Hãy báo cáo bất kỳ vấn đề kết nối nào cho SJ 311 ",
+            "para_linked": "tại đây",
+            "para_p2": ".",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "Wi-Fi Trong Thư viện",
+                    "cover": "/images/inlib.png",
+                    "para": "Tất cả các địa điểm của Thư viện Công cộng San José đều có truy cập Internet Wi-Fi miễn phí 24/7.",
+                    "page": "https://www.sjpl.org/library-wifi",
+                    "btnLabel": "Tìm hiểu thêm"
+                },
+                {
+                    "id": 2,
+                    "title": "Wi-Fi trung tâm thành phố",
+                    "cover": "/images/downtown.jpg",
+                    "para": "Wi-Fi công cộng miễn phí có thể sử dụng được ở một số hành lang phổ biến nhất định ở trung tâm thành phố San José.",
+                    "page": "https://www.sjpl.org/sjdowntown-wifi",
+                    "btnLabel": "Tìm hiểu thêm"
+                },
+                {
+                    "id": 3,
+                    "title": "Wi-Fi Đông San José",
+                    "cover": "/images/community.png",
+                    "para": "Một mạng Wi-Fi ngoài trời có khả năng truy cập mạnh gần địa phươngcác Trường Trung học.",
+                    "page": "https://www.sjpl.org/eastside-wifi",
+                    "btnLabel": "Tìm hiểu thêm"
+                }
+            ]
+        }
     }
 }

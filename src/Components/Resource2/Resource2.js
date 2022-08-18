@@ -13,10 +13,12 @@ import data from "../Blog/BlogData";
 import HeadTitle from "../../Common/HeadTitle/HeadTitle";
 import EmptyFile from "../../Common/Empty/EmptyFile";
 import AllWifi from "../Wifi/AllWifi";
+import { useTranslation } from "react-i18next";
 
 const Resource2 = () => {
   {/*const [data, setData] = useState([]);*/}
-  const [item, setQuestions] = useState(data);
+  // const [item, setQuestions] = useState(data);
+  const { t } = useTranslation();
 
 
   useEffect(() => {
@@ -37,15 +39,15 @@ const Resource2 = () => {
             </Link>
 
           
-                <h5><font size="6" >Public Free Internet/ Find a Library</font></h5>
+                <h5><font size="6" > {t("public_internet_lib.title")} </font></h5>
                 <br></br>
 
-                <h1><font size="5.5" >Find Your San José Public Library</font></h1>
+                <h1><font size="5.5" > {t("public_internet_lib.find_lib.title")} </font></h1>
 
-                <p><font color="darkslategray">All San José Public Library locations are equipped for your digital needs, such as computer rooms, free public Wi-Fi, or hotspot and tech devices available for rent. Please visit our      
-                <u><Link to='/access' >
-             SJ access
-                </Link></u> page for more information on renting hotspot or computing devices.
+                <p><font color="darkslategray">  {t("public_internet_lib.find_lib.para_p1")} 
+                <u><Link to='/accessSJ' >
+                  {t("public_internet_lib.find_lib.para_linked")} 
+                </Link></u>  {t("public_internet_lib.find_lib.para_p2")} 
             </font></p>
             <br></br>
 
@@ -54,20 +56,21 @@ const Resource2 = () => {
                 <img src="/images/findLib.png" alt='' />
                 </div>
 
-                Find your local San José Public Library <t></t><a target="_blank" href="https://storelocator.site/LDAAwP" className="info-btn ">here</a>
+                {t("public_internet_lib.find_lib.button_p1")} <t></t><a target="_blank" href="https://storelocator.site/LDAAwP" className="info-btn "> {t("public_internet_lib.find_lib.button_linked")} </a>
                 <br></br>
                 <br></br>
                 
+                
 
+            <h1><font size="5.5"> {t("public_internet_lib.public_wifi.title")} </font></h1>
 
-             
-
-            <h1><font size="5.5" >Free Public Wifi</font></h1>
-
-                <p><font color="darkslategray">Access free, public Wi-Fi on your device in select locations throughout San José.</font></p>
-
-                <p><font color="darkslategray">San José currently provides free and unlimited access to the internet at all San José Public Library locations, in downtown San José, and in East San José.</font></p>
-                <br></br>
+                <p><font color="darkslategray">
+                {t("public_internet_lib.public_wifi.para_p1")} 
+                <a href="https://311.sanjoseca.gov/" target="_blank"><u> {t("public_internet_lib.public_wifi.para_linked")} </u></a>
+                {t("public_internet_lib.public_wifi.para_p2")}   
+                </font></p>
+            
+            <br></br>
 
             <AllWifi />
 

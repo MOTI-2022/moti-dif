@@ -1,10 +1,13 @@
 import React, { useState } from "react"
 import "./PeopleHome.css"
-import WifiData from "./WifiData"
+// import WifiData from "./WifiData"
 import PeopleCard from "./PeopleCard"
+import { useTranslation } from "react-i18next";
 
 const AllWifi = () => {
-  const [items, setIems] = useState(WifiData)
+  // const [items, setIems] = useState(WifiData)
+  const { t } = useTranslation();
+  
   return (
     <>
     <div className="pl">
@@ -13,7 +16,7 @@ const AllWifi = () => {
         <div className='container'>
 
           <div className='content grid'>
-            {items.map((item) => {
+            {t('public_internet_lib.public_wifi.cards', { returnObjects: true }).map((item) => {
               return <PeopleCard key={item.id} item={item} />
             })}
           </div>
