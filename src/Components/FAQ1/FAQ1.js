@@ -17,7 +17,7 @@ import data2 from './data2'
 
 const FAQ1 = () => {
   {/*const [data, setData] = useState([]);*/}
-  const [questions,  setQuestions] = useState(data);
+  const [questions] = useState(data);
   const [questions2] = useState(data2);
 
   useEffect(() => {

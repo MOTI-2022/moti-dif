@@ -3,7 +3,9 @@ const questions2 = [
       id: 1,
       title: 'Do I need a San José Public Library card to rent a device?',
       info:
-      'Yes, you need a physical SJPL card (not an e-Library card) to borrow SJ Access Wi-Fi hotspots, laptops, and other tech devices. Visit https://www.sjpl.org/membership for more information on how to get your SJPL library card.',
+      'Yes, you need a physical SJPL card (not an e-Library card) to borrow SJ Access Wi-Fi hotspots, laptops, and other tech devices. Click below for more information on how to get your SJPL library card.',
+      page: "https://www.sjpl.org/membership",
+      pageName: "SJPL Library Card"
     },
     {
       id: 2,
@@ -13,12 +15,12 @@ const questions2 = [
     },
     {
       id: 3,
-      title: 'Do I need to turn back the computer to the place where I borrowed from? Can I turn it back to another SJPL branch?',
+      title: 'Where is the nearest library to me?',
       info:
       `
-      No, you don’ t need to turn back your chromebook exactly to the branch from which you borrow it. You can send it back to any branch that is close to you, as long as the device is well maintained. 
-
-      Please DO NOT return your Chromebook in the book drop. This might make your laptop missing and you have to pay additional fine for it. Please make sure you return it to our staff in any SJPL branch.`,
+      Click below to find the closest San José Public Library to you!`,
+      page: "https://storelocator.site/LDAAwP",
+      pageName: "Find a library",
     },
     {
       id: 4,

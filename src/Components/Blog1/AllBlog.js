@@ -16,8 +16,8 @@ const AllBlog = () => {
         <div className='container'>
 
 
-        <Link to='/split' className='primary-btn'> 
-    <i className='fas fa-long-arrow-alt-left'></i>  Go back
+        <Link to='/split' className='primary-btn' > 
+    <i className='fas fa-long-arrow-alt-left'></i>  Make an Impact
     </Link>
     <br></br><br></br>
           <div className='content grid'>
