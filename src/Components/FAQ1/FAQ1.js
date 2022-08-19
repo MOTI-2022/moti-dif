@@ -10,9 +10,9 @@ import { useLocation, Link } from "react-router-dom"
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import SingleQuestion from './Question'
-import data from './data'
+// import data from './data'
 
-import data2 from './data2'
+// import data2 from './data2'
 
 
 
