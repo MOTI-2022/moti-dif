@@ -115,6 +115,8 @@ max-width: 400px;
 }
 .people .items:hover {
   background-color: lightcoral;
+  background-color: #1ca9c9;
+
   cursor: pointer;
 }
 .people .items:hover h3,

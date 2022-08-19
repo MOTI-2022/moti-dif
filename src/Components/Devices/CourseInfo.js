@@ -3,6 +3,7 @@ import "./PeopleHome.css"
 // import CourseData from "./CourseData"
 import PeopleCard from "./PeopleCard"
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 
 const Devices = () => {
   // const [items, setIems] = useState(CourseData)
@@ -14,7 +15,9 @@ const Devices = () => {
       <section className='pl top'>
 
         <div className='container'>
-
+        <Link to='/destinations' className='primary-btn back'>
+              <i className='fas fa-long-arrow-alt-left'></i> Go Back
+            </Link>
           <div className='content grid'>
             {t('sj_access.devices.devices', { returnObjects: true }).map((item) => {
               return <PeopleCard key={item.id} item={item} />

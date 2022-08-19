@@ -30,6 +30,11 @@ const FAQ1 = () => {
 
   return (
     <>
+    <br></br>
+       <Link to='/destinations' className="primary-btn">
+              <i className='fas fa-long-arrow-alt-left'></i> Go Back
+            </Link>
+            <br></br>
       <h5> {t("faq.title")} </h5>
 
     {/*<div className="allQ">*/}

@@ -7,6 +7,7 @@ const Blog = () => {
     <>
       <HeadTitle />
       <AllPeople />
+      
     </>
   )
 }

@@ -4,6 +4,8 @@
   font-style: bold;
   font-weight: 300;
   min-width: 90%;
+  min-height: fit-content;
+  min-height: 200px;
 
 }
 
@@ -36,8 +38,9 @@
   min-width: 100%;
   min-width: fit-content;
   width: auto;
-  max-width: 60%;
-  min-height: 60%;
+  max-width: 50%;
+  min-height: 50%;
+  
 }
 
 /*

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, para, para1,para2,para3, page, page1,page2, btnLabel1, btnLabel2 } }) => {
   return (
     <>
+    
       <div className='items'>
         <div className='img'>
           <img src={cover} alt='Gallery Image' />
@@ -16,6 +17,7 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, para, para1,p
         </div>*/}
 
         <div className='details'>
+ 
           <h3>{title}</h3>
           <p>{para}</p>
 

@@ -30,6 +30,10 @@ const Courses = () => {
     <>
       {/*<HeadTitle />*/}
       <br></br>
+      <Link to='/destinations' className="primary-btn">
+              <i className='fas fa-long-arrow-alt-left'></i> Go Back
+            </Link>
+            <br></br>
       <h5>
               {t("digital_literacy.title")}{/*<span>Story</span>*/}
 

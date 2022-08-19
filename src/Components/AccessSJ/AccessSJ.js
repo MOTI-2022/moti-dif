@@ -34,6 +34,11 @@ const AccessSJ = () => {
     <>
       {/*<HeadTitle />*/}
       <br></br>
+
+      <Link to='/destinations' className="primary-btn">
+              <i className='fas fa-long-arrow-alt-left'></i> Go Back
+            </Link>
+
       <h5>
       {t("sj_access.title")} {/*<span>Story</span>*/}
 
@@ -42,22 +47,36 @@ const AccessSJ = () => {
               <br></br>*/}
 
 
-
       </h5>
+
+   
+ 
       <div className="plan">
+
      {/* <u><b><font size="5">DEVICES</font></b></u>
               <br></br>*/}
 
-      <h6><font size="4"> {t("sj_access.pg1")} </font></h6></div>
-      <br></br>
+ 
+      <h6><font size="4"> {t("sj_access.pg1")}     
+      
+      <br></br><br></br>
 
-      <h5><u><b><font size="5"> {t("sj_access.devices.title")} </font></b></u></h5>
+Find your nearest San José Public Library: 
+      <a href='https://storelocator.site/LDAAwP' target='_blank' className='info-btn'>
+       here
+      </a>
+       </font></h6></div>
+   
+
+      <h5><u><b><font size="5"> {t("sj_access.devices.title")} 
+      
+      
+      </font></b></u></h5>
   
-      {/*<MostPopular />
-
-      <AdvSkills />*/}
+     
 
       <div className='container1'>
+ 
         <Devices />
         <div className="plan">
 
@@ -68,12 +87,13 @@ const AccessSJ = () => {
         <Hotspot />
 
 
+
         {/*  <AboutCard />*/}
         </div>
       
       <section className='about1 top1'>
 
-
+  
 
     
       <br></br>

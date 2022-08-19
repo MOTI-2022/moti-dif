@@ -63,6 +63,7 @@
 .blog .items a i {
   color: #31b675;
   color: coral;
+  
   transition: 0.5s ease-in-out;
 }
 .blog .items:hover {

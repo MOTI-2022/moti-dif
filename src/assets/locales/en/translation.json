@@ -19,19 +19,19 @@
             "title": "Digital Divide · Digital Inclusion · Digital Equity",
             "cards": [
                 {
-                    "cover": "/images/divide.png",
+                    "cover": "/images/momson.png",
                     "title": "Digital Divide",
                     "title1": "The Problem",
                     "icon": "./images/arrow.png"
                 },
                 {
-                    "cover": "/images/inclusion.png",
+                    "cover": "/images/second.png",
                     "title": "Digital Inclusion",
                     "title1": "The Work",
                     "icon": "./images/arrow.png"
                 },
                 {
-                    "cover": "/images/equity.png",
+                    "cover": "/images/third.png",
                     "title": "Digital Equity",
                     "title1": "The Goal",
                     "icon": "./images/check.png"

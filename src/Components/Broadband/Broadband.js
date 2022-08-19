@@ -31,6 +31,11 @@ const Broadband = () => {
     <>
       {/*<HeadTitle />*/}
       <br></br>
+
+      <Link to='/destinations' className="primary-btn">
+              <i className='fas fa-long-arrow-alt-left'></i> Go Back
+            </Link>
+            <br></br>
       <h5>
       {t("broadband.title")} {/*<span>Story</span>*/}
 
