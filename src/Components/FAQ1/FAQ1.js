@@ -8,6 +8,7 @@ import { useLocation, Link } from "react-router-dom"
 
 
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import SingleQuestion from './Question'
 import data from './data'
 
@@ -17,8 +18,7 @@ import data2 from './data2'
 
 const FAQ1 = () => {
   {/*const [data, setData] = useState([]);*/}
-  const [questions] = useState(data);
-  const [questions2] = useState(data2);
+  const { t } = useTranslation();
 
   useEffect(() => {
     // This just tells react to run this code when page first loads
@@ -30,23 +30,23 @@ const FAQ1 = () => {
 
   return (
     <>
-      <h5>Frequently Asked Questions</h5>
+      <h5> {t("faq.title")} </h5>
 
     {/*<div className="allQ">*/}
 
       <div className='containerFAQ'>
-      <h6>  <font size = "5"> Digital Inclusion</font></h6>
+      <h6>  <font size = "5"> {t("faq.subtitle1")} </font></h6>
         <section className='infoFAQ'>
-          {questions.map((question) => (
+          {t('faq.questions1', { returnObjects: true }).map((question) => (
             <SingleQuestion data key={question.id} {...question} />
           ))}
         </section>
       {/*</div>
       <div className='containerFAQ'>*/}
       <br></br>
-      <h6>  <font size = "5">Device & Internet</font></h6>
+      <h6>  <font size = "5"> {t("faq.subtitle2")} </font></h6>
         <section className='infoFAQ'>
-          {questions2.map((question) => (
+          {t('faq.questions2', { returnObjects: true }).map((question) => (
             <SingleQuestion data2 key={question.id} {...question} />
           ))}
         </section>

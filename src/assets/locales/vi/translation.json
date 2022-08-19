@@ -376,5 +376,69 @@
                 "btnLabel": "Nhận hỗ trợ kỹ thuật"
             }
         ]
+    },
+
+    "faq": {
+        "title": "Câu hỏi thường gặp",
+        "subtitle1": "Digital Inclusion Fund",
+        "subtitle2": "Thiết bị & Internet",
+        "questions1": [
+            {
+                "id": 1,
+                "title": "Digital Inclusion Fund đã đạt được những gì?",
+                "info": "Hãy truy cập trang Tìm hiểu thêm của chúng tôi để tìm hiểu về những thành tựu của DIF!",
+                "page1": "about",
+                "page1Name": "Tìm hiểu thêm"
+            },
+            {
+                "id": 2,
+                "title": "Ai có thể nhận được tài trợ từ Quỹ hòa nhập kỹ thuật số?",
+                "info": "Bất kỳ tổ chức nào là 501 (c) (3), cơ quan công cộng hoặc tổ chức giáo dục phục vụ cư dân San José đều có thể nhận được tài trợ từ Quỹ hòa nhập kỹ thuật số. Vui lòng truy cập trang Nộp đơn cho Quỹ hòa nhập kỹ thuật số để biết thêm thông tin về quy trình đăng ký.",
+                "page1": "dif",
+                "page1Name": "Áp dụng cho Digital Inclusion Fund"
+            },
+            {
+                "id": 3,
+                "title": "Những tổ chức nào đã được Digital Inclusion Fund tài trợ trước đây?",
+                "info": "Truy cập phần Người nhận tài trợ & Người hỗ trợ trên trang Tìm hiểu thêm của chúng tôi để tìm hiểu về các tổ chức quý giá được DIF tài trợ.",
+                "page1": "about",
+                "page1Name": "Tìm hiểu thêm"
+            },
+            {
+                "id": 4,
+                "title": "Làm cách nào để đăng ký Digital Inclusion Fund?",
+                "info": "Thông tin cập nhật cho các ứng dụng đang mở có sẵn trên trang Đăng ký vào Digital Inclusion Fund.",
+                "page1": "dif",
+                "page1Name": "Áp dụng cho Digital Inclusion Fund"
+            },
+            {
+                "id": 5,
+                "title": "Các cá nhân có thể nhận tài trợ từ Digital Inclusion Fund không?",
+                "info": "Rất tiếc là không, xin lỗi! Tuy nhiên, nếu bạn cần trợ giúp về tài chính để nhận tài nguyên kỹ thuật số (tức là mua gói internet, tìm thiết bị), vui lòng truy cập trang SJ Access của chúng tôi để biết các tài nguyên từ thư viện hoặc liên hệ với một trong các tổ chức đối tác, những người có thể giúp bạn trực tiếp.",
+                "page1": "accessSJ",
+                "page1Name": "SJ Access"
+            }
+        ],
+        "questions2": [
+            {
+                "id": 1,
+                "title": "Tôi có cần thẻ Thư viện Công cộng San José để thuê thiết bị không?",
+                "info": "Có, bạn cần thẻ SJPL vật lý (không phải thẻ Thư viện điện tử) để mượn điểm truy cập Wi-Fi SJ Access, máy tính xách tay và các thiết bị công nghệ khác. Nhấp vào bên dưới để biết thêm thông tin về cách lấy thẻ thư viện SJPL của bạn và các tài nguyên hiện có khác.",
+                "page": "https://www.sjpl.org/membership",
+                "pageName": "Thẻ Thư viện SJPL"
+            },
+            {
+                "id": 2,
+                "title": "Nếu tôi sống bên ngoài San José, tôi vẫn có thể thuê các thiết bị từ thư viện chứ?",
+                "info": "Đúng! Bất kỳ ai sống ở California đều có thể nhận được thẻ Thư viện Công cộng San José cho phép bạn mượn các điểm truy cập internet và thiết bị máy tính, đồng thời đăng ký các lớp học máy tính."
+            },
+            {
+                "id": 3,
+                "title": "Thư viện gần tôi nhất ở đâu?",
+                "info": "Nhấp vào bên dưới để tìm Thư viện Công cộng San José gần bạn nhất!",
+                "page": "https://storelocator.site/LDAAwP",
+                "pageName": "Tìm thư viện"
+            }
+        ]
     }
 }

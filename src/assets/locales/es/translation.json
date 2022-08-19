@@ -376,5 +376,69 @@
                 "btnLabel": "Obtenga soporte técnico"
             }
         ]
+    },
+
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle1": "Digital Inclusion Fund",
+        "subtitle2": "Dispositivos e Internet",
+        "questions1": [
+            {
+                "id": 1,
+                "title": "¿Qué ha logrado el Fondo de Inclusión Digital?",
+                "info": "¡Visite nuestra página Más información para conocer los logros del DIF!",
+                "page1": "about",
+                "page1Name": "Más Información"
+            },
+            {
+                "id": 2,
+                "title": "¿Quién puede recibir financiación del Fondo de Inclusión Digital?",
+                "info": "Cualquier organización que sea 501(c)(3), agencia pública o institución educativa que preste servicios a los residentes de San José puede recibir fondos del Fondo de Inclusión Digital. Visite la Aplicar al Fondo de Inclusión Digital para obtener más información sobre el proceso de solicitud.",
+                "page1": "dif",
+                "page1Name": "Aplicar al Fondo de Inclusión Digital"
+            },
+            {
+                "id": 3,
+                "title": "¿Qué organizaciones han sido previamente financiadas por el Fondo de Inclusión Digital?",
+                "info": "Visite la sección Beneficiarios y Patrocinadores de nuestra página Más información para obtener información sobre valiosas organizaciones financiadas por el DIF.",
+                "page1": "about",
+                "page1Name": "Más información"
+            },
+            {
+                "id": 4,
+                "title": "¿Cómo solicito el Fondo de Inclusión Digital?",
+                "info": "La información actualizada para las solicitudes abiertas está disponible en la Aplicar al Fondo de Inclusión Digital.",
+                "page1": "dif",
+                "page1Name": "Aplicar al Fondo de Inclusión Digital"
+            },
+            {
+                "id": 5,
+                "title": "¿Pueden las personas recibir fondos del Fondo de Inclusión Digital?",
+                "info": "Lamentablemente no, lo siento! Sin embargo, si necesita ayuda financiera para obtener recursos digitales (es decir, obtener un plan de Internet, encontrar un dispositivo), visite nuestra página SJ Access para obtener recursos de la biblioteca o comuníquese con una de nuestras organizaciones asociadas que pueden ayudarlo directamente.",
+                "page1": "accessSJ",
+                "page1Name": "SJ Access"
+            }
+        ],
+        "questions2": [
+            {
+                "id": 1,
+                "title": "¿Necesito una tarjeta de la Biblioteca Pública de San José para alquilar un dispositivo?",
+                "info": "Sí, necesita una tarjeta SJPL física (no una tarjeta de biblioteca electrónica) para tomar prestados puntos de acceso Wi-Fi, computadoras portátiles y otros dispositivos tecnológicos de SJ Access. Haga clic a continuación para obtener más información sobre cómo obtener su tarjeta de biblioteca SJPL y otros recursos disponibles.",
+                "page": "https://www.sjpl.org/membership",
+                "pageName": "Tarjeta de BSiblioteca SJPL"
+            },
+            {
+                "id": 2,
+                "title": "¿Si vivo fuera de San José, ¿puedo alquilar dispositivos de la biblioteca?",
+                "info": "¡Sí! Cualquier persona que viva en California puede obtener una tarjeta de la Biblioteca Pública de San José que le permite tomar prestados puntos de acceso a Internet y dispositivos informáticos, e inscribirse en clases de informática."
+            },
+            {
+                "id": 3,
+                "title": "¿Dónde está la biblioteca más cercana a mí?",
+                "info": "¡Haga clic a continuación para encontrar la Biblioteca Pública de San José más cercana a usted!",
+                "page": "https://storelocator.site/LDAAwP",
+                "pageName": "Encuentra una Biblioteca"
+            }
+        ]
     }
 }
