@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 //import Sdata from "./Sdata"
-import SJaccess from "./SJaccess"
 import Home from "./Home"
 import {animateScroll as scroll} from "react-scroll"
 
@@ -13,12 +12,7 @@ const Cards = ({ item: { newPage, image, title, desc } }) => {
         <div className='img'>
           <img src={image} alt='Gallery Image' />
 
-          {/*<Link to={`/singlepage/${id}`} className='blogItem-link'>*/}
-         {/*<Link to={`./destinations`} >*/}
          <Link to={`./${newPage}`} onClick= {()=>(scroll.scrollToTop())} >{desc}
-
-          {/*<Link to={`./destinations/${newPage}`} className='blogItem-link'>*/}
-
 
             <i className='fas fa-external-link-alt'></i>
           </Link>

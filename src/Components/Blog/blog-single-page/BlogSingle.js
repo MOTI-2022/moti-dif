@@ -60,53 +60,21 @@ const BlogSingle = () => {
 
 
                   <br></br>{item.contact2}<br></br>
-                  {item.contact3}</p>
+                  {item.contact3}
+                </p>
                
                 </font>
                 
-                {/*
-
-                if({item.id}=1)
-                {               
-                   <a target="_blank" href='https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=MUZC664CJEB32&source=url' className="primary-btn lib">Donate here</a>
-
-
-                }
-                else if({item.id}==2)
-                {               
-                   <a target="_blank" href='https://closingthedivide.foundation/ewaste-1' className="primary-btn lib">Donate </a>
-
-
-                }*/}
 
                 <font size="10">
                 <p>OTHER <br></br>
                 For all other inquiries, please contact our Program Director, Charlene Tatis, at  <a href="mailto:info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a>
-</p>
+                </p>
                 </font>
                 
 
               </div>
-              {/* --------- main-content--------- */}
-
-              {/* --------- side-content--------- */}
-              {/*
-              <div className='side-content'>
-                <div className='category-list'>
-                  <h1>Categories</h1>
-                  <hr />
-                  <ul>
-                    {BlogData.map((item) => {
-                      return (
-                        <li>
-                          <i className='far fa-play-circle'></i>
-                          {item.catgeory}
-                        </li>
-                      )
-                    })}
-                  </ul>
-                </div>
-              </div>*/}
+              {/* --------- main-content--------- */}             
 
               {/* --------- side-content--------- */}
             </article>

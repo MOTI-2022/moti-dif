@@ -72,8 +72,7 @@ const Intro = () => {
             </ul>
             </font>
             <div className='img flex'>
-             {/* <img src='/images/appstore-button.png' alt='' />
-              <img src='/images/google-play-button.png' alt='' />*/}
+ 
             </div>
           </div>
 
@@ -103,8 +102,7 @@ const Intro = () => {
             </ul>
             </font>
             <div className='img flex'>
-             {/* <img src='/images/appstore-button.png' alt='' />
-              <img src='/images/google-play-button.png' alt='' />*/}
+      
             </div>
           </div>
           <div className='row row2'>

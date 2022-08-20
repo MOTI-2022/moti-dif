@@ -85,17 +85,15 @@ const About = () => {
             <p>San José is the first city in the country to pledge to close the Digital Divide by establishing the Digital Inclusion Fund, a $24 million cross-sector fund that will be distributed in grant awards over a ten-year period. The fund is raised through innovative public-private partnerships, private and public philanthropic donors, and matched City funding. </p>
             <p>The City of San José, in partnership with the <u><a href="https://www.catholiccharitiesscc.org/volunteer?locale=en" target="_blank"  > City of San José Mayors Office of Technology and Innovation</a></u>, has engaged the <u><a href="https://www.catholiccharitiesscc.org/volunteer?locale=en" target="_blank"  > California Emerging Technology Fund</a></u> to work with community organizations and administer grant making. The Digital Inclusion Partnership will disburse approximately $500K - 1M each year to organizations in San José who are closing the Digital Divide through expanding Internet connectivity, device access and digital literacy skills.</p>
             <p>The Partnership will target three key components of Digital Inclusion: </p>
-      <tab></tab> <tab></tab> <p>  1. Access programs: providing internet connectivity to residents<br></br>
-      <tab></tab>
-2. Device programs: ensuring every resident has a working device<br></br>
-      <tab></tab>
-3. Digital literacy: enhancing digital skills to access jobs, educational opportunities & critical services
+            <tab></tab> <tab></tab> <p>  1. Access programs: providing internet connectivity to residents<br></br>
+            <tab></tab>
+            2. Device programs: ensuring every resident has a working device<br></br>
+            <tab></tab>
+            3. Digital literacy: enhancing digital skills to access jobs, educational opportunities & critical services
 
-</p>
+            </p>
 
 
-
-        
           </div>
 
           <div className='row image'>
@@ -110,7 +108,6 @@ const About = () => {
               
             </div>
           </div>
-
 
         </div>
        {/* <Download />*/}
@@ -150,24 +147,7 @@ const About = () => {
               <Grantees>
 
               </Grantees>
-              {/* <div className = "coll">
-
-             <Collapsible trigger="Grantees 2022" triggerWhenOpen="Collapse Grantees 2022" open= "true"  >
-             <tab></tab> <h6>hello </h6><br></br>
-             <tab></tab> <h6>hello </h6><br></br>
-             <tab></tab>  <h6>hello </h6><br></br>
-              </Collapsible>
-              <Collapsible trigger="Grantees 2021" triggerWhenOpen="Collapse" open= "false"  >
-              <tab></tab> <h6>hello </h6><br></br>
-             <tab></tab> <h6>hello </h6><br></br>
-             <tab></tab>  <h6>hello </h6><br></br>
-              </Collapsible>
-              <Collapsible trigger="Grantees 2020" triggerWhenOpen="Collapse" open= "false"  >
-              <tab></tab> <h6>hello </h6><br></br>
-             <tab></tab> <h6>hello </h6><br></br>
-             <tab></tab>  <h6>hello </h6><br></br>
-              </Collapsible>
-              </div>*/}
+             
 
             <div className="h4">
               Also, special thanks to the institutions that have rendered tremendous financial and technical support during the past years, in random order:

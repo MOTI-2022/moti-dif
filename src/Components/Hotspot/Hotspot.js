@@ -11,19 +11,13 @@ const AllReports= () => {
   return (
     <>
     <h5><u><b><font size="5"> {t("sj_access.hotspot.title")} </font></b></u></h5>
-    {/*<h6><font size = "4" color="brown">Get connected to one-on-one support for your digital needs. <br></br>
-  Find in-person or one-on-one support for your technical questions and needs.</font></h6>*/}
+  
       <section className='hs top'>
 
-        {/*<div className='containerHS'>
-
-          <div className='content grid'>*/}
             {t('sj_access.hotspot.hotspot', { returnObjects: true }).map((item) => {
               return <ReportCard key={item.id} item={item} />
             })}
-          {/*</div>
-
-        </div>*/}
+       
       </section>
     </>
   )

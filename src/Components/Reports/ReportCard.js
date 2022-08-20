@@ -9,12 +9,6 @@ const ReportCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
           <img src={cover} alt='Gallery Image' />
         </div>
 
-        {/*
-        <div className='category flex_space'>
-          <span>{date}</span>
-          <label>{catgeory}</label>
-        </div>*/}
-
         <div className='details'>
           <h3>{title}</h3>
           <p>{para}</p>
@@ -24,16 +18,6 @@ const ReportCard = ({ item: { id, newPage, cover, btnLabel, title, desc, para, p
 
         </div>
 
-        {/*<Link to={`/blogsingle/${id}`} className='blogItem-link'>*/}
-        {/*<Link to={`/${newPage}/${id}`} className='blogItem-link'>
-        
-        
-        
-        <Link to={`/${newPage}`} className='peopleItem-link'>
-          CLICK ME <i className='fa fa-long-arrow-right'></i>
-        </Link>
-
-        */}
         <a href={page} target="_blank" className="read-btn" >Read here <i className='fa fa-long-arrow-right'></i></a>
 
  

@@ -47,13 +47,13 @@ const Split = () => {
       <br></br><br></br>
 
 
-      <Link to='/blog1' className='primary-btn lib'>  I'm an individual
-            </Link>
+      <Link to='/individual' className='primary-btn lib'>  I'm an individual
+      </Link>
            
             <br></br><br/>
 
-            <Link to='/blog2' className='primary-btn lib'>I'm an organization
-            </Link>
+      <Link to='/org' className='primary-btn lib'>I'm an organization
+      </Link>
            
             <br></br>
       </p>
@@ -65,16 +65,6 @@ const Split = () => {
 
 
       <section className='features1 top1'>
-
-   
-      {/*
-      <Link to='/blog' className='primary-btn lib'>
-            <i className='fas fa-long-arrow-alt-left'></i> Go Back
-            </Link>*/}
-
-
-        
-        
 
       </section>
 

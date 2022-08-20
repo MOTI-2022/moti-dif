@@ -21,12 +21,7 @@ const Card = (props) => {
         <br></br>
         <font size="4">{props.title1}</font>  
     
-        {/*
-        <br></br>
-        <br></br>
-        <font size="4">
-        {props.desc}  <br></br><br></br>{props.desc1}
-        </font>*/}
+
 
         </h2>
      

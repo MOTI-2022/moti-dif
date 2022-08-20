@@ -30,22 +30,7 @@ const SinglePage = () => {
               <i className='fas fa-long-arrow-alt-left'></i> Go Back
             </Link>
 
-            {/*<Link to='/blog' className='primary-btn lib'>
-              <i className='fas fa-long-arrow-alt-left'></i> Find a Library
-            </Link>*/}
-
-
-            {/* --------- main-content--------- */}
-
-                {/*<img src={item.image} alt='' />
-                <p>{item.desc}</p>
-                <p>{item.desc}</p>
-
-                <div className='para flex_space'>
-                  <p>{item.sidepara}</p>
-                  <p>{item.sidepara}</p>
-                </div>*/}
-                {/*<h1>Whta is the {item.title} City ?</h1>*/}
+           
                 <h5><font size="6" >{item.title}</font></h5>
                 <br></br>
 
@@ -58,10 +43,7 @@ const SinglePage = () => {
             </font></p>
             <br></br>
 
-               {/* <div className='image resources grid1 '>
-                  <img src={item.paraImage_one} alt='' />*/}
-                 {/* <img src={item.paraImage_two} alt='' />*/}
-                {/*</div>*/}
+            
                 <div className="map">
                 <img src={item.paraImage_one} alt='' />
                 </div>
@@ -72,24 +54,7 @@ const SinglePage = () => {
                 
 
 
-              {/* --------- main-content--------- */}
-
-              {/* --------- side-content--------- 
-              <div className='side-content'>
-                <div className='box'>
-                  <h2>How can we help you?</h2>
-                  <p>{item.sidepara}</p>
-                  <button className='outline-btn'>
-                    <i className='fa fa-phone-alt'></i> Contact Us
-                  </button>
-                </div>
-
-                <div className='box2'>
-                  <p>{item.sidepara}</p>
-                </div>
-              </div>
-              {/* --------- side-content--------- */}
-
+             
 
             <h1><font size="5.5" >{item.title2}</font></h1>
 

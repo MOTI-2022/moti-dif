@@ -56,30 +56,17 @@ const Cards = () => {
               <div className='cards'>
                 <div className='item'>
                   <div className='imgae'>
-                    {/*<img src={value.image} alt='' />*/}
-                   {/* <iframe width="auto" height="315" src="https://www.youtube.com/embed/g71vtOuhL1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/}
-                    <iframe width="auto" height="315" src={value.vid} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="auto" height="315" src={value.vid} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                    {/*<i className='fas fa-map-marker-alt'>
-                      <label>{value.country}</label>
-                    </i>*/}
+                  
                   </div>
                   <br></br>
-                 {/* <div className='rate'>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='far fa-star'></i>
-                    <i className='far fa-star'></i>
-                  </div>*/}
+                
                   <div className='details'>
                   
                     <h2>{value.name}</h2>
                     
-                    {/*<div className='boarder'></div>
-                    <h3>
-                      {value.price} / <span>Per night</span>
-                    </h3>*/}
+                   
                     
                   </div>
                   

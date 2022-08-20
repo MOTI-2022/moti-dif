@@ -75,48 +75,9 @@ const Footer = () => {
               <li>
               <a href="https://www.sjpl.org/" target="_blank">San Jose Public Library (SJPL)</a>
               </li>
-{/*
-              <li>
-                <Link to='/courses'>Digital Literacy Training</Link>
-              </li>
-              <li>
-                <Link to='/people'>People Offering Help</Link>
-              </li>
-              
-              <li>
-                <Link to='/'>Home</Link>
-              </li>
-              <li>
-                <Link to='/contact'>Contact Us</Link>
-              </li>*/}
+
             </ul>
-            {/*<ul>
-              <li>
-                <p>City oF San José</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-            </ul>*/}
+          
           </div>
 
         </div>

@@ -107,7 +107,7 @@ function App() {
           <Route path='/home' onClick= {()=>(scroll.scrollToTop())} exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/help1' exact component={Help1} />
-          <Route path='/help2' exact component={Help2} />
+          <Route path='/donateInd' exact component={Help2} />
           <Route path='/dif' exact component={DIF} />
           <Route path='/money' exact component={Money} />
           <Route path='/donatedev' exact component={DonateDev} />
@@ -123,8 +123,8 @@ function App() {
           <Route path='/destinations' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />
           <Route path='/blog' exact component={Blog} />
-          <Route path='/blog1' exact component={Blog1} />
-          <Route path='/blog2' exact component={Blog2} />
+          <Route path='/individual' exact component={Blog1} />
+          <Route path='/org' exact component={Blog2} />
           <Route path='/blogsingle/:id' exact component={BlogSingle} />
           <Route path='/people' exact component={People} />
           <Route path='/reports' exact component={Reports} />

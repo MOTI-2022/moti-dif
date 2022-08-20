@@ -22,9 +22,6 @@ const BlogCard = ({ item: { id, newPage, cover, title, desc, para, catgeory, dat
           {/*<p>{para}</p>*/}
         </div>
 
-        {/*<Link to={`/blogsingle/${id}`} className='blogItem-link'>*/}
-        {/*<Link to={`/${newPage}/${id}`} className='blogItem-link'>*/}
-
         <Link to={`/${newPage}`} onClick= {()=>(scroll.scrollToTop())} className='blogItem-link'>
           LEARN MORE <i className='fa fa-long-arrow-right'></i>
         </Link>

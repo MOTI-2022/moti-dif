@@ -58,26 +58,15 @@ const DonateDev = () => {
 
                 <p>Donate your old computers and devices to Closing the Divide’s E-Waste Program! Your devices will refurbished and then donated to households in need.  <br></br>
                 
-               
-                
                 </p>
               
 
               </font>
 
-                
-
-                
-
-
-               
-                
-               
-
                 <font size="10">
                 <p>OTHER <br></br>
                 For all other inquiries, please contact our Program Director, Charlene Tatis, at  <a href="mailto:info@sjdigitalinclusion.org"><u>info@sjdigitalinclusion.org</u></a>
-</p>
+                </p>
                 </font>
                 
 

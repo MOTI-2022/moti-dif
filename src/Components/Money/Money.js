@@ -37,7 +37,7 @@ const Money = () => {
 
       <section className='single-page top'>
           <div className='container'>
-            <Link to='/blog2' className='primary-btn back'>
+            <Link to='/org' className='primary-btn back'>
               <i className='fas fa-long-arrow-alt-left'></i> Go Back
             </Link>
 

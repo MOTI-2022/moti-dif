@@ -33,7 +33,7 @@ const Help2 = () => {
 
   <section className='single-page top'>
     <div className='container'>
-      <Link to='/blog1' className='primary-btn back'>
+      <Link to='/individual' className='primary-btn back'>
         <i className='fas fa-long-arrow-alt-left'></i> Go Back
       </Link>
 
@@ -63,9 +63,7 @@ const Help2 = () => {
           <p>All proceeds donated are administered by the California Emerging Technology Fund’s general Digital Inclusion Fund. $30 sponsors a student’s internet through the summer, and $150 buys a refurbished device. We deeply appreciate your support!</p>
 
           <p>Checks can be written out to the “California Emerging Technology Fund” and note in the Memo section “San Jose Digital Inclusion Fund.”  Mail checks to 333 West San Carlos Street, 6th Floor, San Jose, CA 95110.</p>
-          {/*<p>{item.desc}</p>
-
-          <h2>Two Column Text Sample</h2>*/}
+         
 
           <div className='para flex_space'>
            

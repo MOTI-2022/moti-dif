@@ -9,11 +9,6 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, para, para1,p
           <img src={cover} alt='Gallery Image' />
         </div>
 
-        {/*
-        <div className='category flex_space'>
-          <span>{date}</span>
-          <label>{catgeory}</label>
-        </div>*/}
 
         <div className='details'>
         <div className="words">
@@ -24,17 +19,6 @@ const PeopleCard = ({ item: { id, newPage, cover, btnLabel, title, para, para1,p
           <p>{para3}</p>
         </div>
         </div>
-
-        {/*<Link to={`/blogsingle/${id}`} className='blogItem-link'>*/}
-        {/*<Link to={`/${newPage}/${id}`} className='blogItem-link'>
-        
-        
-        
-        <Link to={`/${newPage}`} className='peopleItem-link'>
-          CLICK ME <i className='fa fa-long-arrow-right'></i>
-        </Link>
-
-        */}
 
         <br></br>
         <a href={page} target="_blank" className="peopleItem-link" >{btnLabel}<i className='fa fa-long-arrow-right'></i></a>

@@ -48,8 +48,8 @@ const Resource2 = () => {
                 <u><Link to='/accessSJ' >
                   {t("public_internet_lib.find_lib.para_linked")} 
                 </Link></u>  {t("public_internet_lib.find_lib.para_p2")} 
-            </font></p>
-            <br></br>
+                </font></p>
+                <br></br>
 
              
                 <div className="map">
