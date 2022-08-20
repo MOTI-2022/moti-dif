@@ -29,7 +29,7 @@ const Courses = () => {
     <>
       {/*<HeadTitle />*/}
       <br></br>
-      <Link to='/destinations' className="primary-btn">
+      <Link to='/resources' className="primary-btn">
               <i className='fas fa-long-arrow-alt-left'></i> Go Back
       </Link>
             <br></br>

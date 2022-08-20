@@ -47,7 +47,7 @@ const Navbar = () => {
  
  
             <li>
-              <NavLink to='/destinations' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
+              <NavLink to='/resources' onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} activeClassName="active">
               {t("nav.get_help")}
               </NavLink>
             </li>

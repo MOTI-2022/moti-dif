@@ -26,7 +26,7 @@ const SinglePage = () => {
       {item ? (
         <section className='single-page top'>
           <div className='container'>
-            <Link to='/destinations' className='primary-btn back'>
+            <Link to='/resources' className='primary-btn back'>
               <i className='fas fa-long-arrow-alt-left'></i> Go Back
             </Link>
 

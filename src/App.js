@@ -120,7 +120,7 @@ function App() {
           <Route path='/broadband' exact component={Broadband} />
           <Route path='/accessSJ' exact component={AccessSJ} />
           <Route path='/gallery' exact component={Gallery} />
-          <Route path='/destinations' exact component={Destinations} />
+          <Route path='/resources' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />
           <Route path='/blog' exact component={Blog} />
           <Route path='/individual' exact component={Blog1} />
