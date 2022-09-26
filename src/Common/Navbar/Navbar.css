@@ -33,7 +33,7 @@
 }
 
 .language-select{
-  background-color: lightblue;
+  /* background-color: lightblue; */
   margin-top: 20px;
   line-height: 1vh;
   padding-bottom: 0px;
@@ -94,13 +94,13 @@ nav ul li a {
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 1px;
-  transition: all 0.2s ease-out;
-  opacity: 0.8;
+  opacity: 1;
 
 }
 nav ul li a:hover {
-  color: white;
-  background-color: #6aa1c1;
+  color: black;
+  text-decoration: underline;
+  /* background-color: #6aa1c1; */
   border-radius: 30%;
   border-radius: 30px;
   height: 20%;
