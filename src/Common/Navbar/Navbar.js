@@ -22,7 +22,9 @@ const Navbar = () => {
           </div>
          
         <div className="picture">
-          <img src='/images/logo2.png' alt='' />
+          <NavLink exact to="/"  onClick= {()=>(scroll.scrollToTop(), closeMobileMenu)} >
+            <img src='/images/logo2.png' alt='San José Digital Inclusion Fund Logo' />
+          </NavLink>
         </div>
 
        
