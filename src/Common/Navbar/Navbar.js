@@ -64,12 +64,12 @@ const Navbar = () => {
        
         </div>
       </nav>
-
+{/* 
       <header>
         <div className='container flex_space'>
          
         </div>
-      </header>
+      </header> */}
     </>
   )
 }
