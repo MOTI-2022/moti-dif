@@ -10,14 +10,15 @@ const GalleryLogos = () => {
     dots: true,
     infinite: true,
     slidesToShow: 4,
+    speed: 500,
     slidesToScroll: 2,
     rows: 1,
     slidesPerRow: 1,
-    autoplay: true,
-      speed: 3000,
-      autoplaySpeed: 3000,
-      cssEase: "linear",
-      arrows: false,
+    // autoplay: true,
+    //   speed: 3000,
+    //   autoplaySpeed: 3000,
+    //   cssEase: "linear",
+    //   arrows: false,
 
   }
   return (

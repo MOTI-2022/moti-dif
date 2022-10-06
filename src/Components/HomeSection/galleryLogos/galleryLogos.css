@@ -1,5 +1,5 @@
 .collection img {
-  filter: grayscale(100%);
+  filter: none;
   transition: 0.5s;
   height: 100px;
   width: 80%;
