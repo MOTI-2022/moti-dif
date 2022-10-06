@@ -1,5 +1,4 @@
 import React from "react"
-// import data from "./data"
 import "./movingSlide.css"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -47,8 +46,6 @@ const MovingSlide = () => {
     rows: 1,
     slidesPerRow: 1,
     autoplay: false,
-      // speed: 1000,
-      // autoplaySpeed: 3000,
       cssEase: "linear",
       arrows: true,
       prevArrow: <SamplePrevArrow />,
@@ -66,14 +63,9 @@ const MovingSlide = () => {
 
               return (
                 <>
-               {/* <div className='box'>
-                  <img src={value.cover} alt='' />
-
-                </div>*/}
                 <section className='intro top'>
         <div className='container flex_space'>
           <div className='row'>
-            {/*<h3>Presenting..</h3>*/}
             <h1>{value.title}</h1>
             <font size="3">
             <ul>
@@ -83,8 +75,6 @@ const MovingSlide = () => {
             </ul>
             </font>
             <div className='img flex'>
-             {/* <img src='/images/appstore-button.png' alt='' />
-              <img src='/images/google-play-button.png' alt='' />*/}
             </div>
 
 

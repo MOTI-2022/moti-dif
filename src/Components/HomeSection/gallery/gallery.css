@@ -3,11 +3,8 @@
   transition: 0.5s;
   height: 100px;
   width: 80%;
-  /* background-color: rgb(33, 68, 68); */
 }
 .collection1 img:hover {
-  /* filter: grayscale(0); */
-  /* background-color: aliceblue; */
 }
 
 .collection1{
