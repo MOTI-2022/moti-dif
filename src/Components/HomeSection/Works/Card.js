@@ -13,7 +13,7 @@ const Card = (props) => {
 
         <div className='details'>
         <div className="arrow">
-        <img src={props.icon} />
+        {/* <img src={props.icon} /> */}
         </div>
         
           <h2><font size="5">{props.title}</font>

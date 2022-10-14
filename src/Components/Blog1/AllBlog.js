@@ -8,7 +8,7 @@ const AllBlog = () => {
   const [items, setIems] = useState(BlogData)
   return (
     <>
-    <h5><font size = "5">Make An Impact- For Individuals</font></h5>
+    <h5><font size = "5">Make An Impact - For Individuals</font></h5>
 
  
       <section className='blog top'>
