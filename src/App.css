@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +13,10 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  font-family: 'Rubik';
+  /* font-family: 'Rubik'; */
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
 
   background-color: #87CEEB;
   background-image: linear-gradient(to bottom , white, #1ca9c9);
