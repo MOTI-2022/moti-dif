@@ -1,4 +1,5 @@
 .collection img {
+  object-fit: contain;
   filter: none;
   transition: 0.5s;
   height: 100px;
