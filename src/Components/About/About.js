@@ -4,7 +4,7 @@ import AboutCard from "./AboutCard"
 import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import Download from "../HomeSection/Download/Download"
 import { Timeline } from "../timeline/timeline.jsx"
-import GalleryLogos from "../HomeSection/galleryLogos/GalleryLogos"
+import GalleryLogos from "../HomeSection/partnerLogos/GalleryLogos"
 
 // // FIREBASE
 // Import the functions you need from the SDKs you need
