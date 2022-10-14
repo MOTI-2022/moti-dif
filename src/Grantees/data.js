@@ -1,7 +1,7 @@
 const questions = [
     {
       id: 1,
-      title: 'NAME LIST - DIF GRANTEES - Fiscal Year 2022 ',
+      title: 'DIF GRANTEES - Fiscal Year 2022 ',
       info1: '- Alum Rock Union School District ',
       info2: '- Catholic Charities of Santa Clara County ',
       info3: '- Closing the Divide',
@@ -21,7 +21,7 @@ const questions = [
       },
     {
       id: 2,
-      title: 'NAME LIST - DIF GRANTEES - Fiscal Year 2021 ',
+      title: 'DIF GRANTEES - Fiscal Year 2021 ',
       ifOpen: false,
       info1: '- CreaTV San Jose ',
       info2: '- Cristo Rey San José High School ',
@@ -34,12 +34,12 @@ const questions = [
       info9: '- Sacred Heart Community Service',
       info10: '- San Jose Public Library Foundation',
       info11: '- Tech Exchange',
-      info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+      // info:
+        // 'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
     },
     {
       id: 3,
-      title: 'NAME LIST - DIF GRANTEES - Fiscal Year 2020',
+      title: 'DIF GRANTEES - Fiscal Year 2020',
       ifOpen: false,
       info1: '- ACE Charter Schools',
       info2: '- Alum Rock Union School District ',
@@ -62,8 +62,8 @@ const questions = [
       info18: '- Tech Exchange',
       info19: '- Third Street Community Center',
       info20: '- Vietnamese Voluntary Foundation',
-      info:
-        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+      // info:
+        // 'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
     },
    
   ]

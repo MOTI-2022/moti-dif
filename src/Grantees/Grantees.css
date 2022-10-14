@@ -211,17 +211,13 @@ Questions
 */
 
 .allQ {
- 
   width: 1000px;
-
-
 }
 
 
 .containerFAQ {
-  
   margin: 5rem auto;
-  background: var(--clr-white);
+  /* background: var(--clr-white); */
   border-radius: var(--radius);
   padding: 2.5rem 2rem;
   max-width: var(--fixed-width);
@@ -232,21 +228,18 @@ Questions
   margin-left: 0px;
   margin: auto;
   column-count: 2;
-  background-image: linear-gradient(to bottom , white, #1ca9c9);
-  background-image: none;
-max-width: fit-content;
+  /* background-image: linear-gradient(to bottom , white, #1ca9c9); */
+  /* background-image: none; */
+  /* max-width: fit-content; */
   height: auto;
   column-count: 1;
-  width: 1000px;
+  /* width: 1000px; */
   width: 100%;
   max-width: 1500px;
-  background-color: #6aa1c1;
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgb(111, 199, 228);
-  background-color: #3fb0ca;
-  background-color: rgb(111, 199, 228);
+  /* background-color: rgb(111, 199, 228); */
 
 }
 .containerFAQ h3 {
@@ -261,25 +254,26 @@ max-width: fit-content;
 }
 .question1 {
   padding: 1rem 1.5rem;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 2px solid var(--clr-grey-special);
   margin-bottom: 1rem;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
-  background-color: lightgrey;
+  background-color: white;
 font-size: 20px;
 }
 .question1 h4 {
-  text-transform: none;
-  line-height: 1.5;
-  background-color: lightgrey;
+  /* text-transform: none; */
+  font-weight: bold;
+  line-height: 2;
+  /* background-color: lightgrey; */
 
 }
 .question1 p {
   color: var(--clr-grey-3);
   margin-top: 0.5rem;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   font-size: 20px;
   column-count: 2;
 
@@ -288,17 +282,16 @@ font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e6f1f4;
-  background-color: lightgrey;
-
+  /* background-color: #e6f1f4; */
+  /* background-color: lightgrey; */
   padding: 0px;
 
 }
-.question1 header h4 {
+/* .question1 header h4 {
   margin-bottom: 0;
-  background-color: lightgrey;
+  background-color: lightgrey; */
 
-}
+/* } */
 .btn1 {
   background: transparent;
   border-color: transparent;

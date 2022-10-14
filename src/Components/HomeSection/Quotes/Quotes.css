@@ -8,8 +8,6 @@
 }
 
 .quotes .icon1 img {
-  /* width: auto;
-  height: auto; */
   object-fit: contain;
   margin-right: 20px;
   width: 100px;
